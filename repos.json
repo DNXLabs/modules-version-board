@@ -1,0 +1,32 @@
+{
+    "repos": [
+        "docker-terraform",
+        "docker-aws",
+        "terraform-aws-ecs",
+        "terraform-aws-ecs-app",
+        "terraform-aws-network",
+        "terraform-aws-gitlab-runner",
+        "terraform-aws-client-vpn",
+        "terraform-aws-account",
+        "terraform-aws-openvpn",
+        "terraform-aws-ecr",
+        "terraform-google-stackdriver-uptime",
+        "terraform-aws-waf",
+        "terraform-aws-backend",
+        "terraform-aws-static-app",
+        "terraform-aws-vpc-peering",
+        "terraform-aws-billing-role",
+        "terraform-aws-organization",
+        "terraform-aws-guardduty",
+        "terraform-aws-db-monitoring",
+        "terraform-aws-idp-gsuite",
+        "terraform-aws-sns",
+        "terraform-aws-hostedzone",
+        "terraform-aws-account-security",
+        "terraform-aws-lite-account-security",
+        "terraform-aws-route53healthcheck",
+        "terraform-aws-ecs-app-front",
+        "terraform-aws-ecs-app-nlb",
+        "terraform-aws-ecs-app-worker"
+    ]
+}
