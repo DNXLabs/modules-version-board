@@ -12,7 +12,7 @@ repos_array = json_obj['repos']
 message = """
 # DNX One Modules List
 
-| Name  | Version  | URL  |
+| Name  | Version  | Id  |
 |-------|----------|-------|
 """
 
@@ -22,7 +22,7 @@ for item in repos_array:
     # print(response.text)
     if 'tag_name' in json.loads(response.text):
         repo_json_obj = json.loads(response.text)
-        line = "| " + item + " | " + repo_json_obj['tag_name'] + " | " + repo_json_obj['url'] + " | \n"
+        line = "| %s | [%s](%s)  | %s |\n"% (item, repo_json_obj['tag_name'], repo_json_obj['html_url'], repo_json_obj['id'])
         message += line
         print(json.loads(response.text)['tag_name'])
 
