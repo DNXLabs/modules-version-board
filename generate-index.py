@@ -13,39 +13,59 @@ cards = ""
 
 for item in repos_array:
     print(BASE_URL + item + RELEASES_PATH)
-    response = requests.get(BASE_URL + item + RELEASES_PATH, headers={"Authorization": "token " + os.environ['GITHUB_TOKEN']})
-    # print(response.text)
-    if 'tag_name' in json.loads(response.text):
-        repo_json_obj = json.loads(response.text)
-        # line = "| %s | [%s](%s)  | %s |\n"% (item, repo_json_obj['tag_name'], repo_json_obj['html_url'], repo_json_obj['id'])
+    response_repo = requests.get(BASE_URL + item, headers={"Authorization": "token " + os.environ['GITHUB_TOKEN']})
+    response_release = requests.get(BASE_URL + item + RELEASES_PATH, headers={"Authorization": "token " + os.environ['GITHUB_TOKEN']})
+
+    if 'description' in json.loads(response_repo.text):
+        repo_json_obj = json.loads(response_repo.text)
+
+    # print(response_release.text)
+
+
+    if 'tag_name' in json.loads(response_release.text):
+        release_json_obj = json.loads(response_release.text)
         card = """
-        <div class="col-md-4">
-            <div class="card mb-4 box-shadow shadow-sm">
-                <div class="card-body">
-                <h5 class="card-title">%s</h5>
-                <p class="card-text">
-                    <p>Version: <a href="%s">%s</a></p>
-                </p>
-                <div class="d-flex justify-content-between align-items-center">
-                    <div class="btn-group">
-                        <a href="%s" class="btn btn-sm btn-outline-primary">.tar</a>
-                        <a href="%s" class="btn btn-sm btn-outline-primary">.zip</a>
+        <div class="col-md-4 mb-4">
+            <div class="card box-shadow shadow-sm h-100">
+                <div class="card-body d-flex flex-column">
+                    <h5 class="card-title">%s</h5>
+                    <p>
+                        <a href="https://github.com/DNXLabs/%s/actions">
+                            <img src="https://github.com/DNXLabs/%s/workflows/Lint/badge.svg" alt="Lint Status">
+                        </a>
+                        <a href="https://github.com/DNXLabs/%s/blob/master/LICENSE">
+                            <img alt="LICENSE" src="https://img.shields.io/github/license/DNXLabs/%s">
+                        </a>
+                    </p>
+                    <p class="card-text">
+                        <p><b>Version:</b> <a href="%s">%s</a></p>
+                        <p>%s</p>
+                    </p>
+                    <div class="mt-auto d-flex justify-content-between align-items-center">
+                        <div class="btn-group">
+                            <a href="%s" class="btn btn-sm btn-outline-primary">.tar</a>
+                            <a href="%s" class="btn btn-sm btn-outline-primary">.zip</a>
+                        </div>
+                        <small class="text-muted">Id: %s</small>
                     </div>
-                    <small class="text-muted">Id: %s</small>
-                </div>
                 </div>
             </div>
         </div>
-        """ % ( item, 
-                repo_json_obj['html_url'],
-                repo_json_obj['tag_name'],
-                repo_json_obj['tarball_url'],
-                repo_json_obj['zipball_url'],
-                repo_json_obj['id'])
+        """ % ( item,
+                item,
+                item,
+                item,
+                item,
+                release_json_obj['html_url'],
+                release_json_obj['tag_name'],
+                repo_json_obj['description'],
+                release_json_obj['tarball_url'],
+                release_json_obj['zipball_url'],
+                release_json_obj['id'])
         # print(card)
         cards += card
-        
-        print(json.loads(response.text)['tag_name'])
+
+        print(json.loads(response_release.text)['tag_name'])
 
 
 
