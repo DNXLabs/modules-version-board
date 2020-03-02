@@ -1,7 +1,10 @@
 {
-    "repos": [
+    "tools": [
         "docker-terraform",
         "docker-aws",
+        "docker-kubectl"
+    ],
+    "modules": [
         "terraform-aws-ecs",
         "terraform-aws-ecs-app",
         "terraform-aws-network",
