@@ -7,11 +7,79 @@ RELEASES_PATH =  '/releases/latest'
 
 input_file = open ('repos.json')
 json_obj = json.load(input_file)
-repos_array = json_obj['repos']
+tools_array = json_obj['tools']
+modules_array = json_obj['modules']
 
-cards = ""
+tools_cards = ""
+modules_cards = ""
 
-for item in repos_array:
+for item in tools_array:
+    print(BASE_URL + item + RELEASES_PATH)
+    response_repo = requests.get(BASE_URL + item, headers={"Authorization": "token " + os.environ['GITHUB_TOKEN']})
+    response_release = requests.get(BASE_URL + item + RELEASES_PATH, headers={"Authorization": "token " + os.environ['GITHUB_TOKEN']})
+
+    if 'description' in json.loads(response_repo.text):
+        repo_json_obj = json.loads(response_repo.text)
+
+    # print(response_release.text)
+
+
+    if 'tag_name' in json.loads(response_release.text):
+        release_json_obj = json.loads(response_release.text)
+        card = """
+        <div class="col-md-6 mb-4">
+            <div class="card box-shadow shadow-sm h-100">
+                <div class="card-body d-flex flex-column">
+                    <h5 class="card-title">%s</h5>
+                    <p>
+                        <a href="https://github.com/DNXLabs/%s/actions">
+                            <img src="https://github.com/DNXLabs/%s/workflows/Security/badge.svg" alt="Security Status">
+                        </a>
+                        <a href="https://github.com/DNXLabs/%s/actions">
+                            <img src="https://github.com/DNXLabs/%s/workflows/Lint/badge.svg" alt="Lint Status">
+                        </a>
+                        <a href="https://github.com/DNXLabs/%s/blob/master/LICENSE">
+                            <img alt="LICENSE" src="https://img.shields.io/github/license/DNXLabs/%s">
+                        </a>
+                    </p>
+                    <div class="card-text">
+                        <p><b>Version:</b> <a href="%s">%s</a></p>
+                        <p><b>Image:</b> <a href="https://hub.docker.com/repository/docker/dnxsolutions/%s">dnxsolutions/%s:%s</a></p>
+                        <p>%s</p>
+                    </div>
+                    <div class="mt-auto d-flex justify-content-between align-items-center">
+                        <div class="btn-group">
+                            <a href="%s" class="btn btn-sm btn-outline-primary">.tar</a>
+                            <a href="%s" class="btn btn-sm btn-outline-primary">.zip</a>
+                        </div>
+                        <small class="text-muted">Id: %s</small>
+                    </div>
+                </div>
+            </div>
+        </div>
+        """ % ( item,
+                item,
+                item,
+                item,
+                item,
+                item,
+                item,
+                release_json_obj['html_url'],
+                release_json_obj['tag_name'],
+                item.split("-")[1],
+                item.split("-")[1],
+                release_json_obj['tag_name'],
+                repo_json_obj['description'],
+                release_json_obj['tarball_url'],
+                release_json_obj['zipball_url'],
+                release_json_obj['id'])
+        # print(card)
+        tools_cards += card
+
+        print(json.loads(response_release.text)['tag_name'])
+
+
+for item in modules_array:
     print(BASE_URL + item + RELEASES_PATH)
     response_repo = requests.get(BASE_URL + item, headers={"Authorization": "token " + os.environ['GITHUB_TOKEN']})
     response_release = requests.get(BASE_URL + item + RELEASES_PATH, headers={"Authorization": "token " + os.environ['GITHUB_TOKEN']})
@@ -63,7 +131,7 @@ for item in repos_array:
                 release_json_obj['zipball_url'],
                 release_json_obj['id'])
         # print(card)
-        cards += card
+        modules_cards += card
 
         print(json.loads(response_release.text)['tag_name'])
 
@@ -79,7 +147,7 @@ message = """
         <meta name="author" content="">
         <link rel="icon" href="https://github.com/DNXLabs/modules-version-board/raw/master/images/icon.png">
 
-        <title>Modules DNX One</title>
+        <title>DNX One</title>
 
         <link rel="canonical" href="https://getbootstrap.com/docs/4.0/examples/album/">
 
@@ -97,7 +165,7 @@ message = """
             <div class="container d-flex justify-content-between">
             <a href="#" class="navbar-brand d-flex align-items-center">
                 <img src="https://github.com/DNXLabs/modules-version-board/raw/master/images/logo.png" width="30" height="30" alt="Italian Trulli">
-                <strong>DNX One Modules</strong>
+                <strong>DNX One</strong>
             </a>
             </div>
         </div>
@@ -107,7 +175,7 @@ message = """
 
         <section class="jumbotron text-center mb-0">
             <div class="container">
-            <h1 class="jumbotron-heading">Modules DNX One</h1>
+            <h1 class="jumbotron-heading">DNX One</h1>
             <p class="lead text-muted">At DNX we help your business build better solutions by upgrading how delivery is done, leaving behind manual processes and embracing an automated, cloud-native way of working.</p>
             <p>
                 <a href="https://github.com/DNXLabs" class="btn btn-primary my-2">Organization</a>
@@ -118,6 +186,13 @@ message = """
 
         <div class="album py-5 bg-light">
             <div class="container">
+                <h2>Tools</h2>
+                <div class="dropdown-divider pb-3"></div>
+                <div class="row">
+                    %s
+                </div>
+                <h2 class="pt-4">Modules</h2>
+                <div class="dropdown-divider pb-3"></div>
                 <div class="row">
                     %s
                 </div>
@@ -141,7 +216,7 @@ message = """
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
   </body>
 </html>
-""" % (cards)
+""" % (tools_cards, modules_cards)
 
 f = open('index.html','w')
 f.write(message)
