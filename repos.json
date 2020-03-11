@@ -30,6 +30,9 @@
         "terraform-aws-route53healthcheck",
         "terraform-aws-ecs-app-front",
         "terraform-aws-ecs-app-nlb",
-        "terraform-aws-ecs-app-worker"
+        "terraform-aws-ecs-app-worker",
+        "terraform-aws-audit",
+        "terraform-aws-audit-root",
+        "terraform-aws-audit-member"
     ]
 }
