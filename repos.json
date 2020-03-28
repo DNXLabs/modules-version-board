@@ -1,4 +1,7 @@
-{
+{   
+    "clis": [
+        "izi"
+    ],
     "tools": [
         "docker-terraform",
         "docker-aws",

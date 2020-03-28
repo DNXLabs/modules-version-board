@@ -8,12 +8,37 @@ RELEASES_PATH =  '/releases/latest'
 
 input_file    = open ('repos.json')
 json_obj      = json.load(input_file)
+clis_array   = json_obj['clis']
 tools_array   = json_obj['tools']
 modules_array = json_obj['modules']
 
+clis   = []
 tools   = []
 modules = []
 
+for item in clis_array:
+    print(BASE_URL + item + RELEASES_PATH)
+    response_repo    = requests.get(BASE_URL + item, headers={"Authorization": "token " + os.environ['GITHUB_TOKEN']})
+    response_release = requests.get(BASE_URL + item + RELEASES_PATH, headers={"Authorization": "token " + os.environ['GITHUB_TOKEN']})
+
+    if 'description' in json.loads(response_repo.text):
+        repo_json_obj = json.loads(response_repo.text)
+
+    if 'tag_name' in json.loads(response_release.text):
+        release_json_obj = json.loads(response_release.text)
+        cli = {
+            "name":        item,
+            "description": repo_json_obj['description'],
+            "short_name":  item,
+            "html_url":    release_json_obj['html_url'],
+            "tag_name":    release_json_obj['tag_name'],
+            "tarball_url": release_json_obj['tarball_url'],
+            "zipball_url": release_json_obj['zipball_url'],
+            "id":          release_json_obj['id']
+        }
+
+        clis.append(cli)
+        print(json.loads(response_release.text)['tag_name'])
 
 for item in tools_array:
     print(BASE_URL + item + RELEASES_PATH)
@@ -65,15 +90,16 @@ for item in modules_array:
         print(json.loads(response_release.text)['tag_name'])
 
 
-root = os.path.dirname(os.path.abspath(__file__))
+root          = os.path.dirname(os.path.abspath(__file__))
 templates_dir = os.path.join(root, 'templates')
-env = Environment( loader = FileSystemLoader(templates_dir) )
-template = env.get_template('modules.html')
+env           = Environment( loader = FileSystemLoader(templates_dir) )
+template     = env.get_template('modules.html')
 
 
 filename = os.path.join(root, 'index.html')
 with open(filename, 'w') as fh:
     fh.write(template.render(
-        tools = tools,
-        modules = modules
+        tools   = tools,
+        modules = modules,
+        clis    = clis
     ))
