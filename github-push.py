@@ -2,14 +2,16 @@ import os
 import github3
 
 
-MAIN_BRANCH = 'gh-pages'
+MAIN_BRANCH          = 'gh-pages'
+GITHUB_TOKEN         = os.environ['GITHUB_TOKEN']
+GITHUB_REPOSITORY_ID = os.environ['GITHUB_REPOSITORY_ID']
 
 with open('index.html') as f:
     index_file = f.read()
 
 # Connect to GitHub API and push the changes.
-github = github3.login(token=os.environ['GITHUB_TOKEN'])
-repository = github.repository_with_id(os.environ['GITHUB_REPOSITORY_ID'])
+github = github3.login(token=GITHUB_TOKEN)
+repository = github.repository_with_id(GITHUB_REPOSITORY_ID)
 
 github_index = repository.file_contents('/index.html', ref=MAIN_BRANCH)
 
