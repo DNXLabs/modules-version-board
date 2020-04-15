@@ -3,6 +3,7 @@ import json
 import requests
 from jinja2 import Environment, FileSystemLoader
 
+
 BASE_URL      = 'https://api.github.com/repos/DNXLabs/'
 RELEASES_PATH = '/releases/latest'
 GITHUB_TOKEN  = os.environ['GITHUB_TOKEN']
@@ -13,7 +14,7 @@ clis_array    = json_obj['clis']
 tools_array   = json_obj['tools']
 modules_array = json_obj['modules']
 
-clis   = []
+clis    = []
 tools   = []
 modules = []
 
@@ -45,8 +46,8 @@ def create_array(array):
     return objects
 
 
-clis = create_array(clis_array)
-tools = create_array(tools_array)
+clis    = create_array(clis_array)
+tools   = create_array(tools_array)
 modules = create_array(modules_array)
 
 root          = os.path.dirname(os.path.abspath(__file__))
