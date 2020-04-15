@@ -7,6 +7,13 @@ Dashboard that shows all modules, tools and CLIs from DNX.
 
 
 ## Setup
+First go to your GitHub account and create one token with read permission to repositories.
+
+Then export this generated token in your environment.
+```bash
+export GITHUB_TOKEN=<token>
+```
+
 
 ## Dependencies
 - Python 3
@@ -15,8 +22,6 @@ Dashboard that shows all modules, tools and CLIs from DNX.
 
 ```bash
 pip3 install -r requirements.txt
-pip3 install --editable .
-export GITHUB_TOKEN=<token>
 ```
 
 #### Run
