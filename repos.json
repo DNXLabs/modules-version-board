@@ -1,11 +1,14 @@
-{   
+{
     "clis": [
-        "izi"
+        "izi",
+        "one-cli"
     ],
     "tools": [
         "docker-terraform",
         "docker-aws",
-        "docker-kubectl"
+        "docker-kubectl",
+        "docker-aws-azure-ad",
+        "aws-google-auth"
     ],
     "modules": [
         "terraform-aws-ecs",
@@ -36,6 +39,9 @@
         "terraform-aws-ecs-app-worker",
         "terraform-aws-audit",
         "terraform-aws-audit-root",
-        "terraform-aws-audit-member"
+        "terraform-aws-audit-member",
+        "terraform-aws-audit-buckets",
+        "terraform-aws-log-exporter",
+        "terraform-aws-rds-scheduler"
     ]
 }
