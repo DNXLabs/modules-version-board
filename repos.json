@@ -42,6 +42,7 @@
         "terraform-aws-audit-member",
         "terraform-aws-audit-buckets",
         "terraform-aws-log-exporter",
-        "terraform-aws-rds-scheduler"
+        "terraform-aws-rds-scheduler",
+        "terraform-aws-security-baseline"
     ]
 }
