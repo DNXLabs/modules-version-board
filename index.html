@@ -13,9 +13,17 @@
 
     <!-- Bootstrap core CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
 
-    <!-- Custom styles for this template -->
-    <link href="album.css" rel="stylesheet">
+    <style>
+        .card-text {
+            overflow: hidden;
+            text-overflow: ellipsis;
+            display: -webkit-box;
+            -webkit-line-clamp: 3;
+            -webkit-box-orient: vertical;
+        }
+    </style>
 </head>
 
   <body>
@@ -32,6 +40,21 @@
     </header>
 
     <main role="main">
+        <div class="modal fade docs-modal" id="docs_modal" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+          <div class="modal-dialog modal-lg" style="max-width: 1000px">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLabel"></h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                  <span aria-hidden="true">&times;</span>
+                </button>
+              </div>
+              <div class="modal-body">
+                  <iframe name="docs" height="800" width="100%" style="border: none;"></iframe>
+              </div>
+            </div>
+          </div>
+        </div>
 
         <section class="jumbotron text-center mb-0">
             <div class="container">
@@ -51,59 +74,59 @@
     <div class="dropdown-divider pb-3"></div>
     <div class="row">
         
-            <div class="col-md-6 mb-4">
-                <div class="card box-shadow shadow-sm h-100">
-                    <div class="card-body d-flex flex-column">
-                        <h5 class="card-title">izi</h5>
-                        <p>
-                            <a href="https://github.com/DNXLabs/izi/actions">
-                                <img src="https://github.com/DNXLabs/izi/workflows/Build/badge.svg" alt="Build">
-                            </a>
-                            <a href="https://github.com/DNXLabs/izi/blob/master/LICENSE">
-                                <img alt="LICENSE" src="https://img.shields.io/github/license/DNXLabs/izi">
-                            </a>
-                        </p>
-                        <div class="card-text">
-                            <p><b>Version:</b> <a href="https://github.com/DNXLabs/izi/releases/tag/0.2.1">0.2.1</a></p>
-                            <p>Simple CLI to setup all environments you need to quick start contributing and developing for DNX.</p>
+        <div class="col-md-6 mb-4" style="min-height: 285px">
+            <div class="card box-shadow shadow-sm h-100">
+                <div class="card-body d-flex flex-column">
+                    <h5 class="card-title">izi</h5>
+                    <p>
+                        <a href="https://github.com/DNXLabs/izi/actions">
+                            <img src="https://github.com/DNXLabs/izi/workflows/Build/badge.svg" alt="Build">
+                        </a>
+                        <a href="https://github.com/DNXLabs/izi/blob/master/LICENSE">
+                            <img alt="LICENSE" src="https://img.shields.io/github/license/DNXLabs/izi">
+                        </a>
+                    </p>
+                    <div class="card-text">
+                        <p><b>Version:</b> <a href="https://github.com/DNXLabs/izi/releases/tag/0.2.1">0.2.1</a></p>
+                        <p>Simple CLI to setup all environments you need to quick start contributing and developing for DNX.</p>
+                    </div>
+                    <div class="mt-auto d-flex justify-content-between align-items-center">
+                        <div class="btn-group">
+                            <a href="https://api.github.com/repos/DNXLabs/izi/tarball/0.2.1" class="btn btn-sm btn-outline-primary">.tar</a>
+                            <a href="https://api.github.com/repos/DNXLabs/izi/zipball/0.2.1" class="btn btn-sm btn-outline-primary">.zip</a>
                         </div>
-                        <div class="mt-auto d-flex justify-content-between align-items-center">
-                            <div class="btn-group">
-                                <a href="https://api.github.com/repos/DNXLabs/izi/tarball/0.2.1" class="btn btn-sm btn-outline-primary">.tar</a>
-                                <a href="https://api.github.com/repos/DNXLabs/izi/zipball/0.2.1" class="btn btn-sm btn-outline-primary">.zip</a>
-                            </div>
-                            <small class="text-muted">Id: 24954415</small>
-                        </div>
+                        <small class="text-muted">Id: 24954415</small>
                     </div>
                 </div>
             </div>
+        </div>
         
-            <div class="col-md-6 mb-4">
-                <div class="card box-shadow shadow-sm h-100">
-                    <div class="card-body d-flex flex-column">
-                        <h5 class="card-title">one-cli</h5>
-                        <p>
-                            <a href="https://github.com/DNXLabs/one-cli/actions">
-                                <img src="https://github.com/DNXLabs/one-cli/workflows/Build/badge.svg" alt="Build">
-                            </a>
-                            <a href="https://github.com/DNXLabs/one-cli/blob/master/LICENSE">
-                                <img alt="LICENSE" src="https://img.shields.io/github/license/DNXLabs/one-cli">
-                            </a>
-                        </p>
-                        <div class="card-text">
-                            <p><b>Version:</b> <a href="https://github.com/DNXLabs/one-cli/releases/tag/0.1.0">0.1.0</a></p>
-                            <p>CLI to manage all stacks from DNX.</p>
+        <div class="col-md-6 mb-4" style="min-height: 285px">
+            <div class="card box-shadow shadow-sm h-100">
+                <div class="card-body d-flex flex-column">
+                    <h5 class="card-title">one-cli</h5>
+                    <p>
+                        <a href="https://github.com/DNXLabs/one-cli/actions">
+                            <img src="https://github.com/DNXLabs/one-cli/workflows/Build/badge.svg" alt="Build">
+                        </a>
+                        <a href="https://github.com/DNXLabs/one-cli/blob/master/LICENSE">
+                            <img alt="LICENSE" src="https://img.shields.io/github/license/DNXLabs/one-cli">
+                        </a>
+                    </p>
+                    <div class="card-text">
+                        <p><b>Version:</b> <a href="https://github.com/DNXLabs/one-cli/releases/tag/0.2.2">0.2.2</a></p>
+                        <p>CLI to manage all stacks from DNX.</p>
+                    </div>
+                    <div class="mt-auto d-flex justify-content-between align-items-center">
+                        <div class="btn-group">
+                            <a href="https://api.github.com/repos/DNXLabs/one-cli/tarball/0.2.2" class="btn btn-sm btn-outline-primary">.tar</a>
+                            <a href="https://api.github.com/repos/DNXLabs/one-cli/zipball/0.2.2" class="btn btn-sm btn-outline-primary">.zip</a>
                         </div>
-                        <div class="mt-auto d-flex justify-content-between align-items-center">
-                            <div class="btn-group">
-                                <a href="https://api.github.com/repos/DNXLabs/one-cli/tarball/0.1.0" class="btn btn-sm btn-outline-primary">.tar</a>
-                                <a href="https://api.github.com/repos/DNXLabs/one-cli/zipball/0.1.0" class="btn btn-sm btn-outline-primary">.zip</a>
-                            </div>
-                            <small class="text-muted">Id: 26125388</small>
-                        </div>
+                        <small class="text-muted">Id: 26127515</small>
                     </div>
                 </div>
             </div>
+        </div>
         
     </div>
 
@@ -111,160 +134,160 @@
     <div class="dropdown-divider pb-3"></div>
     <div class="row">
         
-            <div class="col-md-6 mb-4">
-                <div class="card box-shadow shadow-sm h-100">
-                    <div class="card-body d-flex flex-column">
-                        <h5 class="card-title">docker-terraform</h5>
-                        <p>
-                            <a href="https://github.com/DNXLabs/docker-terraform/actions">
-                                <img src="https://github.com/DNXLabs/docker-terraform/workflows/Security/badge.svg" alt="Security Status">
-                            </a>
-                            <a href="https://github.com/DNXLabs/docker-terraform/actions">
-                                <img src="https://github.com/DNXLabs/docker-terraform/workflows/Lint/badge.svg" alt="Lint Status">
-                            </a>
-                            <a href="https://github.com/DNXLabs/docker-terraform/blob/master/LICENSE">
-                                <img alt="LICENSE" src="https://img.shields.io/github/license/DNXLabs/docker-terraform">
-                            </a>
-                        </p>
-                        <div class="card-text">
-                            <p><b>Version:</b> <a href="https://github.com/DNXLabs/docker-terraform/releases/tag/0.12.24-dnx1">0.12.24-dnx1</a></p>
-                            <p><b>Image:</b> <a href="https://hub.docker.com/repository/docker/dnxsolutions/docker-terraform">dnxsolutions/docker-terraform:0.12.24-dnx1</a></p>
-                            <p>Docker image containing Terraform, AWS CLI and AWS Shell, to deploy infrastructure as code on AWS.</p>
+        <div class="col-md-6 mb-4" style="min-height: 285px">
+            <div class="card box-shadow shadow-sm h-100">
+                <div class="card-body d-flex flex-column">
+                    <h5 class="card-title">docker-terraform</h5>
+                    <p>
+                        <a href="https://github.com/DNXLabs/docker-terraform/actions">
+                            <img src="https://github.com/DNXLabs/docker-terraform/workflows/Security/badge.svg" alt="Security Status">
+                        </a>
+                        <a href="https://github.com/DNXLabs/docker-terraform/actions">
+                            <img src="https://github.com/DNXLabs/docker-terraform/workflows/Lint/badge.svg" alt="Lint Status">
+                        </a>
+                        <a href="https://github.com/DNXLabs/docker-terraform/blob/master/LICENSE">
+                            <img alt="LICENSE" src="https://img.shields.io/github/license/DNXLabs/docker-terraform">
+                        </a>
+                    </p>
+                    <div class="card-text">
+                        <p><b>Version:</b> <a href="https://github.com/DNXLabs/docker-terraform/releases/tag/0.12.24-dnx1">0.12.24-dnx1</a></p>
+                        <p><b>Image:</b> <a href="https://hub.docker.com/repository/docker/dnxsolutions/docker-terraform">dnxsolutions/docker-terraform:0.12.24-dnx1</a></p>
+                        <p>Docker image containing Terraform, AWS CLI and AWS Shell, to deploy infrastructure as code on AWS.</p>
+                    </div>
+                    <div class="mt-auto d-flex justify-content-between align-items-center">
+                        <div class="btn-group">
+                            <a href="https://api.github.com/repos/DNXLabs/docker-terraform/tarball/0.12.24-dnx1" class="btn btn-sm btn-outline-primary">.tar</a>
+                            <a href="https://api.github.com/repos/DNXLabs/docker-terraform/zipball/0.12.24-dnx1" class="btn btn-sm btn-outline-primary">.zip</a>
                         </div>
-                        <div class="mt-auto d-flex justify-content-between align-items-center">
-                            <div class="btn-group">
-                                <a href="https://api.github.com/repos/DNXLabs/docker-terraform/tarball/0.12.24-dnx1" class="btn btn-sm btn-outline-primary">.tar</a>
-                                <a href="https://api.github.com/repos/DNXLabs/docker-terraform/zipball/0.12.24-dnx1" class="btn btn-sm btn-outline-primary">.zip</a>
-                            </div>
-                            <small class="text-muted">Id: 24871846</small>
-                        </div>
+                        <small class="text-muted">Id: 24871846</small>
                     </div>
                 </div>
             </div>
+        </div>
         
-            <div class="col-md-6 mb-4">
-                <div class="card box-shadow shadow-sm h-100">
-                    <div class="card-body d-flex flex-column">
-                        <h5 class="card-title">docker-aws</h5>
-                        <p>
-                            <a href="https://github.com/DNXLabs/docker-aws/actions">
-                                <img src="https://github.com/DNXLabs/docker-aws/workflows/Security/badge.svg" alt="Security Status">
-                            </a>
-                            <a href="https://github.com/DNXLabs/docker-aws/actions">
-                                <img src="https://github.com/DNXLabs/docker-aws/workflows/Lint/badge.svg" alt="Lint Status">
-                            </a>
-                            <a href="https://github.com/DNXLabs/docker-aws/blob/master/LICENSE">
-                                <img alt="LICENSE" src="https://img.shields.io/github/license/DNXLabs/docker-aws">
-                            </a>
-                        </p>
-                        <div class="card-text">
-                            <p><b>Version:</b> <a href="https://github.com/DNXLabs/docker-aws/releases/tag/1.18.44-dnx2">1.18.44-dnx2</a></p>
-                            <p><b>Image:</b> <a href="https://hub.docker.com/repository/docker/dnxsolutions/docker-aws">dnxsolutions/docker-aws:1.18.44-dnx2</a></p>
-                            <p>Docker image containing AWS CLI, AWS Shell, and some scripts to ease AWS deployments.</p>
+        <div class="col-md-6 mb-4" style="min-height: 285px">
+            <div class="card box-shadow shadow-sm h-100">
+                <div class="card-body d-flex flex-column">
+                    <h5 class="card-title">docker-aws</h5>
+                    <p>
+                        <a href="https://github.com/DNXLabs/docker-aws/actions">
+                            <img src="https://github.com/DNXLabs/docker-aws/workflows/Security/badge.svg" alt="Security Status">
+                        </a>
+                        <a href="https://github.com/DNXLabs/docker-aws/actions">
+                            <img src="https://github.com/DNXLabs/docker-aws/workflows/Lint/badge.svg" alt="Lint Status">
+                        </a>
+                        <a href="https://github.com/DNXLabs/docker-aws/blob/master/LICENSE">
+                            <img alt="LICENSE" src="https://img.shields.io/github/license/DNXLabs/docker-aws">
+                        </a>
+                    </p>
+                    <div class="card-text">
+                        <p><b>Version:</b> <a href="https://github.com/DNXLabs/docker-aws/releases/tag/1.18.44-dnx2">1.18.44-dnx2</a></p>
+                        <p><b>Image:</b> <a href="https://hub.docker.com/repository/docker/dnxsolutions/docker-aws">dnxsolutions/docker-aws:1.18.44-dnx2</a></p>
+                        <p>Docker image containing AWS CLI, AWS Shell, and some scripts to ease AWS deployments.</p>
+                    </div>
+                    <div class="mt-auto d-flex justify-content-between align-items-center">
+                        <div class="btn-group">
+                            <a href="https://api.github.com/repos/DNXLabs/docker-aws/tarball/1.18.44-dnx2" class="btn btn-sm btn-outline-primary">.tar</a>
+                            <a href="https://api.github.com/repos/DNXLabs/docker-aws/zipball/1.18.44-dnx2" class="btn btn-sm btn-outline-primary">.zip</a>
                         </div>
-                        <div class="mt-auto d-flex justify-content-between align-items-center">
-                            <div class="btn-group">
-                                <a href="https://api.github.com/repos/DNXLabs/docker-aws/tarball/1.18.44-dnx2" class="btn btn-sm btn-outline-primary">.tar</a>
-                                <a href="https://api.github.com/repos/DNXLabs/docker-aws/zipball/1.18.44-dnx2" class="btn btn-sm btn-outline-primary">.zip</a>
-                            </div>
-                            <small class="text-muted">Id: 25833948</small>
-                        </div>
+                        <small class="text-muted">Id: 25833948</small>
                     </div>
                 </div>
             </div>
+        </div>
         
-            <div class="col-md-6 mb-4">
-                <div class="card box-shadow shadow-sm h-100">
-                    <div class="card-body d-flex flex-column">
-                        <h5 class="card-title">docker-kubectl</h5>
-                        <p>
-                            <a href="https://github.com/DNXLabs/docker-kubectl/actions">
-                                <img src="https://github.com/DNXLabs/docker-kubectl/workflows/Security/badge.svg" alt="Security Status">
-                            </a>
-                            <a href="https://github.com/DNXLabs/docker-kubectl/actions">
-                                <img src="https://github.com/DNXLabs/docker-kubectl/workflows/Lint/badge.svg" alt="Lint Status">
-                            </a>
-                            <a href="https://github.com/DNXLabs/docker-kubectl/blob/master/LICENSE">
-                                <img alt="LICENSE" src="https://img.shields.io/github/license/DNXLabs/docker-kubectl">
-                            </a>
-                        </p>
-                        <div class="card-text">
-                            <p><b>Version:</b> <a href="https://github.com/DNXLabs/docker-kubectl/releases/tag/0.1.0">0.1.0</a></p>
-                            <p><b>Image:</b> <a href="https://hub.docker.com/repository/docker/dnxsolutions/docker-kubectl">dnxsolutions/docker-kubectl:0.1.0</a></p>
-                            <p>Docker image containing Kubernetes CLI tool (Kubectl), AWS CLI and AWS Shell, to control any k8s cluster.</p>
+        <div class="col-md-6 mb-4" style="min-height: 285px">
+            <div class="card box-shadow shadow-sm h-100">
+                <div class="card-body d-flex flex-column">
+                    <h5 class="card-title">docker-kubectl</h5>
+                    <p>
+                        <a href="https://github.com/DNXLabs/docker-kubectl/actions">
+                            <img src="https://github.com/DNXLabs/docker-kubectl/workflows/Security/badge.svg" alt="Security Status">
+                        </a>
+                        <a href="https://github.com/DNXLabs/docker-kubectl/actions">
+                            <img src="https://github.com/DNXLabs/docker-kubectl/workflows/Lint/badge.svg" alt="Lint Status">
+                        </a>
+                        <a href="https://github.com/DNXLabs/docker-kubectl/blob/master/LICENSE">
+                            <img alt="LICENSE" src="https://img.shields.io/github/license/DNXLabs/docker-kubectl">
+                        </a>
+                    </p>
+                    <div class="card-text">
+                        <p><b>Version:</b> <a href="https://github.com/DNXLabs/docker-kubectl/releases/tag/0.1.0">0.1.0</a></p>
+                        <p><b>Image:</b> <a href="https://hub.docker.com/repository/docker/dnxsolutions/docker-kubectl">dnxsolutions/docker-kubectl:0.1.0</a></p>
+                        <p>Docker image containing Kubernetes CLI tool (Kubectl), AWS CLI and AWS Shell, to control any k8s cluster.</p>
+                    </div>
+                    <div class="mt-auto d-flex justify-content-between align-items-center">
+                        <div class="btn-group">
+                            <a href="https://api.github.com/repos/DNXLabs/docker-kubectl/tarball/0.1.0" class="btn btn-sm btn-outline-primary">.tar</a>
+                            <a href="https://api.github.com/repos/DNXLabs/docker-kubectl/zipball/0.1.0" class="btn btn-sm btn-outline-primary">.zip</a>
                         </div>
-                        <div class="mt-auto d-flex justify-content-between align-items-center">
-                            <div class="btn-group">
-                                <a href="https://api.github.com/repos/DNXLabs/docker-kubectl/tarball/0.1.0" class="btn btn-sm btn-outline-primary">.tar</a>
-                                <a href="https://api.github.com/repos/DNXLabs/docker-kubectl/zipball/0.1.0" class="btn btn-sm btn-outline-primary">.zip</a>
-                            </div>
-                            <small class="text-muted">Id: 24120804</small>
-                        </div>
+                        <small class="text-muted">Id: 24120804</small>
                     </div>
                 </div>
             </div>
+        </div>
         
-            <div class="col-md-6 mb-4">
-                <div class="card box-shadow shadow-sm h-100">
-                    <div class="card-body d-flex flex-column">
-                        <h5 class="card-title">docker-aws-azure-ad</h5>
-                        <p>
-                            <a href="https://github.com/DNXLabs/docker-aws-azure-ad/actions">
-                                <img src="https://github.com/DNXLabs/docker-aws-azure-ad/workflows/Security/badge.svg" alt="Security Status">
-                            </a>
-                            <a href="https://github.com/DNXLabs/docker-aws-azure-ad/actions">
-                                <img src="https://github.com/DNXLabs/docker-aws-azure-ad/workflows/Lint/badge.svg" alt="Lint Status">
-                            </a>
-                            <a href="https://github.com/DNXLabs/docker-aws-azure-ad/blob/master/LICENSE">
-                                <img alt="LICENSE" src="https://img.shields.io/github/license/DNXLabs/docker-aws-azure-ad">
-                            </a>
-                        </p>
-                        <div class="card-text">
-                            <p><b>Version:</b> <a href="https://github.com/DNXLabs/docker-aws-azure-ad/releases/tag/1.0.0">1.0.0</a></p>
-                            <p><b>Image:</b> <a href="https://hub.docker.com/repository/docker/dnxsolutions/docker-aws-azure-ad">dnxsolutions/docker-aws-azure-ad:1.0.0</a></p>
-                            <p>This container is used to perform AWS SSO using Azure AD.</p>
+        <div class="col-md-6 mb-4" style="min-height: 285px">
+            <div class="card box-shadow shadow-sm h-100">
+                <div class="card-body d-flex flex-column">
+                    <h5 class="card-title">docker-aws-azure-ad</h5>
+                    <p>
+                        <a href="https://github.com/DNXLabs/docker-aws-azure-ad/actions">
+                            <img src="https://github.com/DNXLabs/docker-aws-azure-ad/workflows/Security/badge.svg" alt="Security Status">
+                        </a>
+                        <a href="https://github.com/DNXLabs/docker-aws-azure-ad/actions">
+                            <img src="https://github.com/DNXLabs/docker-aws-azure-ad/workflows/Lint/badge.svg" alt="Lint Status">
+                        </a>
+                        <a href="https://github.com/DNXLabs/docker-aws-azure-ad/blob/master/LICENSE">
+                            <img alt="LICENSE" src="https://img.shields.io/github/license/DNXLabs/docker-aws-azure-ad">
+                        </a>
+                    </p>
+                    <div class="card-text">
+                        <p><b>Version:</b> <a href="https://github.com/DNXLabs/docker-aws-azure-ad/releases/tag/1.0.0">1.0.0</a></p>
+                        <p><b>Image:</b> <a href="https://hub.docker.com/repository/docker/dnxsolutions/docker-aws-azure-ad">dnxsolutions/docker-aws-azure-ad:1.0.0</a></p>
+                        <p>This container is used to perform AWS SSO using Azure AD.</p>
+                    </div>
+                    <div class="mt-auto d-flex justify-content-between align-items-center">
+                        <div class="btn-group">
+                            <a href="https://api.github.com/repos/DNXLabs/docker-aws-azure-ad/tarball/1.0.0" class="btn btn-sm btn-outline-primary">.tar</a>
+                            <a href="https://api.github.com/repos/DNXLabs/docker-aws-azure-ad/zipball/1.0.0" class="btn btn-sm btn-outline-primary">.zip</a>
                         </div>
-                        <div class="mt-auto d-flex justify-content-between align-items-center">
-                            <div class="btn-group">
-                                <a href="https://api.github.com/repos/DNXLabs/docker-aws-azure-ad/tarball/1.0.0" class="btn btn-sm btn-outline-primary">.tar</a>
-                                <a href="https://api.github.com/repos/DNXLabs/docker-aws-azure-ad/zipball/1.0.0" class="btn btn-sm btn-outline-primary">.zip</a>
-                            </div>
-                            <small class="text-muted">Id: 25526617</small>
-                        </div>
+                        <small class="text-muted">Id: 25526617</small>
                     </div>
                 </div>
             </div>
+        </div>
         
-            <div class="col-md-6 mb-4">
-                <div class="card box-shadow shadow-sm h-100">
-                    <div class="card-body d-flex flex-column">
-                        <h5 class="card-title">aws-google-auth</h5>
-                        <p>
-                            <a href="https://github.com/DNXLabs/aws-google-auth/actions">
-                                <img src="https://github.com/DNXLabs/aws-google-auth/workflows/Security/badge.svg" alt="Security Status">
-                            </a>
-                            <a href="https://github.com/DNXLabs/aws-google-auth/actions">
-                                <img src="https://github.com/DNXLabs/aws-google-auth/workflows/Lint/badge.svg" alt="Lint Status">
-                            </a>
-                            <a href="https://github.com/DNXLabs/aws-google-auth/blob/master/LICENSE">
-                                <img alt="LICENSE" src="https://img.shields.io/github/license/DNXLabs/aws-google-auth">
-                            </a>
-                        </p>
-                        <div class="card-text">
-                            <p><b>Version:</b> <a href="https://github.com/DNXLabs/aws-google-auth/releases/tag/0.0.34-dnx2">0.0.34-dnx2</a></p>
-                            <p><b>Image:</b> <a href="https://hub.docker.com/repository/docker/dnxsolutions/aws-google-auth">dnxsolutions/aws-google-auth:0.0.34-dnx2</a></p>
-                            <p>Provides AWS STS credentials based on Google Apps SAML SSO auth (what a jumble!)</p>
+        <div class="col-md-6 mb-4" style="min-height: 285px">
+            <div class="card box-shadow shadow-sm h-100">
+                <div class="card-body d-flex flex-column">
+                    <h5 class="card-title">aws-google-auth</h5>
+                    <p>
+                        <a href="https://github.com/DNXLabs/aws-google-auth/actions">
+                            <img src="https://github.com/DNXLabs/aws-google-auth/workflows/Security/badge.svg" alt="Security Status">
+                        </a>
+                        <a href="https://github.com/DNXLabs/aws-google-auth/actions">
+                            <img src="https://github.com/DNXLabs/aws-google-auth/workflows/Lint/badge.svg" alt="Lint Status">
+                        </a>
+                        <a href="https://github.com/DNXLabs/aws-google-auth/blob/master/LICENSE">
+                            <img alt="LICENSE" src="https://img.shields.io/github/license/DNXLabs/aws-google-auth">
+                        </a>
+                    </p>
+                    <div class="card-text">
+                        <p><b>Version:</b> <a href="https://github.com/DNXLabs/aws-google-auth/releases/tag/0.0.34-dnx2">0.0.34-dnx2</a></p>
+                        <p><b>Image:</b> <a href="https://hub.docker.com/repository/docker/dnxsolutions/aws-google-auth">dnxsolutions/aws-google-auth:0.0.34-dnx2</a></p>
+                        <p>Provides AWS STS credentials based on Google Apps SAML SSO auth (what a jumble!)</p>
+                    </div>
+                    <div class="mt-auto d-flex justify-content-between align-items-center">
+                        <div class="btn-group">
+                            <a href="https://api.github.com/repos/DNXLabs/aws-google-auth/tarball/0.0.34-dnx2" class="btn btn-sm btn-outline-primary">.tar</a>
+                            <a href="https://api.github.com/repos/DNXLabs/aws-google-auth/zipball/0.0.34-dnx2" class="btn btn-sm btn-outline-primary">.zip</a>
                         </div>
-                        <div class="mt-auto d-flex justify-content-between align-items-center">
-                            <div class="btn-group">
-                                <a href="https://api.github.com/repos/DNXLabs/aws-google-auth/tarball/0.0.34-dnx2" class="btn btn-sm btn-outline-primary">.tar</a>
-                                <a href="https://api.github.com/repos/DNXLabs/aws-google-auth/zipball/0.0.34-dnx2" class="btn btn-sm btn-outline-primary">.zip</a>
-                            </div>
-                            <small class="text-muted">Id: 25909057</small>
-                        </div>
+                        <small class="text-muted">Id: 25909057</small>
                     </div>
                 </div>
             </div>
+        </div>
         
     </div>
 
@@ -272,788 +295,875 @@
     <div class="dropdown-divider pb-3"></div>
     <div class="row">
         
-            <div class="col-md-4 mb-4">
-                <div class="card box-shadow shadow-sm h-100">
-                    <div class="card-body d-flex flex-column">
-                        <h5 class="card-title">terraform-aws-ecs</h5>
-                        <p>
-                            <a href="https://github.com/DNXLabs/terraform-aws-ecs/actions">
-                                <img src="https://github.com/DNXLabs/terraform-aws-ecs/workflows/Lint/badge.svg" alt="Lint Status">
-                            </a>
-                            <a href="https://github.com/DNXLabs/terraform-aws-ecs/blob/master/LICENSE">
-                                <img alt="LICENSE" src="https://img.shields.io/github/license/DNXLabs/terraform-aws-ecs">
-                            </a>
-                        </p>
-                        <p class="card-text">
-                            <p><b>Version:</b> <a href="https://github.com/DNXLabs/terraform-aws-ecs/releases/tag/4.3.0">4.3.0</a></p>
-                            <p>None</p>
-                        </p>
-                        <div class="mt-auto d-flex justify-content-between align-items-center">
-                            <div class="btn-group">
-                                <a href="https://api.github.com/repos/DNXLabs/terraform-aws-ecs/tarball/4.3.0" class="btn btn-sm btn-outline-primary">.tar</a>
-                                <a href="https://api.github.com/repos/DNXLabs/terraform-aws-ecs/zipball/4.3.0" class="btn btn-sm btn-outline-primary">.zip</a>
-                            </div>
-                            <small class="text-muted">Id: 26102445</small>
+        <div class="col-md-4 mb-4" style="min-height: 285px">
+            <div class="card box-shadow shadow-sm h-100">
+                <div class="card-body d-flex flex-column">
+                    <div class="card-title d-flex justify-content-between">
+                        <h5 style="margin-bottom: 0rem">terraform-aws-ecs</h5>
+                        <button class="btn btn-link" style="padding: 0;" data-toggle="modal" data-docs-url="https://dnxlabs.github.io/terraform-aws-ecs" data-target=".docs-modal"><i class="fa fa-file-text-o"></i></button>
+                    </div>
+                    <p>
+                        <a href="https://github.com/DNXLabs/terraform-aws-ecs/actions">
+                            <img src="https://github.com/DNXLabs/terraform-aws-ecs/workflows/Lint/badge.svg" alt="Lint Status">
+                        </a>
+                        <a href="https://github.com/DNXLabs/terraform-aws-ecs/blob/master/LICENSE">
+                            <img alt="LICENSE" src="https://img.shields.io/github/license/DNXLabs/terraform-aws-ecs">
+                        </a>
+                    </p>
+                    <p><b>Version:</b> <a href="https://github.com/DNXLabs/terraform-aws-ecs/releases/tag/4.3.0">4.3.0</a></p>
+                    <p class="card-text justify-text">
+                        None
+                    </p>
+                    <div class="mt-auto d-flex justify-content-between align-items-center">
+                        <div class="btn-group">
+                            <a href="https://api.github.com/repos/DNXLabs/terraform-aws-ecs/tarball/4.3.0" class="btn btn-sm btn-outline-primary">.tar</a>
+                            <a href="https://api.github.com/repos/DNXLabs/terraform-aws-ecs/zipball/4.3.0" class="btn btn-sm btn-outline-primary">.zip</a>
                         </div>
+                        <small class="text-muted">Id: 26102445</small>
                     </div>
                 </div>
             </div>
+        </div>
         
-            <div class="col-md-4 mb-4">
-                <div class="card box-shadow shadow-sm h-100">
-                    <div class="card-body d-flex flex-column">
-                        <h5 class="card-title">terraform-aws-ecs-app</h5>
-                        <p>
-                            <a href="https://github.com/DNXLabs/terraform-aws-ecs-app/actions">
-                                <img src="https://github.com/DNXLabs/terraform-aws-ecs-app/workflows/Lint/badge.svg" alt="Lint Status">
-                            </a>
-                            <a href="https://github.com/DNXLabs/terraform-aws-ecs-app/blob/master/LICENSE">
-                                <img alt="LICENSE" src="https://img.shields.io/github/license/DNXLabs/terraform-aws-ecs-app">
-                            </a>
-                        </p>
-                        <p class="card-text">
-                            <p><b>Version:</b> <a href="https://github.com/DNXLabs/terraform-aws-ecs-app/releases/tag/4.2.0">4.2.0</a></p>
-                            <p>AWS ECS Application Module</p>
-                        </p>
-                        <div class="mt-auto d-flex justify-content-between align-items-center">
-                            <div class="btn-group">
-                                <a href="https://api.github.com/repos/DNXLabs/terraform-aws-ecs-app/tarball/4.2.0" class="btn btn-sm btn-outline-primary">.tar</a>
-                                <a href="https://api.github.com/repos/DNXLabs/terraform-aws-ecs-app/zipball/4.2.0" class="btn btn-sm btn-outline-primary">.zip</a>
-                            </div>
-                            <small class="text-muted">Id: 26102255</small>
+        <div class="col-md-4 mb-4" style="min-height: 285px">
+            <div class="card box-shadow shadow-sm h-100">
+                <div class="card-body d-flex flex-column">
+                    <div class="card-title d-flex justify-content-between">
+                        <h5 style="margin-bottom: 0rem">terraform-aws-ecs-app</h5>
+                        <button class="btn btn-link" style="padding: 0;" data-toggle="modal" data-docs-url="https://dnxlabs.github.io/terraform-aws-ecs-app" data-target=".docs-modal"><i class="fa fa-file-text-o"></i></button>
+                    </div>
+                    <p>
+                        <a href="https://github.com/DNXLabs/terraform-aws-ecs-app/actions">
+                            <img src="https://github.com/DNXLabs/terraform-aws-ecs-app/workflows/Lint/badge.svg" alt="Lint Status">
+                        </a>
+                        <a href="https://github.com/DNXLabs/terraform-aws-ecs-app/blob/master/LICENSE">
+                            <img alt="LICENSE" src="https://img.shields.io/github/license/DNXLabs/terraform-aws-ecs-app">
+                        </a>
+                    </p>
+                    <p><b>Version:</b> <a href="https://github.com/DNXLabs/terraform-aws-ecs-app/releases/tag/4.2.0">4.2.0</a></p>
+                    <p class="card-text justify-text">
+                        AWS ECS Application Module
+                    </p>
+                    <div class="mt-auto d-flex justify-content-between align-items-center">
+                        <div class="btn-group">
+                            <a href="https://api.github.com/repos/DNXLabs/terraform-aws-ecs-app/tarball/4.2.0" class="btn btn-sm btn-outline-primary">.tar</a>
+                            <a href="https://api.github.com/repos/DNXLabs/terraform-aws-ecs-app/zipball/4.2.0" class="btn btn-sm btn-outline-primary">.zip</a>
                         </div>
+                        <small class="text-muted">Id: 26102255</small>
                     </div>
                 </div>
             </div>
+        </div>
         
-            <div class="col-md-4 mb-4">
-                <div class="card box-shadow shadow-sm h-100">
-                    <div class="card-body d-flex flex-column">
-                        <h5 class="card-title">terraform-aws-network</h5>
-                        <p>
-                            <a href="https://github.com/DNXLabs/terraform-aws-network/actions">
-                                <img src="https://github.com/DNXLabs/terraform-aws-network/workflows/Lint/badge.svg" alt="Lint Status">
-                            </a>
-                            <a href="https://github.com/DNXLabs/terraform-aws-network/blob/master/LICENSE">
-                                <img alt="LICENSE" src="https://img.shields.io/github/license/DNXLabs/terraform-aws-network">
-                            </a>
-                        </p>
-                        <p class="card-text">
-                            <p><b>Version:</b> <a href="https://github.com/DNXLabs/terraform-aws-network/releases/tag/1.1.3">1.1.3</a></p>
-                            <p>Terraform module for creating basic network resources: VPC, subnets and NAT</p>
-                        </p>
-                        <div class="mt-auto d-flex justify-content-between align-items-center">
-                            <div class="btn-group">
-                                <a href="https://api.github.com/repos/DNXLabs/terraform-aws-network/tarball/1.1.3" class="btn btn-sm btn-outline-primary">.tar</a>
-                                <a href="https://api.github.com/repos/DNXLabs/terraform-aws-network/zipball/1.1.3" class="btn btn-sm btn-outline-primary">.zip</a>
-                            </div>
-                            <small class="text-muted">Id: 25350992</small>
+        <div class="col-md-4 mb-4" style="min-height: 285px">
+            <div class="card box-shadow shadow-sm h-100">
+                <div class="card-body d-flex flex-column">
+                    <div class="card-title d-flex justify-content-between">
+                        <h5 style="margin-bottom: 0rem">terraform-aws-network</h5>
+                        <button class="btn btn-link" style="padding: 0;" data-toggle="modal" data-docs-url="https://dnxlabs.github.io/terraform-aws-network" data-target=".docs-modal"><i class="fa fa-file-text-o"></i></button>
+                    </div>
+                    <p>
+                        <a href="https://github.com/DNXLabs/terraform-aws-network/actions">
+                            <img src="https://github.com/DNXLabs/terraform-aws-network/workflows/Lint/badge.svg" alt="Lint Status">
+                        </a>
+                        <a href="https://github.com/DNXLabs/terraform-aws-network/blob/master/LICENSE">
+                            <img alt="LICENSE" src="https://img.shields.io/github/license/DNXLabs/terraform-aws-network">
+                        </a>
+                    </p>
+                    <p><b>Version:</b> <a href="https://github.com/DNXLabs/terraform-aws-network/releases/tag/1.1.3">1.1.3</a></p>
+                    <p class="card-text justify-text">
+                        Terraform module for creating basic network resources: VPC, subnets and NAT
+                    </p>
+                    <div class="mt-auto d-flex justify-content-between align-items-center">
+                        <div class="btn-group">
+                            <a href="https://api.github.com/repos/DNXLabs/terraform-aws-network/tarball/1.1.3" class="btn btn-sm btn-outline-primary">.tar</a>
+                            <a href="https://api.github.com/repos/DNXLabs/terraform-aws-network/zipball/1.1.3" class="btn btn-sm btn-outline-primary">.zip</a>
                         </div>
+                        <small class="text-muted">Id: 25350992</small>
                     </div>
                 </div>
             </div>
+        </div>
         
-            <div class="col-md-4 mb-4">
-                <div class="card box-shadow shadow-sm h-100">
-                    <div class="card-body d-flex flex-column">
-                        <h5 class="card-title">terraform-aws-gitlab-runner</h5>
-                        <p>
-                            <a href="https://github.com/DNXLabs/terraform-aws-gitlab-runner/actions">
-                                <img src="https://github.com/DNXLabs/terraform-aws-gitlab-runner/workflows/Lint/badge.svg" alt="Lint Status">
-                            </a>
-                            <a href="https://github.com/DNXLabs/terraform-aws-gitlab-runner/blob/master/LICENSE">
-                                <img alt="LICENSE" src="https://img.shields.io/github/license/DNXLabs/terraform-aws-gitlab-runner">
-                            </a>
-                        </p>
-                        <p class="card-text">
-                            <p><b>Version:</b> <a href="https://github.com/DNXLabs/terraform-aws-gitlab-runner/releases/tag/3.4.0-dnx2">3.4.0-dnx2</a></p>
-                            <p>Terraform module for AWS GitLab Runners on Spot Instances</p>
-                        </p>
-                        <div class="mt-auto d-flex justify-content-between align-items-center">
-                            <div class="btn-group">
-                                <a href="https://api.github.com/repos/DNXLabs/terraform-aws-gitlab-runner/tarball/3.4.0-dnx2" class="btn btn-sm btn-outline-primary">.tar</a>
-                                <a href="https://api.github.com/repos/DNXLabs/terraform-aws-gitlab-runner/zipball/3.4.0-dnx2" class="btn btn-sm btn-outline-primary">.zip</a>
-                            </div>
-                            <small class="text-muted">Id: 23795479</small>
+        <div class="col-md-4 mb-4" style="min-height: 285px">
+            <div class="card box-shadow shadow-sm h-100">
+                <div class="card-body d-flex flex-column">
+                    <div class="card-title d-flex justify-content-between">
+                        <h5 style="margin-bottom: 0rem">terraform-aws-gitlab-runner</h5>
+                        <button class="btn btn-link" style="padding: 0;" data-toggle="modal" data-docs-url="https://dnxlabs.github.io/terraform-aws-gitlab-runner" data-target=".docs-modal"><i class="fa fa-file-text-o"></i></button>
+                    </div>
+                    <p>
+                        <a href="https://github.com/DNXLabs/terraform-aws-gitlab-runner/actions">
+                            <img src="https://github.com/DNXLabs/terraform-aws-gitlab-runner/workflows/Lint/badge.svg" alt="Lint Status">
+                        </a>
+                        <a href="https://github.com/DNXLabs/terraform-aws-gitlab-runner/blob/master/LICENSE">
+                            <img alt="LICENSE" src="https://img.shields.io/github/license/DNXLabs/terraform-aws-gitlab-runner">
+                        </a>
+                    </p>
+                    <p><b>Version:</b> <a href="https://github.com/DNXLabs/terraform-aws-gitlab-runner/releases/tag/3.4.0-dnx2">3.4.0-dnx2</a></p>
+                    <p class="card-text justify-text">
+                        Terraform module for AWS GitLab Runners on Spot Instances
+                    </p>
+                    <div class="mt-auto d-flex justify-content-between align-items-center">
+                        <div class="btn-group">
+                            <a href="https://api.github.com/repos/DNXLabs/terraform-aws-gitlab-runner/tarball/3.4.0-dnx2" class="btn btn-sm btn-outline-primary">.tar</a>
+                            <a href="https://api.github.com/repos/DNXLabs/terraform-aws-gitlab-runner/zipball/3.4.0-dnx2" class="btn btn-sm btn-outline-primary">.zip</a>
                         </div>
+                        <small class="text-muted">Id: 23795479</small>
                     </div>
                 </div>
             </div>
+        </div>
         
-            <div class="col-md-4 mb-4">
-                <div class="card box-shadow shadow-sm h-100">
-                    <div class="card-body d-flex flex-column">
-                        <h5 class="card-title">terraform-aws-client-vpn</h5>
-                        <p>
-                            <a href="https://github.com/DNXLabs/terraform-aws-client-vpn/actions">
-                                <img src="https://github.com/DNXLabs/terraform-aws-client-vpn/workflows/Lint/badge.svg" alt="Lint Status">
-                            </a>
-                            <a href="https://github.com/DNXLabs/terraform-aws-client-vpn/blob/master/LICENSE">
-                                <img alt="LICENSE" src="https://img.shields.io/github/license/DNXLabs/terraform-aws-client-vpn">
-                            </a>
-                        </p>
-                        <p class="card-text">
-                            <p><b>Version:</b> <a href="https://github.com/DNXLabs/terraform-aws-client-vpn/releases/tag/0.0.2">0.0.2</a></p>
-                            <p>None</p>
-                        </p>
-                        <div class="mt-auto d-flex justify-content-between align-items-center">
-                            <div class="btn-group">
-                                <a href="https://api.github.com/repos/DNXLabs/terraform-aws-client-vpn/tarball/0.0.2" class="btn btn-sm btn-outline-primary">.tar</a>
-                                <a href="https://api.github.com/repos/DNXLabs/terraform-aws-client-vpn/zipball/0.0.2" class="btn btn-sm btn-outline-primary">.zip</a>
-                            </div>
-                            <small class="text-muted">Id: 24409839</small>
+        <div class="col-md-4 mb-4" style="min-height: 285px">
+            <div class="card box-shadow shadow-sm h-100">
+                <div class="card-body d-flex flex-column">
+                    <div class="card-title d-flex justify-content-between">
+                        <h5 style="margin-bottom: 0rem">terraform-aws-client-vpn</h5>
+                        <button class="btn btn-link" style="padding: 0;" data-toggle="modal" data-docs-url="https://dnxlabs.github.io/terraform-aws-client-vpn" data-target=".docs-modal"><i class="fa fa-file-text-o"></i></button>
+                    </div>
+                    <p>
+                        <a href="https://github.com/DNXLabs/terraform-aws-client-vpn/actions">
+                            <img src="https://github.com/DNXLabs/terraform-aws-client-vpn/workflows/Lint/badge.svg" alt="Lint Status">
+                        </a>
+                        <a href="https://github.com/DNXLabs/terraform-aws-client-vpn/blob/master/LICENSE">
+                            <img alt="LICENSE" src="https://img.shields.io/github/license/DNXLabs/terraform-aws-client-vpn">
+                        </a>
+                    </p>
+                    <p><b>Version:</b> <a href="https://github.com/DNXLabs/terraform-aws-client-vpn/releases/tag/0.0.2">0.0.2</a></p>
+                    <p class="card-text justify-text">
+                        None
+                    </p>
+                    <div class="mt-auto d-flex justify-content-between align-items-center">
+                        <div class="btn-group">
+                            <a href="https://api.github.com/repos/DNXLabs/terraform-aws-client-vpn/tarball/0.0.2" class="btn btn-sm btn-outline-primary">.tar</a>
+                            <a href="https://api.github.com/repos/DNXLabs/terraform-aws-client-vpn/zipball/0.0.2" class="btn btn-sm btn-outline-primary">.zip</a>
                         </div>
+                        <small class="text-muted">Id: 24409839</small>
                     </div>
                 </div>
             </div>
+        </div>
         
-            <div class="col-md-4 mb-4">
-                <div class="card box-shadow shadow-sm h-100">
-                    <div class="card-body d-flex flex-column">
-                        <h5 class="card-title">terraform-aws-account</h5>
-                        <p>
-                            <a href="https://github.com/DNXLabs/terraform-aws-account/actions">
-                                <img src="https://github.com/DNXLabs/terraform-aws-account/workflows/Lint/badge.svg" alt="Lint Status">
-                            </a>
-                            <a href="https://github.com/DNXLabs/terraform-aws-account/blob/master/LICENSE">
-                                <img alt="LICENSE" src="https://img.shields.io/github/license/DNXLabs/terraform-aws-account">
-                            </a>
-                        </p>
-                        <p class="card-text">
-                            <p><b>Version:</b> <a href="https://github.com/DNXLabs/terraform-aws-account/releases/tag/0.0.6">0.0.6</a></p>
-                            <p>Terraform module to create an AWS Account under an Organization</p>
-                        </p>
-                        <div class="mt-auto d-flex justify-content-between align-items-center">
-                            <div class="btn-group">
-                                <a href="https://api.github.com/repos/DNXLabs/terraform-aws-account/tarball/0.0.6" class="btn btn-sm btn-outline-primary">.tar</a>
-                                <a href="https://api.github.com/repos/DNXLabs/terraform-aws-account/zipball/0.0.6" class="btn btn-sm btn-outline-primary">.zip</a>
-                            </div>
-                            <small class="text-muted">Id: 24410712</small>
+        <div class="col-md-4 mb-4" style="min-height: 285px">
+            <div class="card box-shadow shadow-sm h-100">
+                <div class="card-body d-flex flex-column">
+                    <div class="card-title d-flex justify-content-between">
+                        <h5 style="margin-bottom: 0rem">terraform-aws-account</h5>
+                        <button class="btn btn-link" style="padding: 0;" data-toggle="modal" data-docs-url="https://dnxlabs.github.io/terraform-aws-account" data-target=".docs-modal"><i class="fa fa-file-text-o"></i></button>
+                    </div>
+                    <p>
+                        <a href="https://github.com/DNXLabs/terraform-aws-account/actions">
+                            <img src="https://github.com/DNXLabs/terraform-aws-account/workflows/Lint/badge.svg" alt="Lint Status">
+                        </a>
+                        <a href="https://github.com/DNXLabs/terraform-aws-account/blob/master/LICENSE">
+                            <img alt="LICENSE" src="https://img.shields.io/github/license/DNXLabs/terraform-aws-account">
+                        </a>
+                    </p>
+                    <p><b>Version:</b> <a href="https://github.com/DNXLabs/terraform-aws-account/releases/tag/0.0.6">0.0.6</a></p>
+                    <p class="card-text justify-text">
+                        Terraform module to create an AWS Account under an Organization
+                    </p>
+                    <div class="mt-auto d-flex justify-content-between align-items-center">
+                        <div class="btn-group">
+                            <a href="https://api.github.com/repos/DNXLabs/terraform-aws-account/tarball/0.0.6" class="btn btn-sm btn-outline-primary">.tar</a>
+                            <a href="https://api.github.com/repos/DNXLabs/terraform-aws-account/zipball/0.0.6" class="btn btn-sm btn-outline-primary">.zip</a>
                         </div>
+                        <small class="text-muted">Id: 24410712</small>
                     </div>
                 </div>
             </div>
+        </div>
         
-            <div class="col-md-4 mb-4">
-                <div class="card box-shadow shadow-sm h-100">
-                    <div class="card-body d-flex flex-column">
-                        <h5 class="card-title">terraform-aws-openvpn</h5>
-                        <p>
-                            <a href="https://github.com/DNXLabs/terraform-aws-openvpn/actions">
-                                <img src="https://github.com/DNXLabs/terraform-aws-openvpn/workflows/Lint/badge.svg" alt="Lint Status">
-                            </a>
-                            <a href="https://github.com/DNXLabs/terraform-aws-openvpn/blob/master/LICENSE">
-                                <img alt="LICENSE" src="https://img.shields.io/github/license/DNXLabs/terraform-aws-openvpn">
-                            </a>
-                        </p>
-                        <p class="card-text">
-                            <p><b>Version:</b> <a href="https://github.com/DNXLabs/terraform-aws-openvpn/releases/tag/0.4.2">0.4.2</a></p>
-                            <p>None</p>
-                        </p>
-                        <div class="mt-auto d-flex justify-content-between align-items-center">
-                            <div class="btn-group">
-                                <a href="https://api.github.com/repos/DNXLabs/terraform-aws-openvpn/tarball/0.4.2" class="btn btn-sm btn-outline-primary">.tar</a>
-                                <a href="https://api.github.com/repos/DNXLabs/terraform-aws-openvpn/zipball/0.4.2" class="btn btn-sm btn-outline-primary">.zip</a>
-                            </div>
-                            <small class="text-muted">Id: 24237936</small>
+        <div class="col-md-4 mb-4" style="min-height: 285px">
+            <div class="card box-shadow shadow-sm h-100">
+                <div class="card-body d-flex flex-column">
+                    <div class="card-title d-flex justify-content-between">
+                        <h5 style="margin-bottom: 0rem">terraform-aws-openvpn</h5>
+                        <button class="btn btn-link" style="padding: 0;" data-toggle="modal" data-docs-url="https://dnxlabs.github.io/terraform-aws-openvpn" data-target=".docs-modal"><i class="fa fa-file-text-o"></i></button>
+                    </div>
+                    <p>
+                        <a href="https://github.com/DNXLabs/terraform-aws-openvpn/actions">
+                            <img src="https://github.com/DNXLabs/terraform-aws-openvpn/workflows/Lint/badge.svg" alt="Lint Status">
+                        </a>
+                        <a href="https://github.com/DNXLabs/terraform-aws-openvpn/blob/master/LICENSE">
+                            <img alt="LICENSE" src="https://img.shields.io/github/license/DNXLabs/terraform-aws-openvpn">
+                        </a>
+                    </p>
+                    <p><b>Version:</b> <a href="https://github.com/DNXLabs/terraform-aws-openvpn/releases/tag/0.4.2">0.4.2</a></p>
+                    <p class="card-text justify-text">
+                        None
+                    </p>
+                    <div class="mt-auto d-flex justify-content-between align-items-center">
+                        <div class="btn-group">
+                            <a href="https://api.github.com/repos/DNXLabs/terraform-aws-openvpn/tarball/0.4.2" class="btn btn-sm btn-outline-primary">.tar</a>
+                            <a href="https://api.github.com/repos/DNXLabs/terraform-aws-openvpn/zipball/0.4.2" class="btn btn-sm btn-outline-primary">.zip</a>
                         </div>
+                        <small class="text-muted">Id: 24237936</small>
                     </div>
                 </div>
             </div>
+        </div>
         
-            <div class="col-md-4 mb-4">
-                <div class="card box-shadow shadow-sm h-100">
-                    <div class="card-body d-flex flex-column">
-                        <h5 class="card-title">terraform-aws-ecr</h5>
-                        <p>
-                            <a href="https://github.com/DNXLabs/terraform-aws-ecr/actions">
-                                <img src="https://github.com/DNXLabs/terraform-aws-ecr/workflows/Lint/badge.svg" alt="Lint Status">
-                            </a>
-                            <a href="https://github.com/DNXLabs/terraform-aws-ecr/blob/master/LICENSE">
-                                <img alt="LICENSE" src="https://img.shields.io/github/license/DNXLabs/terraform-aws-ecr">
-                            </a>
-                        </p>
-                        <p class="card-text">
-                            <p><b>Version:</b> <a href="https://github.com/DNXLabs/terraform-aws-ecr/releases/tag/0.3.1">0.3.1</a></p>
-                            <p>None</p>
-                        </p>
-                        <div class="mt-auto d-flex justify-content-between align-items-center">
-                            <div class="btn-group">
-                                <a href="https://api.github.com/repos/DNXLabs/terraform-aws-ecr/tarball/0.3.1" class="btn btn-sm btn-outline-primary">.tar</a>
-                                <a href="https://api.github.com/repos/DNXLabs/terraform-aws-ecr/zipball/0.3.1" class="btn btn-sm btn-outline-primary">.zip</a>
-                            </div>
-                            <small class="text-muted">Id: 23795022</small>
+        <div class="col-md-4 mb-4" style="min-height: 285px">
+            <div class="card box-shadow shadow-sm h-100">
+                <div class="card-body d-flex flex-column">
+                    <div class="card-title d-flex justify-content-between">
+                        <h5 style="margin-bottom: 0rem">terraform-aws-ecr</h5>
+                        <button class="btn btn-link" style="padding: 0;" data-toggle="modal" data-docs-url="https://dnxlabs.github.io/terraform-aws-ecr" data-target=".docs-modal"><i class="fa fa-file-text-o"></i></button>
+                    </div>
+                    <p>
+                        <a href="https://github.com/DNXLabs/terraform-aws-ecr/actions">
+                            <img src="https://github.com/DNXLabs/terraform-aws-ecr/workflows/Lint/badge.svg" alt="Lint Status">
+                        </a>
+                        <a href="https://github.com/DNXLabs/terraform-aws-ecr/blob/master/LICENSE">
+                            <img alt="LICENSE" src="https://img.shields.io/github/license/DNXLabs/terraform-aws-ecr">
+                        </a>
+                    </p>
+                    <p><b>Version:</b> <a href="https://github.com/DNXLabs/terraform-aws-ecr/releases/tag/0.3.1">0.3.1</a></p>
+                    <p class="card-text justify-text">
+                        None
+                    </p>
+                    <div class="mt-auto d-flex justify-content-between align-items-center">
+                        <div class="btn-group">
+                            <a href="https://api.github.com/repos/DNXLabs/terraform-aws-ecr/tarball/0.3.1" class="btn btn-sm btn-outline-primary">.tar</a>
+                            <a href="https://api.github.com/repos/DNXLabs/terraform-aws-ecr/zipball/0.3.1" class="btn btn-sm btn-outline-primary">.zip</a>
                         </div>
+                        <small class="text-muted">Id: 23795022</small>
                     </div>
                 </div>
             </div>
+        </div>
         
-            <div class="col-md-4 mb-4">
-                <div class="card box-shadow shadow-sm h-100">
-                    <div class="card-body d-flex flex-column">
-                        <h5 class="card-title">terraform-google-stackdriver-uptime</h5>
-                        <p>
-                            <a href="https://github.com/DNXLabs/terraform-google-stackdriver-uptime/actions">
-                                <img src="https://github.com/DNXLabs/terraform-google-stackdriver-uptime/workflows/Lint/badge.svg" alt="Lint Status">
-                            </a>
-                            <a href="https://github.com/DNXLabs/terraform-google-stackdriver-uptime/blob/master/LICENSE">
-                                <img alt="LICENSE" src="https://img.shields.io/github/license/DNXLabs/terraform-google-stackdriver-uptime">
-                            </a>
-                        </p>
-                        <p class="card-text">
-                            <p><b>Version:</b> <a href="https://github.com/DNXLabs/terraform-google-stackdriver-uptime/releases/tag/0.0.4">0.0.4</a></p>
-                            <p>None</p>
-                        </p>
-                        <div class="mt-auto d-flex justify-content-between align-items-center">
-                            <div class="btn-group">
-                                <a href="https://api.github.com/repos/DNXLabs/terraform-google-stackdriver-uptime/tarball/0.0.4" class="btn btn-sm btn-outline-primary">.tar</a>
-                                <a href="https://api.github.com/repos/DNXLabs/terraform-google-stackdriver-uptime/zipball/0.0.4" class="btn btn-sm btn-outline-primary">.zip</a>
-                            </div>
-                            <small class="text-muted">Id: 24409726</small>
+        <div class="col-md-4 mb-4" style="min-height: 285px">
+            <div class="card box-shadow shadow-sm h-100">
+                <div class="card-body d-flex flex-column">
+                    <div class="card-title d-flex justify-content-between">
+                        <h5 style="margin-bottom: 0rem">terraform-google-stackdriver-uptime</h5>
+                        <button class="btn btn-link" style="padding: 0;" data-toggle="modal" data-docs-url="https://dnxlabs.github.io/terraform-google-stackdriver-uptime" data-target=".docs-modal"><i class="fa fa-file-text-o"></i></button>
+                    </div>
+                    <p>
+                        <a href="https://github.com/DNXLabs/terraform-google-stackdriver-uptime/actions">
+                            <img src="https://github.com/DNXLabs/terraform-google-stackdriver-uptime/workflows/Lint/badge.svg" alt="Lint Status">
+                        </a>
+                        <a href="https://github.com/DNXLabs/terraform-google-stackdriver-uptime/blob/master/LICENSE">
+                            <img alt="LICENSE" src="https://img.shields.io/github/license/DNXLabs/terraform-google-stackdriver-uptime">
+                        </a>
+                    </p>
+                    <p><b>Version:</b> <a href="https://github.com/DNXLabs/terraform-google-stackdriver-uptime/releases/tag/0.0.4">0.0.4</a></p>
+                    <p class="card-text justify-text">
+                        None
+                    </p>
+                    <div class="mt-auto d-flex justify-content-between align-items-center">
+                        <div class="btn-group">
+                            <a href="https://api.github.com/repos/DNXLabs/terraform-google-stackdriver-uptime/tarball/0.0.4" class="btn btn-sm btn-outline-primary">.tar</a>
+                            <a href="https://api.github.com/repos/DNXLabs/terraform-google-stackdriver-uptime/zipball/0.0.4" class="btn btn-sm btn-outline-primary">.zip</a>
                         </div>
+                        <small class="text-muted">Id: 24409726</small>
                     </div>
                 </div>
             </div>
+        </div>
         
-            <div class="col-md-4 mb-4">
-                <div class="card box-shadow shadow-sm h-100">
-                    <div class="card-body d-flex flex-column">
-                        <h5 class="card-title">terraform-aws-backend</h5>
-                        <p>
-                            <a href="https://github.com/DNXLabs/terraform-aws-backend/actions">
-                                <img src="https://github.com/DNXLabs/terraform-aws-backend/workflows/Lint/badge.svg" alt="Lint Status">
-                            </a>
-                            <a href="https://github.com/DNXLabs/terraform-aws-backend/blob/master/LICENSE">
-                                <img alt="LICENSE" src="https://img.shields.io/github/license/DNXLabs/terraform-aws-backend">
-                            </a>
-                        </p>
-                        <p class="card-text">
-                            <p><b>Version:</b> <a href="https://github.com/DNXLabs/terraform-aws-backend/releases/tag/1.1.0">1.1.0</a></p>
-                            <p>None</p>
-                        </p>
-                        <div class="mt-auto d-flex justify-content-between align-items-center">
-                            <div class="btn-group">
-                                <a href="https://api.github.com/repos/DNXLabs/terraform-aws-backend/tarball/1.1.0" class="btn btn-sm btn-outline-primary">.tar</a>
-                                <a href="https://api.github.com/repos/DNXLabs/terraform-aws-backend/zipball/1.1.0" class="btn btn-sm btn-outline-primary">.zip</a>
-                            </div>
-                            <small class="text-muted">Id: 24157036</small>
+        <div class="col-md-4 mb-4" style="min-height: 285px">
+            <div class="card box-shadow shadow-sm h-100">
+                <div class="card-body d-flex flex-column">
+                    <div class="card-title d-flex justify-content-between">
+                        <h5 style="margin-bottom: 0rem">terraform-aws-backend</h5>
+                        <button class="btn btn-link" style="padding: 0;" data-toggle="modal" data-docs-url="https://dnxlabs.github.io/terraform-aws-backend" data-target=".docs-modal"><i class="fa fa-file-text-o"></i></button>
+                    </div>
+                    <p>
+                        <a href="https://github.com/DNXLabs/terraform-aws-backend/actions">
+                            <img src="https://github.com/DNXLabs/terraform-aws-backend/workflows/Lint/badge.svg" alt="Lint Status">
+                        </a>
+                        <a href="https://github.com/DNXLabs/terraform-aws-backend/blob/master/LICENSE">
+                            <img alt="LICENSE" src="https://img.shields.io/github/license/DNXLabs/terraform-aws-backend">
+                        </a>
+                    </p>
+                    <p><b>Version:</b> <a href="https://github.com/DNXLabs/terraform-aws-backend/releases/tag/1.1.0">1.1.0</a></p>
+                    <p class="card-text justify-text">
+                        None
+                    </p>
+                    <div class="mt-auto d-flex justify-content-between align-items-center">
+                        <div class="btn-group">
+                            <a href="https://api.github.com/repos/DNXLabs/terraform-aws-backend/tarball/1.1.0" class="btn btn-sm btn-outline-primary">.tar</a>
+                            <a href="https://api.github.com/repos/DNXLabs/terraform-aws-backend/zipball/1.1.0" class="btn btn-sm btn-outline-primary">.zip</a>
                         </div>
+                        <small class="text-muted">Id: 24157036</small>
                     </div>
                 </div>
             </div>
+        </div>
         
-            <div class="col-md-4 mb-4">
-                <div class="card box-shadow shadow-sm h-100">
-                    <div class="card-body d-flex flex-column">
-                        <h5 class="card-title">terraform-aws-static-app</h5>
-                        <p>
-                            <a href="https://github.com/DNXLabs/terraform-aws-static-app/actions">
-                                <img src="https://github.com/DNXLabs/terraform-aws-static-app/workflows/Lint/badge.svg" alt="Lint Status">
-                            </a>
-                            <a href="https://github.com/DNXLabs/terraform-aws-static-app/blob/master/LICENSE">
-                                <img alt="LICENSE" src="https://img.shields.io/github/license/DNXLabs/terraform-aws-static-app">
-                            </a>
-                        </p>
-                        <p class="card-text">
-                            <p><b>Version:</b> <a href="https://github.com/DNXLabs/terraform-aws-static-app/releases/tag/1.3.2">1.3.2</a></p>
-                            <p>None</p>
-                        </p>
-                        <div class="mt-auto d-flex justify-content-between align-items-center">
-                            <div class="btn-group">
-                                <a href="https://api.github.com/repos/DNXLabs/terraform-aws-static-app/tarball/1.3.2" class="btn btn-sm btn-outline-primary">.tar</a>
-                                <a href="https://api.github.com/repos/DNXLabs/terraform-aws-static-app/zipball/1.3.2" class="btn btn-sm btn-outline-primary">.zip</a>
-                            </div>
-                            <small class="text-muted">Id: 24408193</small>
+        <div class="col-md-4 mb-4" style="min-height: 285px">
+            <div class="card box-shadow shadow-sm h-100">
+                <div class="card-body d-flex flex-column">
+                    <div class="card-title d-flex justify-content-between">
+                        <h5 style="margin-bottom: 0rem">terraform-aws-static-app</h5>
+                        <button class="btn btn-link" style="padding: 0;" data-toggle="modal" data-docs-url="https://dnxlabs.github.io/terraform-aws-static-app" data-target=".docs-modal"><i class="fa fa-file-text-o"></i></button>
+                    </div>
+                    <p>
+                        <a href="https://github.com/DNXLabs/terraform-aws-static-app/actions">
+                            <img src="https://github.com/DNXLabs/terraform-aws-static-app/workflows/Lint/badge.svg" alt="Lint Status">
+                        </a>
+                        <a href="https://github.com/DNXLabs/terraform-aws-static-app/blob/master/LICENSE">
+                            <img alt="LICENSE" src="https://img.shields.io/github/license/DNXLabs/terraform-aws-static-app">
+                        </a>
+                    </p>
+                    <p><b>Version:</b> <a href="https://github.com/DNXLabs/terraform-aws-static-app/releases/tag/1.3.2">1.3.2</a></p>
+                    <p class="card-text justify-text">
+                        None
+                    </p>
+                    <div class="mt-auto d-flex justify-content-between align-items-center">
+                        <div class="btn-group">
+                            <a href="https://api.github.com/repos/DNXLabs/terraform-aws-static-app/tarball/1.3.2" class="btn btn-sm btn-outline-primary">.tar</a>
+                            <a href="https://api.github.com/repos/DNXLabs/terraform-aws-static-app/zipball/1.3.2" class="btn btn-sm btn-outline-primary">.zip</a>
                         </div>
+                        <small class="text-muted">Id: 24408193</small>
                     </div>
                 </div>
             </div>
+        </div>
         
-            <div class="col-md-4 mb-4">
-                <div class="card box-shadow shadow-sm h-100">
-                    <div class="card-body d-flex flex-column">
-                        <h5 class="card-title">terraform-aws-vpc-peering</h5>
-                        <p>
-                            <a href="https://github.com/DNXLabs/terraform-aws-vpc-peering/actions">
-                                <img src="https://github.com/DNXLabs/terraform-aws-vpc-peering/workflows/Lint/badge.svg" alt="Lint Status">
-                            </a>
-                            <a href="https://github.com/DNXLabs/terraform-aws-vpc-peering/blob/master/LICENSE">
-                                <img alt="LICENSE" src="https://img.shields.io/github/license/DNXLabs/terraform-aws-vpc-peering">
-                            </a>
-                        </p>
-                        <p class="card-text">
-                            <p><b>Version:</b> <a href="https://github.com/DNXLabs/terraform-aws-vpc-peering/releases/tag/0.3.1">0.3.1</a></p>
-                            <p>None</p>
-                        </p>
-                        <div class="mt-auto d-flex justify-content-between align-items-center">
-                            <div class="btn-group">
-                                <a href="https://api.github.com/repos/DNXLabs/terraform-aws-vpc-peering/tarball/0.3.1" class="btn btn-sm btn-outline-primary">.tar</a>
-                                <a href="https://api.github.com/repos/DNXLabs/terraform-aws-vpc-peering/zipball/0.3.1" class="btn btn-sm btn-outline-primary">.zip</a>
-                            </div>
-                            <small class="text-muted">Id: 24237141</small>
+        <div class="col-md-4 mb-4" style="min-height: 285px">
+            <div class="card box-shadow shadow-sm h-100">
+                <div class="card-body d-flex flex-column">
+                    <div class="card-title d-flex justify-content-between">
+                        <h5 style="margin-bottom: 0rem">terraform-aws-vpc-peering</h5>
+                        <button class="btn btn-link" style="padding: 0;" data-toggle="modal" data-docs-url="https://dnxlabs.github.io/terraform-aws-vpc-peering" data-target=".docs-modal"><i class="fa fa-file-text-o"></i></button>
+                    </div>
+                    <p>
+                        <a href="https://github.com/DNXLabs/terraform-aws-vpc-peering/actions">
+                            <img src="https://github.com/DNXLabs/terraform-aws-vpc-peering/workflows/Lint/badge.svg" alt="Lint Status">
+                        </a>
+                        <a href="https://github.com/DNXLabs/terraform-aws-vpc-peering/blob/master/LICENSE">
+                            <img alt="LICENSE" src="https://img.shields.io/github/license/DNXLabs/terraform-aws-vpc-peering">
+                        </a>
+                    </p>
+                    <p><b>Version:</b> <a href="https://github.com/DNXLabs/terraform-aws-vpc-peering/releases/tag/0.3.1">0.3.1</a></p>
+                    <p class="card-text justify-text">
+                        None
+                    </p>
+                    <div class="mt-auto d-flex justify-content-between align-items-center">
+                        <div class="btn-group">
+                            <a href="https://api.github.com/repos/DNXLabs/terraform-aws-vpc-peering/tarball/0.3.1" class="btn btn-sm btn-outline-primary">.tar</a>
+                            <a href="https://api.github.com/repos/DNXLabs/terraform-aws-vpc-peering/zipball/0.3.1" class="btn btn-sm btn-outline-primary">.zip</a>
                         </div>
+                        <small class="text-muted">Id: 24237141</small>
                     </div>
                 </div>
             </div>
+        </div>
         
-            <div class="col-md-4 mb-4">
-                <div class="card box-shadow shadow-sm h-100">
-                    <div class="card-body d-flex flex-column">
-                        <h5 class="card-title">terraform-aws-billing-role</h5>
-                        <p>
-                            <a href="https://github.com/DNXLabs/terraform-aws-billing-role/actions">
-                                <img src="https://github.com/DNXLabs/terraform-aws-billing-role/workflows/Lint/badge.svg" alt="Lint Status">
-                            </a>
-                            <a href="https://github.com/DNXLabs/terraform-aws-billing-role/blob/master/LICENSE">
-                                <img alt="LICENSE" src="https://img.shields.io/github/license/DNXLabs/terraform-aws-billing-role">
-                            </a>
-                        </p>
-                        <p class="card-text">
-                            <p><b>Version:</b> <a href="https://github.com/DNXLabs/terraform-aws-billing-role/releases/tag/1.2.0">1.2.0</a></p>
-                            <p>None</p>
-                        </p>
-                        <div class="mt-auto d-flex justify-content-between align-items-center">
-                            <div class="btn-group">
-                                <a href="https://api.github.com/repos/DNXLabs/terraform-aws-billing-role/tarball/1.2.0" class="btn btn-sm btn-outline-primary">.tar</a>
-                                <a href="https://api.github.com/repos/DNXLabs/terraform-aws-billing-role/zipball/1.2.0" class="btn btn-sm btn-outline-primary">.zip</a>
-                            </div>
-                            <small class="text-muted">Id: 24059466</small>
+        <div class="col-md-4 mb-4" style="min-height: 285px">
+            <div class="card box-shadow shadow-sm h-100">
+                <div class="card-body d-flex flex-column">
+                    <div class="card-title d-flex justify-content-between">
+                        <h5 style="margin-bottom: 0rem">terraform-aws-billing-role</h5>
+                        <button class="btn btn-link" style="padding: 0;" data-toggle="modal" data-docs-url="https://dnxlabs.github.io/terraform-aws-billing-role" data-target=".docs-modal"><i class="fa fa-file-text-o"></i></button>
+                    </div>
+                    <p>
+                        <a href="https://github.com/DNXLabs/terraform-aws-billing-role/actions">
+                            <img src="https://github.com/DNXLabs/terraform-aws-billing-role/workflows/Lint/badge.svg" alt="Lint Status">
+                        </a>
+                        <a href="https://github.com/DNXLabs/terraform-aws-billing-role/blob/master/LICENSE">
+                            <img alt="LICENSE" src="https://img.shields.io/github/license/DNXLabs/terraform-aws-billing-role">
+                        </a>
+                    </p>
+                    <p><b>Version:</b> <a href="https://github.com/DNXLabs/terraform-aws-billing-role/releases/tag/1.2.0">1.2.0</a></p>
+                    <p class="card-text justify-text">
+                        None
+                    </p>
+                    <div class="mt-auto d-flex justify-content-between align-items-center">
+                        <div class="btn-group">
+                            <a href="https://api.github.com/repos/DNXLabs/terraform-aws-billing-role/tarball/1.2.0" class="btn btn-sm btn-outline-primary">.tar</a>
+                            <a href="https://api.github.com/repos/DNXLabs/terraform-aws-billing-role/zipball/1.2.0" class="btn btn-sm btn-outline-primary">.zip</a>
                         </div>
+                        <small class="text-muted">Id: 24059466</small>
                     </div>
                 </div>
             </div>
+        </div>
         
-            <div class="col-md-4 mb-4">
-                <div class="card box-shadow shadow-sm h-100">
-                    <div class="card-body d-flex flex-column">
-                        <h5 class="card-title">terraform-aws-organization</h5>
-                        <p>
-                            <a href="https://github.com/DNXLabs/terraform-aws-organization/actions">
-                                <img src="https://github.com/DNXLabs/terraform-aws-organization/workflows/Lint/badge.svg" alt="Lint Status">
-                            </a>
-                            <a href="https://github.com/DNXLabs/terraform-aws-organization/blob/master/LICENSE">
-                                <img alt="LICENSE" src="https://img.shields.io/github/license/DNXLabs/terraform-aws-organization">
-                            </a>
-                        </p>
-                        <p class="card-text">
-                            <p><b>Version:</b> <a href="https://github.com/DNXLabs/terraform-aws-organization/releases/tag/1.1.0">1.1.0</a></p>
-                            <p>Terraform module to create a AWS Organization</p>
-                        </p>
-                        <div class="mt-auto d-flex justify-content-between align-items-center">
-                            <div class="btn-group">
-                                <a href="https://api.github.com/repos/DNXLabs/terraform-aws-organization/tarball/1.1.0" class="btn btn-sm btn-outline-primary">.tar</a>
-                                <a href="https://api.github.com/repos/DNXLabs/terraform-aws-organization/zipball/1.1.0" class="btn btn-sm btn-outline-primary">.zip</a>
-                            </div>
-                            <small class="text-muted">Id: 24489778</small>
+        <div class="col-md-4 mb-4" style="min-height: 285px">
+            <div class="card box-shadow shadow-sm h-100">
+                <div class="card-body d-flex flex-column">
+                    <div class="card-title d-flex justify-content-between">
+                        <h5 style="margin-bottom: 0rem">terraform-aws-organization</h5>
+                        <button class="btn btn-link" style="padding: 0;" data-toggle="modal" data-docs-url="https://dnxlabs.github.io/terraform-aws-organization" data-target=".docs-modal"><i class="fa fa-file-text-o"></i></button>
+                    </div>
+                    <p>
+                        <a href="https://github.com/DNXLabs/terraform-aws-organization/actions">
+                            <img src="https://github.com/DNXLabs/terraform-aws-organization/workflows/Lint/badge.svg" alt="Lint Status">
+                        </a>
+                        <a href="https://github.com/DNXLabs/terraform-aws-organization/blob/master/LICENSE">
+                            <img alt="LICENSE" src="https://img.shields.io/github/license/DNXLabs/terraform-aws-organization">
+                        </a>
+                    </p>
+                    <p><b>Version:</b> <a href="https://github.com/DNXLabs/terraform-aws-organization/releases/tag/1.1.0">1.1.0</a></p>
+                    <p class="card-text justify-text">
+                        Terraform module to create a AWS Organization
+                    </p>
+                    <div class="mt-auto d-flex justify-content-between align-items-center">
+                        <div class="btn-group">
+                            <a href="https://api.github.com/repos/DNXLabs/terraform-aws-organization/tarball/1.1.0" class="btn btn-sm btn-outline-primary">.tar</a>
+                            <a href="https://api.github.com/repos/DNXLabs/terraform-aws-organization/zipball/1.1.0" class="btn btn-sm btn-outline-primary">.zip</a>
                         </div>
+                        <small class="text-muted">Id: 24489778</small>
                     </div>
                 </div>
             </div>
+        </div>
         
-            <div class="col-md-4 mb-4">
-                <div class="card box-shadow shadow-sm h-100">
-                    <div class="card-body d-flex flex-column">
-                        <h5 class="card-title">terraform-aws-db-monitoring</h5>
-                        <p>
-                            <a href="https://github.com/DNXLabs/terraform-aws-db-monitoring/actions">
-                                <img src="https://github.com/DNXLabs/terraform-aws-db-monitoring/workflows/Lint/badge.svg" alt="Lint Status">
-                            </a>
-                            <a href="https://github.com/DNXLabs/terraform-aws-db-monitoring/blob/master/LICENSE">
-                                <img alt="LICENSE" src="https://img.shields.io/github/license/DNXLabs/terraform-aws-db-monitoring">
-                            </a>
-                        </p>
-                        <p class="card-text">
-                            <p><b>Version:</b> <a href="https://github.com/DNXLabs/terraform-aws-db-monitoring/releases/tag/1.1.1">1.1.1</a></p>
-                            <p>None</p>
-                        </p>
-                        <div class="mt-auto d-flex justify-content-between align-items-center">
-                            <div class="btn-group">
-                                <a href="https://api.github.com/repos/DNXLabs/terraform-aws-db-monitoring/tarball/1.1.1" class="btn btn-sm btn-outline-primary">.tar</a>
-                                <a href="https://api.github.com/repos/DNXLabs/terraform-aws-db-monitoring/zipball/1.1.1" class="btn btn-sm btn-outline-primary">.zip</a>
-                            </div>
-                            <small class="text-muted">Id: 25027321</small>
+        <div class="col-md-4 mb-4" style="min-height: 285px">
+            <div class="card box-shadow shadow-sm h-100">
+                <div class="card-body d-flex flex-column">
+                    <div class="card-title d-flex justify-content-between">
+                        <h5 style="margin-bottom: 0rem">terraform-aws-db-monitoring</h5>
+                        <button class="btn btn-link" style="padding: 0;" data-toggle="modal" data-docs-url="https://dnxlabs.github.io/terraform-aws-db-monitoring" data-target=".docs-modal"><i class="fa fa-file-text-o"></i></button>
+                    </div>
+                    <p>
+                        <a href="https://github.com/DNXLabs/terraform-aws-db-monitoring/actions">
+                            <img src="https://github.com/DNXLabs/terraform-aws-db-monitoring/workflows/Lint/badge.svg" alt="Lint Status">
+                        </a>
+                        <a href="https://github.com/DNXLabs/terraform-aws-db-monitoring/blob/master/LICENSE">
+                            <img alt="LICENSE" src="https://img.shields.io/github/license/DNXLabs/terraform-aws-db-monitoring">
+                        </a>
+                    </p>
+                    <p><b>Version:</b> <a href="https://github.com/DNXLabs/terraform-aws-db-monitoring/releases/tag/1.1.1">1.1.1</a></p>
+                    <p class="card-text justify-text">
+                        None
+                    </p>
+                    <div class="mt-auto d-flex justify-content-between align-items-center">
+                        <div class="btn-group">
+                            <a href="https://api.github.com/repos/DNXLabs/terraform-aws-db-monitoring/tarball/1.1.1" class="btn btn-sm btn-outline-primary">.tar</a>
+                            <a href="https://api.github.com/repos/DNXLabs/terraform-aws-db-monitoring/zipball/1.1.1" class="btn btn-sm btn-outline-primary">.zip</a>
                         </div>
+                        <small class="text-muted">Id: 25027321</small>
                     </div>
                 </div>
             </div>
+        </div>
         
-            <div class="col-md-4 mb-4">
-                <div class="card box-shadow shadow-sm h-100">
-                    <div class="card-body d-flex flex-column">
-                        <h5 class="card-title">terraform-aws-idp-gsuite</h5>
-                        <p>
-                            <a href="https://github.com/DNXLabs/terraform-aws-idp-gsuite/actions">
-                                <img src="https://github.com/DNXLabs/terraform-aws-idp-gsuite/workflows/Lint/badge.svg" alt="Lint Status">
-                            </a>
-                            <a href="https://github.com/DNXLabs/terraform-aws-idp-gsuite/blob/master/LICENSE">
-                                <img alt="LICENSE" src="https://img.shields.io/github/license/DNXLabs/terraform-aws-idp-gsuite">
-                            </a>
-                        </p>
-                        <p class="card-text">
-                            <p><b>Version:</b> <a href="https://github.com/DNXLabs/terraform-aws-idp-gsuite/releases/tag/1.3.0">1.3.0</a></p>
-                            <p>Terraform module for setting up IDP authentication with GSuite SAML</p>
-                        </p>
-                        <div class="mt-auto d-flex justify-content-between align-items-center">
-                            <div class="btn-group">
-                                <a href="https://api.github.com/repos/DNXLabs/terraform-aws-idp-gsuite/tarball/1.3.0" class="btn btn-sm btn-outline-primary">.tar</a>
-                                <a href="https://api.github.com/repos/DNXLabs/terraform-aws-idp-gsuite/zipball/1.3.0" class="btn btn-sm btn-outline-primary">.zip</a>
-                            </div>
-                            <small class="text-muted">Id: 26113930</small>
+        <div class="col-md-4 mb-4" style="min-height: 285px">
+            <div class="card box-shadow shadow-sm h-100">
+                <div class="card-body d-flex flex-column">
+                    <div class="card-title d-flex justify-content-between">
+                        <h5 style="margin-bottom: 0rem">terraform-aws-idp-gsuite</h5>
+                        <button class="btn btn-link" style="padding: 0;" data-toggle="modal" data-docs-url="https://dnxlabs.github.io/terraform-aws-idp-gsuite" data-target=".docs-modal"><i class="fa fa-file-text-o"></i></button>
+                    </div>
+                    <p>
+                        <a href="https://github.com/DNXLabs/terraform-aws-idp-gsuite/actions">
+                            <img src="https://github.com/DNXLabs/terraform-aws-idp-gsuite/workflows/Lint/badge.svg" alt="Lint Status">
+                        </a>
+                        <a href="https://github.com/DNXLabs/terraform-aws-idp-gsuite/blob/master/LICENSE">
+                            <img alt="LICENSE" src="https://img.shields.io/github/license/DNXLabs/terraform-aws-idp-gsuite">
+                        </a>
+                    </p>
+                    <p><b>Version:</b> <a href="https://github.com/DNXLabs/terraform-aws-idp-gsuite/releases/tag/1.3.0">1.3.0</a></p>
+                    <p class="card-text justify-text">
+                        Terraform module for setting up IDP authentication with GSuite SAML
+                    </p>
+                    <div class="mt-auto d-flex justify-content-between align-items-center">
+                        <div class="btn-group">
+                            <a href="https://api.github.com/repos/DNXLabs/terraform-aws-idp-gsuite/tarball/1.3.0" class="btn btn-sm btn-outline-primary">.tar</a>
+                            <a href="https://api.github.com/repos/DNXLabs/terraform-aws-idp-gsuite/zipball/1.3.0" class="btn btn-sm btn-outline-primary">.zip</a>
                         </div>
+                        <small class="text-muted">Id: 26113930</small>
                     </div>
                 </div>
             </div>
+        </div>
         
-            <div class="col-md-4 mb-4">
-                <div class="card box-shadow shadow-sm h-100">
-                    <div class="card-body d-flex flex-column">
-                        <h5 class="card-title">terraform-aws-sns</h5>
-                        <p>
-                            <a href="https://github.com/DNXLabs/terraform-aws-sns/actions">
-                                <img src="https://github.com/DNXLabs/terraform-aws-sns/workflows/Lint/badge.svg" alt="Lint Status">
-                            </a>
-                            <a href="https://github.com/DNXLabs/terraform-aws-sns/blob/master/LICENSE">
-                                <img alt="LICENSE" src="https://img.shields.io/github/license/DNXLabs/terraform-aws-sns">
-                            </a>
-                        </p>
-                        <p class="card-text">
-                            <p><b>Version:</b> <a href="https://github.com/DNXLabs/terraform-aws-sns/releases/tag/0.1.4">0.1.4</a></p>
-                            <p>None</p>
-                        </p>
-                        <div class="mt-auto d-flex justify-content-between align-items-center">
-                            <div class="btn-group">
-                                <a href="https://api.github.com/repos/DNXLabs/terraform-aws-sns/tarball/0.1.4" class="btn btn-sm btn-outline-primary">.tar</a>
-                                <a href="https://api.github.com/repos/DNXLabs/terraform-aws-sns/zipball/0.1.4" class="btn btn-sm btn-outline-primary">.zip</a>
-                            </div>
-                            <small class="text-muted">Id: 24839139</small>
+        <div class="col-md-4 mb-4" style="min-height: 285px">
+            <div class="card box-shadow shadow-sm h-100">
+                <div class="card-body d-flex flex-column">
+                    <div class="card-title d-flex justify-content-between">
+                        <h5 style="margin-bottom: 0rem">terraform-aws-sns</h5>
+                        <button class="btn btn-link" style="padding: 0;" data-toggle="modal" data-docs-url="https://dnxlabs.github.io/terraform-aws-sns" data-target=".docs-modal"><i class="fa fa-file-text-o"></i></button>
+                    </div>
+                    <p>
+                        <a href="https://github.com/DNXLabs/terraform-aws-sns/actions">
+                            <img src="https://github.com/DNXLabs/terraform-aws-sns/workflows/Lint/badge.svg" alt="Lint Status">
+                        </a>
+                        <a href="https://github.com/DNXLabs/terraform-aws-sns/blob/master/LICENSE">
+                            <img alt="LICENSE" src="https://img.shields.io/github/license/DNXLabs/terraform-aws-sns">
+                        </a>
+                    </p>
+                    <p><b>Version:</b> <a href="https://github.com/DNXLabs/terraform-aws-sns/releases/tag/0.1.4">0.1.4</a></p>
+                    <p class="card-text justify-text">
+                        None
+                    </p>
+                    <div class="mt-auto d-flex justify-content-between align-items-center">
+                        <div class="btn-group">
+                            <a href="https://api.github.com/repos/DNXLabs/terraform-aws-sns/tarball/0.1.4" class="btn btn-sm btn-outline-primary">.tar</a>
+                            <a href="https://api.github.com/repos/DNXLabs/terraform-aws-sns/zipball/0.1.4" class="btn btn-sm btn-outline-primary">.zip</a>
                         </div>
+                        <small class="text-muted">Id: 24839139</small>
                     </div>
                 </div>
             </div>
+        </div>
         
-            <div class="col-md-4 mb-4">
-                <div class="card box-shadow shadow-sm h-100">
-                    <div class="card-body d-flex flex-column">
-                        <h5 class="card-title">terraform-aws-hostedzone</h5>
-                        <p>
-                            <a href="https://github.com/DNXLabs/terraform-aws-hostedzone/actions">
-                                <img src="https://github.com/DNXLabs/terraform-aws-hostedzone/workflows/Lint/badge.svg" alt="Lint Status">
-                            </a>
-                            <a href="https://github.com/DNXLabs/terraform-aws-hostedzone/blob/master/LICENSE">
-                                <img alt="LICENSE" src="https://img.shields.io/github/license/DNXLabs/terraform-aws-hostedzone">
-                            </a>
-                        </p>
-                        <p class="card-text">
-                            <p><b>Version:</b> <a href="https://github.com/DNXLabs/terraform-aws-hostedzone/releases/tag/0.2.0">0.2.0</a></p>
-                            <p>A terraform module to create hosted zones in AWS</p>
-                        </p>
-                        <div class="mt-auto d-flex justify-content-between align-items-center">
-                            <div class="btn-group">
-                                <a href="https://api.github.com/repos/DNXLabs/terraform-aws-hostedzone/tarball/0.2.0" class="btn btn-sm btn-outline-primary">.tar</a>
-                                <a href="https://api.github.com/repos/DNXLabs/terraform-aws-hostedzone/zipball/0.2.0" class="btn btn-sm btn-outline-primary">.zip</a>
-                            </div>
-                            <small class="text-muted">Id: 23829516</small>
+        <div class="col-md-4 mb-4" style="min-height: 285px">
+            <div class="card box-shadow shadow-sm h-100">
+                <div class="card-body d-flex flex-column">
+                    <div class="card-title d-flex justify-content-between">
+                        <h5 style="margin-bottom: 0rem">terraform-aws-hostedzone</h5>
+                        <button class="btn btn-link" style="padding: 0;" data-toggle="modal" data-docs-url="https://dnxlabs.github.io/terraform-aws-hostedzone" data-target=".docs-modal"><i class="fa fa-file-text-o"></i></button>
+                    </div>
+                    <p>
+                        <a href="https://github.com/DNXLabs/terraform-aws-hostedzone/actions">
+                            <img src="https://github.com/DNXLabs/terraform-aws-hostedzone/workflows/Lint/badge.svg" alt="Lint Status">
+                        </a>
+                        <a href="https://github.com/DNXLabs/terraform-aws-hostedzone/blob/master/LICENSE">
+                            <img alt="LICENSE" src="https://img.shields.io/github/license/DNXLabs/terraform-aws-hostedzone">
+                        </a>
+                    </p>
+                    <p><b>Version:</b> <a href="https://github.com/DNXLabs/terraform-aws-hostedzone/releases/tag/0.2.0">0.2.0</a></p>
+                    <p class="card-text justify-text">
+                        A terraform module to create hosted zones in AWS
+                    </p>
+                    <div class="mt-auto d-flex justify-content-between align-items-center">
+                        <div class="btn-group">
+                            <a href="https://api.github.com/repos/DNXLabs/terraform-aws-hostedzone/tarball/0.2.0" class="btn btn-sm btn-outline-primary">.tar</a>
+                            <a href="https://api.github.com/repos/DNXLabs/terraform-aws-hostedzone/zipball/0.2.0" class="btn btn-sm btn-outline-primary">.zip</a>
                         </div>
+                        <small class="text-muted">Id: 23829516</small>
                     </div>
                 </div>
             </div>
+        </div>
         
-            <div class="col-md-4 mb-4">
-                <div class="card box-shadow shadow-sm h-100">
-                    <div class="card-body d-flex flex-column">
-                        <h5 class="card-title">terraform-aws-account-security</h5>
-                        <p>
-                            <a href="https://github.com/DNXLabs/terraform-aws-account-security/actions">
-                                <img src="https://github.com/DNXLabs/terraform-aws-account-security/workflows/Lint/badge.svg" alt="Lint Status">
-                            </a>
-                            <a href="https://github.com/DNXLabs/terraform-aws-account-security/blob/master/LICENSE">
-                                <img alt="LICENSE" src="https://img.shields.io/github/license/DNXLabs/terraform-aws-account-security">
-                            </a>
-                        </p>
-                        <p class="card-text">
-                            <p><b>Version:</b> <a href="https://github.com/DNXLabs/terraform-aws-account-security/releases/tag/1.2.1">1.2.1</a></p>
-                            <p>Terraform module for creating basic IAM roles for federated users</p>
-                        </p>
-                        <div class="mt-auto d-flex justify-content-between align-items-center">
-                            <div class="btn-group">
-                                <a href="https://api.github.com/repos/DNXLabs/terraform-aws-account-security/tarball/1.2.1" class="btn btn-sm btn-outline-primary">.tar</a>
-                                <a href="https://api.github.com/repos/DNXLabs/terraform-aws-account-security/zipball/1.2.1" class="btn btn-sm btn-outline-primary">.zip</a>
-                            </div>
-                            <small class="text-muted">Id: 24665420</small>
+        <div class="col-md-4 mb-4" style="min-height: 285px">
+            <div class="card box-shadow shadow-sm h-100">
+                <div class="card-body d-flex flex-column">
+                    <div class="card-title d-flex justify-content-between">
+                        <h5 style="margin-bottom: 0rem">terraform-aws-account-security</h5>
+                        <button class="btn btn-link" style="padding: 0;" data-toggle="modal" data-docs-url="https://dnxlabs.github.io/terraform-aws-account-security" data-target=".docs-modal"><i class="fa fa-file-text-o"></i></button>
+                    </div>
+                    <p>
+                        <a href="https://github.com/DNXLabs/terraform-aws-account-security/actions">
+                            <img src="https://github.com/DNXLabs/terraform-aws-account-security/workflows/Lint/badge.svg" alt="Lint Status">
+                        </a>
+                        <a href="https://github.com/DNXLabs/terraform-aws-account-security/blob/master/LICENSE">
+                            <img alt="LICENSE" src="https://img.shields.io/github/license/DNXLabs/terraform-aws-account-security">
+                        </a>
+                    </p>
+                    <p><b>Version:</b> <a href="https://github.com/DNXLabs/terraform-aws-account-security/releases/tag/1.2.1">1.2.1</a></p>
+                    <p class="card-text justify-text">
+                        Terraform module for creating basic IAM roles for federated users
+                    </p>
+                    <div class="mt-auto d-flex justify-content-between align-items-center">
+                        <div class="btn-group">
+                            <a href="https://api.github.com/repos/DNXLabs/terraform-aws-account-security/tarball/1.2.1" class="btn btn-sm btn-outline-primary">.tar</a>
+                            <a href="https://api.github.com/repos/DNXLabs/terraform-aws-account-security/zipball/1.2.1" class="btn btn-sm btn-outline-primary">.zip</a>
                         </div>
+                        <small class="text-muted">Id: 24665420</small>
                     </div>
                 </div>
             </div>
+        </div>
         
-            <div class="col-md-4 mb-4">
-                <div class="card box-shadow shadow-sm h-100">
-                    <div class="card-body d-flex flex-column">
-                        <h5 class="card-title">terraform-aws-lite-account-security</h5>
-                        <p>
-                            <a href="https://github.com/DNXLabs/terraform-aws-lite-account-security/actions">
-                                <img src="https://github.com/DNXLabs/terraform-aws-lite-account-security/workflows/Lint/badge.svg" alt="Lint Status">
-                            </a>
-                            <a href="https://github.com/DNXLabs/terraform-aws-lite-account-security/blob/master/LICENSE">
-                                <img alt="LICENSE" src="https://img.shields.io/github/license/DNXLabs/terraform-aws-lite-account-security">
-                            </a>
-                        </p>
-                        <p class="card-text">
-                            <p><b>Version:</b> <a href="https://github.com/DNXLabs/terraform-aws-lite-account-security/releases/tag/0.0.3">0.0.3</a></p>
-                            <p>None</p>
-                        </p>
-                        <div class="mt-auto d-flex justify-content-between align-items-center">
-                            <div class="btn-group">
-                                <a href="https://api.github.com/repos/DNXLabs/terraform-aws-lite-account-security/tarball/0.0.3" class="btn btn-sm btn-outline-primary">.tar</a>
-                                <a href="https://api.github.com/repos/DNXLabs/terraform-aws-lite-account-security/zipball/0.0.3" class="btn btn-sm btn-outline-primary">.zip</a>
-                            </div>
-                            <small class="text-muted">Id: 19643099</small>
+        <div class="col-md-4 mb-4" style="min-height: 285px">
+            <div class="card box-shadow shadow-sm h-100">
+                <div class="card-body d-flex flex-column">
+                    <div class="card-title d-flex justify-content-between">
+                        <h5 style="margin-bottom: 0rem">terraform-aws-lite-account-security</h5>
+                        <button class="btn btn-link" style="padding: 0;" data-toggle="modal" data-docs-url="https://dnxlabs.github.io/terraform-aws-lite-account-security" data-target=".docs-modal"><i class="fa fa-file-text-o"></i></button>
+                    </div>
+                    <p>
+                        <a href="https://github.com/DNXLabs/terraform-aws-lite-account-security/actions">
+                            <img src="https://github.com/DNXLabs/terraform-aws-lite-account-security/workflows/Lint/badge.svg" alt="Lint Status">
+                        </a>
+                        <a href="https://github.com/DNXLabs/terraform-aws-lite-account-security/blob/master/LICENSE">
+                            <img alt="LICENSE" src="https://img.shields.io/github/license/DNXLabs/terraform-aws-lite-account-security">
+                        </a>
+                    </p>
+                    <p><b>Version:</b> <a href="https://github.com/DNXLabs/terraform-aws-lite-account-security/releases/tag/0.0.3">0.0.3</a></p>
+                    <p class="card-text justify-text">
+                        None
+                    </p>
+                    <div class="mt-auto d-flex justify-content-between align-items-center">
+                        <div class="btn-group">
+                            <a href="https://api.github.com/repos/DNXLabs/terraform-aws-lite-account-security/tarball/0.0.3" class="btn btn-sm btn-outline-primary">.tar</a>
+                            <a href="https://api.github.com/repos/DNXLabs/terraform-aws-lite-account-security/zipball/0.0.3" class="btn btn-sm btn-outline-primary">.zip</a>
                         </div>
+                        <small class="text-muted">Id: 19643099</small>
                     </div>
                 </div>
             </div>
+        </div>
         
-            <div class="col-md-4 mb-4">
-                <div class="card box-shadow shadow-sm h-100">
-                    <div class="card-body d-flex flex-column">
-                        <h5 class="card-title">terraform-aws-route53healthcheck</h5>
-                        <p>
-                            <a href="https://github.com/DNXLabs/terraform-aws-route53healthcheck/actions">
-                                <img src="https://github.com/DNXLabs/terraform-aws-route53healthcheck/workflows/Lint/badge.svg" alt="Lint Status">
-                            </a>
-                            <a href="https://github.com/DNXLabs/terraform-aws-route53healthcheck/blob/master/LICENSE">
-                                <img alt="LICENSE" src="https://img.shields.io/github/license/DNXLabs/terraform-aws-route53healthcheck">
-                            </a>
-                        </p>
-                        <p class="card-text">
-                            <p><b>Version:</b> <a href="https://github.com/DNXLabs/terraform-aws-route53healthcheck/releases/tag/0.1.0">0.1.0</a></p>
-                            <p>None</p>
-                        </p>
-                        <div class="mt-auto d-flex justify-content-between align-items-center">
-                            <div class="btn-group">
-                                <a href="https://api.github.com/repos/DNXLabs/terraform-aws-route53healthcheck/tarball/0.1.0" class="btn btn-sm btn-outline-primary">.tar</a>
-                                <a href="https://api.github.com/repos/DNXLabs/terraform-aws-route53healthcheck/zipball/0.1.0" class="btn btn-sm btn-outline-primary">.zip</a>
-                            </div>
-                            <small class="text-muted">Id: 19155981</small>
+        <div class="col-md-4 mb-4" style="min-height: 285px">
+            <div class="card box-shadow shadow-sm h-100">
+                <div class="card-body d-flex flex-column">
+                    <div class="card-title d-flex justify-content-between">
+                        <h5 style="margin-bottom: 0rem">terraform-aws-route53healthcheck</h5>
+                        <button class="btn btn-link" style="padding: 0;" data-toggle="modal" data-docs-url="https://dnxlabs.github.io/terraform-aws-route53healthcheck" data-target=".docs-modal"><i class="fa fa-file-text-o"></i></button>
+                    </div>
+                    <p>
+                        <a href="https://github.com/DNXLabs/terraform-aws-route53healthcheck/actions">
+                            <img src="https://github.com/DNXLabs/terraform-aws-route53healthcheck/workflows/Lint/badge.svg" alt="Lint Status">
+                        </a>
+                        <a href="https://github.com/DNXLabs/terraform-aws-route53healthcheck/blob/master/LICENSE">
+                            <img alt="LICENSE" src="https://img.shields.io/github/license/DNXLabs/terraform-aws-route53healthcheck">
+                        </a>
+                    </p>
+                    <p><b>Version:</b> <a href="https://github.com/DNXLabs/terraform-aws-route53healthcheck/releases/tag/0.1.0">0.1.0</a></p>
+                    <p class="card-text justify-text">
+                        None
+                    </p>
+                    <div class="mt-auto d-flex justify-content-between align-items-center">
+                        <div class="btn-group">
+                            <a href="https://api.github.com/repos/DNXLabs/terraform-aws-route53healthcheck/tarball/0.1.0" class="btn btn-sm btn-outline-primary">.tar</a>
+                            <a href="https://api.github.com/repos/DNXLabs/terraform-aws-route53healthcheck/zipball/0.1.0" class="btn btn-sm btn-outline-primary">.zip</a>
                         </div>
+                        <small class="text-muted">Id: 19155981</small>
                     </div>
                 </div>
             </div>
+        </div>
         
-            <div class="col-md-4 mb-4">
-                <div class="card box-shadow shadow-sm h-100">
-                    <div class="card-body d-flex flex-column">
-                        <h5 class="card-title">terraform-aws-ecs-app-front</h5>
-                        <p>
-                            <a href="https://github.com/DNXLabs/terraform-aws-ecs-app-front/actions">
-                                <img src="https://github.com/DNXLabs/terraform-aws-ecs-app-front/workflows/Lint/badge.svg" alt="Lint Status">
-                            </a>
-                            <a href="https://github.com/DNXLabs/terraform-aws-ecs-app-front/blob/master/LICENSE">
-                                <img alt="LICENSE" src="https://img.shields.io/github/license/DNXLabs/terraform-aws-ecs-app-front">
-                            </a>
-                        </p>
-                        <p class="card-text">
-                            <p><b>Version:</b> <a href="https://github.com/DNXLabs/terraform-aws-ecs-app-front/releases/tag/1.6.0">1.6.0</a></p>
-                            <p>None</p>
-                        </p>
-                        <div class="mt-auto d-flex justify-content-between align-items-center">
-                            <div class="btn-group">
-                                <a href="https://api.github.com/repos/DNXLabs/terraform-aws-ecs-app-front/tarball/1.6.0" class="btn btn-sm btn-outline-primary">.tar</a>
-                                <a href="https://api.github.com/repos/DNXLabs/terraform-aws-ecs-app-front/zipball/1.6.0" class="btn btn-sm btn-outline-primary">.zip</a>
-                            </div>
-                            <small class="text-muted">Id: 26102453</small>
+        <div class="col-md-4 mb-4" style="min-height: 285px">
+            <div class="card box-shadow shadow-sm h-100">
+                <div class="card-body d-flex flex-column">
+                    <div class="card-title d-flex justify-content-between">
+                        <h5 style="margin-bottom: 0rem">terraform-aws-ecs-app-front</h5>
+                        <button class="btn btn-link" style="padding: 0;" data-toggle="modal" data-docs-url="https://dnxlabs.github.io/terraform-aws-ecs-app-front" data-target=".docs-modal"><i class="fa fa-file-text-o"></i></button>
+                    </div>
+                    <p>
+                        <a href="https://github.com/DNXLabs/terraform-aws-ecs-app-front/actions">
+                            <img src="https://github.com/DNXLabs/terraform-aws-ecs-app-front/workflows/Lint/badge.svg" alt="Lint Status">
+                        </a>
+                        <a href="https://github.com/DNXLabs/terraform-aws-ecs-app-front/blob/master/LICENSE">
+                            <img alt="LICENSE" src="https://img.shields.io/github/license/DNXLabs/terraform-aws-ecs-app-front">
+                        </a>
+                    </p>
+                    <p><b>Version:</b> <a href="https://github.com/DNXLabs/terraform-aws-ecs-app-front/releases/tag/1.6.0">1.6.0</a></p>
+                    <p class="card-text justify-text">
+                        None
+                    </p>
+                    <div class="mt-auto d-flex justify-content-between align-items-center">
+                        <div class="btn-group">
+                            <a href="https://api.github.com/repos/DNXLabs/terraform-aws-ecs-app-front/tarball/1.6.0" class="btn btn-sm btn-outline-primary">.tar</a>
+                            <a href="https://api.github.com/repos/DNXLabs/terraform-aws-ecs-app-front/zipball/1.6.0" class="btn btn-sm btn-outline-primary">.zip</a>
                         </div>
+                        <small class="text-muted">Id: 26102453</small>
                     </div>
                 </div>
             </div>
+        </div>
         
-            <div class="col-md-4 mb-4">
-                <div class="card box-shadow shadow-sm h-100">
-                    <div class="card-body d-flex flex-column">
-                        <h5 class="card-title">terraform-aws-audit</h5>
-                        <p>
-                            <a href="https://github.com/DNXLabs/terraform-aws-audit/actions">
-                                <img src="https://github.com/DNXLabs/terraform-aws-audit/workflows/Lint/badge.svg" alt="Lint Status">
-                            </a>
-                            <a href="https://github.com/DNXLabs/terraform-aws-audit/blob/master/LICENSE">
-                                <img alt="LICENSE" src="https://img.shields.io/github/license/DNXLabs/terraform-aws-audit">
-                            </a>
-                        </p>
-                        <p class="card-text">
-                            <p><b>Version:</b> <a href="https://github.com/DNXLabs/terraform-aws-audit/releases/tag/1.3.1">1.3.1</a></p>
-                            <p>None</p>
-                        </p>
-                        <div class="mt-auto d-flex justify-content-between align-items-center">
-                            <div class="btn-group">
-                                <a href="https://api.github.com/repos/DNXLabs/terraform-aws-audit/tarball/1.3.1" class="btn btn-sm btn-outline-primary">.tar</a>
-                                <a href="https://api.github.com/repos/DNXLabs/terraform-aws-audit/zipball/1.3.1" class="btn btn-sm btn-outline-primary">.zip</a>
-                            </div>
-                            <small class="text-muted">Id: 25387248</small>
+        <div class="col-md-4 mb-4" style="min-height: 285px">
+            <div class="card box-shadow shadow-sm h-100">
+                <div class="card-body d-flex flex-column">
+                    <div class="card-title d-flex justify-content-between">
+                        <h5 style="margin-bottom: 0rem">terraform-aws-audit</h5>
+                        <button class="btn btn-link" style="padding: 0;" data-toggle="modal" data-docs-url="https://dnxlabs.github.io/terraform-aws-audit" data-target=".docs-modal"><i class="fa fa-file-text-o"></i></button>
+                    </div>
+                    <p>
+                        <a href="https://github.com/DNXLabs/terraform-aws-audit/actions">
+                            <img src="https://github.com/DNXLabs/terraform-aws-audit/workflows/Lint/badge.svg" alt="Lint Status">
+                        </a>
+                        <a href="https://github.com/DNXLabs/terraform-aws-audit/blob/master/LICENSE">
+                            <img alt="LICENSE" src="https://img.shields.io/github/license/DNXLabs/terraform-aws-audit">
+                        </a>
+                    </p>
+                    <p><b>Version:</b> <a href="https://github.com/DNXLabs/terraform-aws-audit/releases/tag/1.3.1">1.3.1</a></p>
+                    <p class="card-text justify-text">
+                        None
+                    </p>
+                    <div class="mt-auto d-flex justify-content-between align-items-center">
+                        <div class="btn-group">
+                            <a href="https://api.github.com/repos/DNXLabs/terraform-aws-audit/tarball/1.3.1" class="btn btn-sm btn-outline-primary">.tar</a>
+                            <a href="https://api.github.com/repos/DNXLabs/terraform-aws-audit/zipball/1.3.1" class="btn btn-sm btn-outline-primary">.zip</a>
                         </div>
+                        <small class="text-muted">Id: 25387248</small>
                     </div>
                 </div>
             </div>
+        </div>
         
-            <div class="col-md-4 mb-4">
-                <div class="card box-shadow shadow-sm h-100">
-                    <div class="card-body d-flex flex-column">
-                        <h5 class="card-title">terraform-aws-audit-root</h5>
-                        <p>
-                            <a href="https://github.com/DNXLabs/terraform-aws-audit-root/actions">
-                                <img src="https://github.com/DNXLabs/terraform-aws-audit-root/workflows/Lint/badge.svg" alt="Lint Status">
-                            </a>
-                            <a href="https://github.com/DNXLabs/terraform-aws-audit-root/blob/master/LICENSE">
-                                <img alt="LICENSE" src="https://img.shields.io/github/license/DNXLabs/terraform-aws-audit-root">
-                            </a>
-                        </p>
-                        <p class="card-text">
-                            <p><b>Version:</b> <a href="https://github.com/DNXLabs/terraform-aws-audit-root/releases/tag/1.0.3">1.0.3</a></p>
-                            <p>None</p>
-                        </p>
-                        <div class="mt-auto d-flex justify-content-between align-items-center">
-                            <div class="btn-group">
-                                <a href="https://api.github.com/repos/DNXLabs/terraform-aws-audit-root/tarball/1.0.3" class="btn btn-sm btn-outline-primary">.tar</a>
-                                <a href="https://api.github.com/repos/DNXLabs/terraform-aws-audit-root/zipball/1.0.3" class="btn btn-sm btn-outline-primary">.zip</a>
-                            </div>
-                            <small class="text-muted">Id: 24555824</small>
+        <div class="col-md-4 mb-4" style="min-height: 285px">
+            <div class="card box-shadow shadow-sm h-100">
+                <div class="card-body d-flex flex-column">
+                    <div class="card-title d-flex justify-content-between">
+                        <h5 style="margin-bottom: 0rem">terraform-aws-audit-root</h5>
+                        <button class="btn btn-link" style="padding: 0;" data-toggle="modal" data-docs-url="https://dnxlabs.github.io/terraform-aws-audit-root" data-target=".docs-modal"><i class="fa fa-file-text-o"></i></button>
+                    </div>
+                    <p>
+                        <a href="https://github.com/DNXLabs/terraform-aws-audit-root/actions">
+                            <img src="https://github.com/DNXLabs/terraform-aws-audit-root/workflows/Lint/badge.svg" alt="Lint Status">
+                        </a>
+                        <a href="https://github.com/DNXLabs/terraform-aws-audit-root/blob/master/LICENSE">
+                            <img alt="LICENSE" src="https://img.shields.io/github/license/DNXLabs/terraform-aws-audit-root">
+                        </a>
+                    </p>
+                    <p><b>Version:</b> <a href="https://github.com/DNXLabs/terraform-aws-audit-root/releases/tag/1.0.3">1.0.3</a></p>
+                    <p class="card-text justify-text">
+                        None
+                    </p>
+                    <div class="mt-auto d-flex justify-content-between align-items-center">
+                        <div class="btn-group">
+                            <a href="https://api.github.com/repos/DNXLabs/terraform-aws-audit-root/tarball/1.0.3" class="btn btn-sm btn-outline-primary">.tar</a>
+                            <a href="https://api.github.com/repos/DNXLabs/terraform-aws-audit-root/zipball/1.0.3" class="btn btn-sm btn-outline-primary">.zip</a>
                         </div>
+                        <small class="text-muted">Id: 24555824</small>
                     </div>
                 </div>
             </div>
+        </div>
         
-            <div class="col-md-4 mb-4">
-                <div class="card box-shadow shadow-sm h-100">
-                    <div class="card-body d-flex flex-column">
-                        <h5 class="card-title">terraform-aws-audit-member</h5>
-                        <p>
-                            <a href="https://github.com/DNXLabs/terraform-aws-audit-member/actions">
-                                <img src="https://github.com/DNXLabs/terraform-aws-audit-member/workflows/Lint/badge.svg" alt="Lint Status">
-                            </a>
-                            <a href="https://github.com/DNXLabs/terraform-aws-audit-member/blob/master/LICENSE">
-                                <img alt="LICENSE" src="https://img.shields.io/github/license/DNXLabs/terraform-aws-audit-member">
-                            </a>
-                        </p>
-                        <p class="card-text">
-                            <p><b>Version:</b> <a href="https://github.com/DNXLabs/terraform-aws-audit-member/releases/tag/1.0.3">1.0.3</a></p>
-                            <p>None</p>
-                        </p>
-                        <div class="mt-auto d-flex justify-content-between align-items-center">
-                            <div class="btn-group">
-                                <a href="https://api.github.com/repos/DNXLabs/terraform-aws-audit-member/tarball/1.0.3" class="btn btn-sm btn-outline-primary">.tar</a>
-                                <a href="https://api.github.com/repos/DNXLabs/terraform-aws-audit-member/zipball/1.0.3" class="btn btn-sm btn-outline-primary">.zip</a>
-                            </div>
-                            <small class="text-muted">Id: 24555522</small>
+        <div class="col-md-4 mb-4" style="min-height: 285px">
+            <div class="card box-shadow shadow-sm h-100">
+                <div class="card-body d-flex flex-column">
+                    <div class="card-title d-flex justify-content-between">
+                        <h5 style="margin-bottom: 0rem">terraform-aws-audit-member</h5>
+                        <button class="btn btn-link" style="padding: 0;" data-toggle="modal" data-docs-url="https://dnxlabs.github.io/terraform-aws-audit-member" data-target=".docs-modal"><i class="fa fa-file-text-o"></i></button>
+                    </div>
+                    <p>
+                        <a href="https://github.com/DNXLabs/terraform-aws-audit-member/actions">
+                            <img src="https://github.com/DNXLabs/terraform-aws-audit-member/workflows/Lint/badge.svg" alt="Lint Status">
+                        </a>
+                        <a href="https://github.com/DNXLabs/terraform-aws-audit-member/blob/master/LICENSE">
+                            <img alt="LICENSE" src="https://img.shields.io/github/license/DNXLabs/terraform-aws-audit-member">
+                        </a>
+                    </p>
+                    <p><b>Version:</b> <a href="https://github.com/DNXLabs/terraform-aws-audit-member/releases/tag/1.0.4">1.0.4</a></p>
+                    <p class="card-text justify-text">
+                        None
+                    </p>
+                    <div class="mt-auto d-flex justify-content-between align-items-center">
+                        <div class="btn-group">
+                            <a href="https://api.github.com/repos/DNXLabs/terraform-aws-audit-member/tarball/1.0.4" class="btn btn-sm btn-outline-primary">.tar</a>
+                            <a href="https://api.github.com/repos/DNXLabs/terraform-aws-audit-member/zipball/1.0.4" class="btn btn-sm btn-outline-primary">.zip</a>
                         </div>
+                        <small class="text-muted">Id: 26166960</small>
                     </div>
                 </div>
             </div>
+        </div>
         
-            <div class="col-md-4 mb-4">
-                <div class="card box-shadow shadow-sm h-100">
-                    <div class="card-body d-flex flex-column">
-                        <h5 class="card-title">terraform-aws-audit-buckets</h5>
-                        <p>
-                            <a href="https://github.com/DNXLabs/terraform-aws-audit-buckets/actions">
-                                <img src="https://github.com/DNXLabs/terraform-aws-audit-buckets/workflows/Lint/badge.svg" alt="Lint Status">
-                            </a>
-                            <a href="https://github.com/DNXLabs/terraform-aws-audit-buckets/blob/master/LICENSE">
-                                <img alt="LICENSE" src="https://img.shields.io/github/license/DNXLabs/terraform-aws-audit-buckets">
-                            </a>
-                        </p>
-                        <p class="card-text">
-                            <p><b>Version:</b> <a href="https://github.com/DNXLabs/terraform-aws-audit-buckets/releases/tag/1.0.1">1.0.1</a></p>
-                            <p>None</p>
-                        </p>
-                        <div class="mt-auto d-flex justify-content-between align-items-center">
-                            <div class="btn-group">
-                                <a href="https://api.github.com/repos/DNXLabs/terraform-aws-audit-buckets/tarball/1.0.1" class="btn btn-sm btn-outline-primary">.tar</a>
-                                <a href="https://api.github.com/repos/DNXLabs/terraform-aws-audit-buckets/zipball/1.0.1" class="btn btn-sm btn-outline-primary">.zip</a>
-                            </div>
-                            <small class="text-muted">Id: 25387721</small>
+        <div class="col-md-4 mb-4" style="min-height: 285px">
+            <div class="card box-shadow shadow-sm h-100">
+                <div class="card-body d-flex flex-column">
+                    <div class="card-title d-flex justify-content-between">
+                        <h5 style="margin-bottom: 0rem">terraform-aws-audit-buckets</h5>
+                        <button class="btn btn-link" style="padding: 0;" data-toggle="modal" data-docs-url="https://dnxlabs.github.io/terraform-aws-audit-buckets" data-target=".docs-modal"><i class="fa fa-file-text-o"></i></button>
+                    </div>
+                    <p>
+                        <a href="https://github.com/DNXLabs/terraform-aws-audit-buckets/actions">
+                            <img src="https://github.com/DNXLabs/terraform-aws-audit-buckets/workflows/Lint/badge.svg" alt="Lint Status">
+                        </a>
+                        <a href="https://github.com/DNXLabs/terraform-aws-audit-buckets/blob/master/LICENSE">
+                            <img alt="LICENSE" src="https://img.shields.io/github/license/DNXLabs/terraform-aws-audit-buckets">
+                        </a>
+                    </p>
+                    <p><b>Version:</b> <a href="https://github.com/DNXLabs/terraform-aws-audit-buckets/releases/tag/1.0.2">1.0.2</a></p>
+                    <p class="card-text justify-text">
+                        None
+                    </p>
+                    <div class="mt-auto d-flex justify-content-between align-items-center">
+                        <div class="btn-group">
+                            <a href="https://api.github.com/repos/DNXLabs/terraform-aws-audit-buckets/tarball/1.0.2" class="btn btn-sm btn-outline-primary">.tar</a>
+                            <a href="https://api.github.com/repos/DNXLabs/terraform-aws-audit-buckets/zipball/1.0.2" class="btn btn-sm btn-outline-primary">.zip</a>
                         </div>
+                        <small class="text-muted">Id: 26167168</small>
                     </div>
                 </div>
             </div>
+        </div>
         
-            <div class="col-md-4 mb-4">
-                <div class="card box-shadow shadow-sm h-100">
-                    <div class="card-body d-flex flex-column">
-                        <h5 class="card-title">terraform-aws-log-exporter</h5>
-                        <p>
-                            <a href="https://github.com/DNXLabs/terraform-aws-log-exporter/actions">
-                                <img src="https://github.com/DNXLabs/terraform-aws-log-exporter/workflows/Lint/badge.svg" alt="Lint Status">
-                            </a>
-                            <a href="https://github.com/DNXLabs/terraform-aws-log-exporter/blob/master/LICENSE">
-                                <img alt="LICENSE" src="https://img.shields.io/github/license/DNXLabs/terraform-aws-log-exporter">
-                            </a>
-                        </p>
-                        <p class="card-text">
-                            <p><b>Version:</b> <a href="https://github.com/DNXLabs/terraform-aws-log-exporter/releases/tag/1.0.0">1.0.0</a></p>
-                            <p>None</p>
-                        </p>
-                        <div class="mt-auto d-flex justify-content-between align-items-center">
-                            <div class="btn-group">
-                                <a href="https://api.github.com/repos/DNXLabs/terraform-aws-log-exporter/tarball/1.0.0" class="btn btn-sm btn-outline-primary">.tar</a>
-                                <a href="https://api.github.com/repos/DNXLabs/terraform-aws-log-exporter/zipball/1.0.0" class="btn btn-sm btn-outline-primary">.zip</a>
-                            </div>
-                            <small class="text-muted">Id: 25409186</small>
+        <div class="col-md-4 mb-4" style="min-height: 285px">
+            <div class="card box-shadow shadow-sm h-100">
+                <div class="card-body d-flex flex-column">
+                    <div class="card-title d-flex justify-content-between">
+                        <h5 style="margin-bottom: 0rem">terraform-aws-log-exporter</h5>
+                        <button class="btn btn-link" style="padding: 0;" data-toggle="modal" data-docs-url="https://dnxlabs.github.io/terraform-aws-log-exporter" data-target=".docs-modal"><i class="fa fa-file-text-o"></i></button>
+                    </div>
+                    <p>
+                        <a href="https://github.com/DNXLabs/terraform-aws-log-exporter/actions">
+                            <img src="https://github.com/DNXLabs/terraform-aws-log-exporter/workflows/Lint/badge.svg" alt="Lint Status">
+                        </a>
+                        <a href="https://github.com/DNXLabs/terraform-aws-log-exporter/blob/master/LICENSE">
+                            <img alt="LICENSE" src="https://img.shields.io/github/license/DNXLabs/terraform-aws-log-exporter">
+                        </a>
+                    </p>
+                    <p><b>Version:</b> <a href="https://github.com/DNXLabs/terraform-aws-log-exporter/releases/tag/1.0.1">1.0.1</a></p>
+                    <p class="card-text justify-text">
+                        None
+                    </p>
+                    <div class="mt-auto d-flex justify-content-between align-items-center">
+                        <div class="btn-group">
+                            <a href="https://api.github.com/repos/DNXLabs/terraform-aws-log-exporter/tarball/1.0.1" class="btn btn-sm btn-outline-primary">.tar</a>
+                            <a href="https://api.github.com/repos/DNXLabs/terraform-aws-log-exporter/zipball/1.0.1" class="btn btn-sm btn-outline-primary">.zip</a>
                         </div>
+                        <small class="text-muted">Id: 26166972</small>
                     </div>
                 </div>
             </div>
+        </div>
         
-            <div class="col-md-4 mb-4">
-                <div class="card box-shadow shadow-sm h-100">
-                    <div class="card-body d-flex flex-column">
-                        <h5 class="card-title">terraform-aws-rds-scheduler</h5>
-                        <p>
-                            <a href="https://github.com/DNXLabs/terraform-aws-rds-scheduler/actions">
-                                <img src="https://github.com/DNXLabs/terraform-aws-rds-scheduler/workflows/Lint/badge.svg" alt="Lint Status">
-                            </a>
-                            <a href="https://github.com/DNXLabs/terraform-aws-rds-scheduler/blob/master/LICENSE">
-                                <img alt="LICENSE" src="https://img.shields.io/github/license/DNXLabs/terraform-aws-rds-scheduler">
-                            </a>
-                        </p>
-                        <p class="card-text">
-                            <p><b>Version:</b> <a href="https://github.com/DNXLabs/terraform-aws-rds-scheduler/releases/tag/1.0.0">1.0.0</a></p>
-                            <p>None</p>
-                        </p>
-                        <div class="mt-auto d-flex justify-content-between align-items-center">
-                            <div class="btn-group">
-                                <a href="https://api.github.com/repos/DNXLabs/terraform-aws-rds-scheduler/tarball/1.0.0" class="btn btn-sm btn-outline-primary">.tar</a>
-                                <a href="https://api.github.com/repos/DNXLabs/terraform-aws-rds-scheduler/zipball/1.0.0" class="btn btn-sm btn-outline-primary">.zip</a>
-                            </div>
-                            <small class="text-muted">Id: 25428467</small>
+        <div class="col-md-4 mb-4" style="min-height: 285px">
+            <div class="card box-shadow shadow-sm h-100">
+                <div class="card-body d-flex flex-column">
+                    <div class="card-title d-flex justify-content-between">
+                        <h5 style="margin-bottom: 0rem">terraform-aws-rds-scheduler</h5>
+                        <button class="btn btn-link" style="padding: 0;" data-toggle="modal" data-docs-url="https://dnxlabs.github.io/terraform-aws-rds-scheduler" data-target=".docs-modal"><i class="fa fa-file-text-o"></i></button>
+                    </div>
+                    <p>
+                        <a href="https://github.com/DNXLabs/terraform-aws-rds-scheduler/actions">
+                            <img src="https://github.com/DNXLabs/terraform-aws-rds-scheduler/workflows/Lint/badge.svg" alt="Lint Status">
+                        </a>
+                        <a href="https://github.com/DNXLabs/terraform-aws-rds-scheduler/blob/master/LICENSE">
+                            <img alt="LICENSE" src="https://img.shields.io/github/license/DNXLabs/terraform-aws-rds-scheduler">
+                        </a>
+                    </p>
+                    <p><b>Version:</b> <a href="https://github.com/DNXLabs/terraform-aws-rds-scheduler/releases/tag/1.0.1">1.0.1</a></p>
+                    <p class="card-text justify-text">
+                        None
+                    </p>
+                    <div class="mt-auto d-flex justify-content-between align-items-center">
+                        <div class="btn-group">
+                            <a href="https://api.github.com/repos/DNXLabs/terraform-aws-rds-scheduler/tarball/1.0.1" class="btn btn-sm btn-outline-primary">.tar</a>
+                            <a href="https://api.github.com/repos/DNXLabs/terraform-aws-rds-scheduler/zipball/1.0.1" class="btn btn-sm btn-outline-primary">.zip</a>
                         </div>
+                        <small class="text-muted">Id: 26167176</small>
                     </div>
                 </div>
             </div>
+        </div>
         
-            <div class="col-md-4 mb-4">
-                <div class="card box-shadow shadow-sm h-100">
-                    <div class="card-body d-flex flex-column">
-                        <h5 class="card-title">terraform-aws-security-baseline</h5>
-                        <p>
-                            <a href="https://github.com/DNXLabs/terraform-aws-security-baseline/actions">
-                                <img src="https://github.com/DNXLabs/terraform-aws-security-baseline/workflows/Lint/badge.svg" alt="Lint Status">
-                            </a>
-                            <a href="https://github.com/DNXLabs/terraform-aws-security-baseline/blob/master/LICENSE">
-                                <img alt="LICENSE" src="https://img.shields.io/github/license/DNXLabs/terraform-aws-security-baseline">
-                            </a>
-                        </p>
-                        <p class="card-text">
-                            <p><b>Version:</b> <a href="https://github.com/DNXLabs/terraform-aws-security-baseline/releases/tag/1.0.1">1.0.1</a></p>
-                            <p>Terraform module to set up AWS account with the secure baseline configuration based on CIS Amazon Web Services Foundations.</p>
-                        </p>
-                        <div class="mt-auto d-flex justify-content-between align-items-center">
-                            <div class="btn-group">
-                                <a href="https://api.github.com/repos/DNXLabs/terraform-aws-security-baseline/tarball/1.0.1" class="btn btn-sm btn-outline-primary">.tar</a>
-                                <a href="https://api.github.com/repos/DNXLabs/terraform-aws-security-baseline/zipball/1.0.1" class="btn btn-sm btn-outline-primary">.zip</a>
-                            </div>
-                            <small class="text-muted">Id: 25887384</small>
+        <div class="col-md-4 mb-4" style="min-height: 285px">
+            <div class="card box-shadow shadow-sm h-100">
+                <div class="card-body d-flex flex-column">
+                    <div class="card-title d-flex justify-content-between">
+                        <h5 style="margin-bottom: 0rem">terraform-aws-security-baseline</h5>
+                        <button class="btn btn-link" style="padding: 0;" data-toggle="modal" data-docs-url="https://dnxlabs.github.io/terraform-aws-security-baseline" data-target=".docs-modal"><i class="fa fa-file-text-o"></i></button>
+                    </div>
+                    <p>
+                        <a href="https://github.com/DNXLabs/terraform-aws-security-baseline/actions">
+                            <img src="https://github.com/DNXLabs/terraform-aws-security-baseline/workflows/Lint/badge.svg" alt="Lint Status">
+                        </a>
+                        <a href="https://github.com/DNXLabs/terraform-aws-security-baseline/blob/master/LICENSE">
+                            <img alt="LICENSE" src="https://img.shields.io/github/license/DNXLabs/terraform-aws-security-baseline">
+                        </a>
+                    </p>
+                    <p><b>Version:</b> <a href="https://github.com/DNXLabs/terraform-aws-security-baseline/releases/tag/1.0.1">1.0.1</a></p>
+                    <p class="card-text justify-text">
+                        Terraform module to set up AWS account with the secure baseline configuration based on CIS Amazon Web Services Foundations.
+                    </p>
+                    <div class="mt-auto d-flex justify-content-between align-items-center">
+                        <div class="btn-group">
+                            <a href="https://api.github.com/repos/DNXLabs/terraform-aws-security-baseline/tarball/1.0.1" class="btn btn-sm btn-outline-primary">.tar</a>
+                            <a href="https://api.github.com/repos/DNXLabs/terraform-aws-security-baseline/zipball/1.0.1" class="btn btn-sm btn-outline-primary">.zip</a>
                         </div>
+                        <small class="text-muted">Id: 25887384</small>
                     </div>
                 </div>
             </div>
+        </div>
         
     </div>
 
@@ -1064,9 +1174,7 @@
 
     <footer class="text-muted">
     <div class="container">
-        <p class="float-right">
-        <a href="#">Back to top</a>
-        </p>
+        <p class="float-right"><a href="#">Back to top</a></p>
     </div>
 </footer>
 
@@ -1075,5 +1183,11 @@
     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+    <script>
+      $('#docs_modal').on('show.bs.modal', function(e) {
+        var dataDocsUrl = $(e.relatedTarget).data('docs-url');
+        $(e.currentTarget).find('iframe[name="docs"]').attr("src", dataDocsUrl);
+      });
+    </script>
   </body>
 </html>
