@@ -5,32 +5,32 @@
     <div class="dropdown-divider pb-3"></div>
     <div class="row">
         {% for cli in clis %}
-            <div class="col-md-6 mb-4">
-                <div class="card box-shadow shadow-sm h-100">
-                    <div class="card-body d-flex flex-column">
-                        <h5 class="card-title">{{ cli.name }}</h5>
-                        <p>
-                            <a href="https://github.com/DNXLabs/{{ cli.name }}/actions">
-                                <img src="https://github.com/DNXLabs/{{ cli.name }}/workflows/Build/badge.svg" alt="Build">
-                            </a>
-                            <a href="https://github.com/DNXLabs/{{ cli.name }}/blob/master/LICENSE">
-                                <img alt="LICENSE" src="https://img.shields.io/github/license/DNXLabs/{{ cli.name }}">
-                            </a>
-                        </p>
-                        <div class="card-text">
-                            <p><b>Version:</b> <a href="{{ cli.html_url }}">{{ cli.tag_name }}</a></p>
-                            <p>{{ cli.description }}</p>
+        <div class="col-md-6 mb-4" style="min-height: 285px">
+            <div class="card box-shadow shadow-sm h-100">
+                <div class="card-body d-flex flex-column">
+                    <h5 class="card-title">{{ cli.name }}</h5>
+                    <p>
+                        <a href="https://github.com/DNXLabs/{{ cli.name }}/actions">
+                            <img src="https://github.com/DNXLabs/{{ cli.name }}/workflows/Build/badge.svg" alt="Build">
+                        </a>
+                        <a href="https://github.com/DNXLabs/{{ cli.name }}/blob/master/LICENSE">
+                            <img alt="LICENSE" src="https://img.shields.io/github/license/DNXLabs/{{ cli.name }}">
+                        </a>
+                    </p>
+                    <div class="card-text">
+                        <p><b>Version:</b> <a href="{{ cli.html_url }}">{{ cli.tag_name }}</a></p>
+                        <p>{{ cli.description }}</p>
+                    </div>
+                    <div class="mt-auto d-flex justify-content-between align-items-center">
+                        <div class="btn-group">
+                            <a href="{{ cli.tarball_url }}" class="btn btn-sm btn-outline-primary">.tar</a>
+                            <a href="{{ cli.zipball_url }}" class="btn btn-sm btn-outline-primary">.zip</a>
                         </div>
-                        <div class="mt-auto d-flex justify-content-between align-items-center">
-                            <div class="btn-group">
-                                <a href="{{ cli.tarball_url }}" class="btn btn-sm btn-outline-primary">.tar</a>
-                                <a href="{{ cli.zipball_url }}" class="btn btn-sm btn-outline-primary">.zip</a>
-                            </div>
-                            <small class="text-muted">Id: {{ cli.id }}</small>
-                        </div>
+                        <small class="text-muted">Id: {{ cli.id }}</small>
                     </div>
                 </div>
             </div>
+        </div>
         {% endfor %}
     </div>
 
@@ -38,36 +38,36 @@
     <div class="dropdown-divider pb-3"></div>
     <div class="row">
         {% for tool in tools %}
-            <div class="col-md-6 mb-4">
-                <div class="card box-shadow shadow-sm h-100">
-                    <div class="card-body d-flex flex-column">
-                        <h5 class="card-title">{{ tool.name }}</h5>
-                        <p>
-                            <a href="https://github.com/DNXLabs/{{ tool.name }}/actions">
-                                <img src="https://github.com/DNXLabs/{{ tool.name }}/workflows/Security/badge.svg" alt="Security Status">
-                            </a>
-                            <a href="https://github.com/DNXLabs/{{ tool.name }}/actions">
-                                <img src="https://github.com/DNXLabs/{{ tool.name }}/workflows/Lint/badge.svg" alt="Lint Status">
-                            </a>
-                            <a href="https://github.com/DNXLabs/{{ tool.name }}/blob/master/LICENSE">
-                                <img alt="LICENSE" src="https://img.shields.io/github/license/DNXLabs/{{ tool.name }}">
-                            </a>
-                        </p>
-                        <div class="card-text">
-                            <p><b>Version:</b> <a href="{{ tool.html_url }}">{{ tool.tag_name }}</a></p>
-                            <p><b>Image:</b> <a href="https://hub.docker.com/repository/docker/dnxsolutions/{{ tool.short_name }}">dnxsolutions/{{ tool.short_name }}:{{ tool.tag_name }}</a></p>
-                            <p>{{ tool.description }}</p>
+        <div class="col-md-6 mb-4" style="min-height: 285px">
+            <div class="card box-shadow shadow-sm h-100">
+                <div class="card-body d-flex flex-column">
+                    <h5 class="card-title">{{ tool.name }}</h5>
+                    <p>
+                        <a href="https://github.com/DNXLabs/{{ tool.name }}/actions">
+                            <img src="https://github.com/DNXLabs/{{ tool.name }}/workflows/Security/badge.svg" alt="Security Status">
+                        </a>
+                        <a href="https://github.com/DNXLabs/{{ tool.name }}/actions">
+                            <img src="https://github.com/DNXLabs/{{ tool.name }}/workflows/Lint/badge.svg" alt="Lint Status">
+                        </a>
+                        <a href="https://github.com/DNXLabs/{{ tool.name }}/blob/master/LICENSE">
+                            <img alt="LICENSE" src="https://img.shields.io/github/license/DNXLabs/{{ tool.name }}">
+                        </a>
+                    </p>
+                    <div class="card-text">
+                        <p><b>Version:</b> <a href="{{ tool.html_url }}">{{ tool.tag_name }}</a></p>
+                        <p><b>Image:</b> <a href="https://hub.docker.com/repository/docker/dnxsolutions/{{ tool.short_name }}">dnxsolutions/{{ tool.short_name }}:{{ tool.tag_name }}</a></p>
+                        <p>{{ tool.description }}</p>
+                    </div>
+                    <div class="mt-auto d-flex justify-content-between align-items-center">
+                        <div class="btn-group">
+                            <a href="{{ tool.tarball_url }}" class="btn btn-sm btn-outline-primary">.tar</a>
+                            <a href="{{ tool.zipball_url }}" class="btn btn-sm btn-outline-primary">.zip</a>
                         </div>
-                        <div class="mt-auto d-flex justify-content-between align-items-center">
-                            <div class="btn-group">
-                                <a href="{{ tool.tarball_url }}" class="btn btn-sm btn-outline-primary">.tar</a>
-                                <a href="{{ tool.zipball_url }}" class="btn btn-sm btn-outline-primary">.zip</a>
-                            </div>
-                            <small class="text-muted">Id: {{ tool.id }}</small>
-                        </div>
+                        <small class="text-muted">Id: {{ tool.id }}</small>
                     </div>
                 </div>
             </div>
+        </div>
         {% endfor %}
     </div>
 
@@ -75,32 +75,35 @@
     <div class="dropdown-divider pb-3"></div>
     <div class="row">
         {% for module in modules %}
-            <div class="col-md-4 mb-4">
-                <div class="card box-shadow shadow-sm h-100">
-                    <div class="card-body d-flex flex-column">
-                        <h5 class="card-title">{{ module.name }}</h5>
-                        <p>
-                            <a href="https://github.com/DNXLabs/{{ module.name }}/actions">
-                                <img src="https://github.com/DNXLabs/{{ module.name }}/workflows/Lint/badge.svg" alt="Lint Status">
-                            </a>
-                            <a href="https://github.com/DNXLabs/{{ module.name }}/blob/master/LICENSE">
-                                <img alt="LICENSE" src="https://img.shields.io/github/license/DNXLabs/{{ module.name }}">
-                            </a>
-                        </p>
-                        <p class="card-text">
-                            <p><b>Version:</b> <a href="{{ module.html_url }}">{{ module.tag_name }}</a></p>
-                            <p>{{ module.description }}</p>
-                        </p>
-                        <div class="mt-auto d-flex justify-content-between align-items-center">
-                            <div class="btn-group">
-                                <a href="{{ module.tarball_url }}" class="btn btn-sm btn-outline-primary">.tar</a>
-                                <a href="{{ module.zipball_url }}" class="btn btn-sm btn-outline-primary">.zip</a>
-                            </div>
-                            <small class="text-muted">Id: {{ module.id }}</small>
+        <div class="col-md-4 mb-4" style="min-height: 285px">
+            <div class="card box-shadow shadow-sm h-100">
+                <div class="card-body d-flex flex-column">
+                    <div class="card-title d-flex justify-content-between">
+                        <h5 style="margin-bottom: 0rem">{{ module.name }}</h5>
+                        <button class="btn btn-link" style="padding: 0;" data-toggle="modal" data-docs-url="https://dnxlabs.github.io/{{ module.name }}" data-target=".docs-modal"><i class="fa fa-file-text-o"></i></button>
+                    </div>
+                    <p>
+                        <a href="https://github.com/DNXLabs/{{ module.name }}/actions">
+                            <img src="https://github.com/DNXLabs/{{ module.name }}/workflows/Lint/badge.svg" alt="Lint Status">
+                        </a>
+                        <a href="https://github.com/DNXLabs/{{ module.name }}/blob/master/LICENSE">
+                            <img alt="LICENSE" src="https://img.shields.io/github/license/DNXLabs/{{ module.name }}">
+                        </a>
+                    </p>
+                    <p><b>Version:</b> <a href="{{ module.html_url }}">{{ module.tag_name }}</a></p>
+                    <p class="card-text justify-text">
+                        {{ module.description }}
+                    </p>
+                    <div class="mt-auto d-flex justify-content-between align-items-center">
+                        <div class="btn-group">
+                            <a href="{{ module.tarball_url }}" class="btn btn-sm btn-outline-primary">.tar</a>
+                            <a href="{{ module.zipball_url }}" class="btn btn-sm btn-outline-primary">.zip</a>
                         </div>
+                        <small class="text-muted">Id: {{ module.id }}</small>
                     </div>
                 </div>
             </div>
+        </div>
         {% endfor %}
     </div>
 {% endblock %}
