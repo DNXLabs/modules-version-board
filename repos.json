@@ -8,6 +8,7 @@
         "docker-aws",
         "docker-kubectl",
         "docker-aws-azure-ad",
+        "docker-serverless-python",
         "aws-google-auth"
     ],
     "modules": [
