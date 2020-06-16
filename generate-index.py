@@ -62,3 +62,11 @@ with open(filename, 'w') as fh:
         modules = modules,
         clis    = clis
     ))
+
+api_filename = 'api.json'
+api_data = {}
+api_data['clis'] = clis
+api_data['tools'] = tools
+api_data['modules'] = modules
+with open(api_filename, 'w') as outfile:
+    outfile.write(json.dumps(api_data, sort_keys=True, indent=4))
