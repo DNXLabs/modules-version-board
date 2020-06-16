@@ -1,0 +1,388 @@
+{
+    "clis": [
+        {
+            "description": "Simple CLI to setup all environments you need to quick start contributing and developing for DNX.",
+            "html_url": "https://github.com/DNXLabs/izi/releases/tag/0.2.1",
+            "id": 24954415,
+            "name": "izi",
+            "short_name": "izi",
+            "tag_name": "0.2.1",
+            "tarball_url": "https://api.github.com/repos/DNXLabs/izi/tarball/0.2.1",
+            "zipball_url": "https://api.github.com/repos/DNXLabs/izi/zipball/0.2.1"
+        },
+        {
+            "description": "CLI to manage all stacks from DNX.",
+            "html_url": "https://github.com/DNXLabs/one-cli/releases/tag/0.4.2",
+            "id": 27492549,
+            "name": "one-cli",
+            "short_name": "one-cli",
+            "tag_name": "0.4.2",
+            "tarball_url": "https://api.github.com/repos/DNXLabs/one-cli/tarball/0.4.2",
+            "zipball_url": "https://api.github.com/repos/DNXLabs/one-cli/zipball/0.4.2"
+        }
+    ],
+    "modules": [
+        {
+            "description": "This module creates an ECS cluster.",
+            "html_url": "https://github.com/DNXLabs/terraform-aws-ecs/releases/tag/4.3.0",
+            "id": 26102445,
+            "name": "terraform-aws-ecs",
+            "short_name": "terraform-aws-ecs",
+            "tag_name": "4.3.0",
+            "tarball_url": "https://api.github.com/repos/DNXLabs/terraform-aws-ecs/tarball/4.3.0",
+            "zipball_url": "https://api.github.com/repos/DNXLabs/terraform-aws-ecs/zipball/4.3.0"
+        },
+        {
+            "description": "AWS ECS Application Module.",
+            "html_url": "https://github.com/DNXLabs/terraform-aws-ecs-app/releases/tag/4.4.0",
+            "id": 27286069,
+            "name": "terraform-aws-ecs-app",
+            "short_name": "terraform-aws-ecs-app",
+            "tag_name": "4.4.0",
+            "tarball_url": "https://api.github.com/repos/DNXLabs/terraform-aws-ecs-app/tarball/4.4.0",
+            "zipball_url": "https://api.github.com/repos/DNXLabs/terraform-aws-ecs-app/zipball/4.4.0"
+        },
+        {
+            "description": "Terraform module for creating basic network resources: VPC, subnets and NAT.",
+            "html_url": "https://github.com/DNXLabs/terraform-aws-network/releases/tag/1.2.0",
+            "id": 26786454,
+            "name": "terraform-aws-network",
+            "short_name": "terraform-aws-network",
+            "tag_name": "1.2.0",
+            "tarball_url": "https://api.github.com/repos/DNXLabs/terraform-aws-network/tarball/1.2.0",
+            "zipball_url": "https://api.github.com/repos/DNXLabs/terraform-aws-network/zipball/1.2.0"
+        },
+        {
+            "description": "Terraform module for AWS GitLab Runners on Spot Instances.",
+            "html_url": "https://github.com/DNXLabs/terraform-aws-gitlab-runner/releases/tag/3.4.0-dnx2",
+            "id": 23795479,
+            "name": "terraform-aws-gitlab-runner",
+            "short_name": "terraform-aws-gitlab-runner",
+            "tag_name": "3.4.0-dnx2",
+            "tarball_url": "https://api.github.com/repos/DNXLabs/terraform-aws-gitlab-runner/tarball/3.4.0-dnx2",
+            "zipball_url": "https://api.github.com/repos/DNXLabs/terraform-aws-gitlab-runner/zipball/3.4.0-dnx2"
+        },
+        {
+            "description": null,
+            "html_url": "https://github.com/DNXLabs/terraform-aws-client-vpn/releases/tag/0.0.2",
+            "id": 24409839,
+            "name": "terraform-aws-client-vpn",
+            "short_name": "terraform-aws-client-vpn",
+            "tag_name": "0.0.2",
+            "tarball_url": "https://api.github.com/repos/DNXLabs/terraform-aws-client-vpn/tarball/0.0.2",
+            "zipball_url": "https://api.github.com/repos/DNXLabs/terraform-aws-client-vpn/zipball/0.0.2"
+        },
+        {
+            "description": "Terraform module to create an AWS Account under an Organization.",
+            "html_url": "https://github.com/DNXLabs/terraform-aws-account/releases/tag/0.1.0",
+            "id": 26256194,
+            "name": "terraform-aws-account",
+            "short_name": "terraform-aws-account",
+            "tag_name": "0.1.0",
+            "tarball_url": "https://api.github.com/repos/DNXLabs/terraform-aws-account/tarball/0.1.0",
+            "zipball_url": "https://api.github.com/repos/DNXLabs/terraform-aws-account/zipball/0.1.0"
+        },
+        {
+            "description": null,
+            "html_url": "https://github.com/DNXLabs/terraform-aws-openvpn/releases/tag/0.5.0",
+            "id": 26704152,
+            "name": "terraform-aws-openvpn",
+            "short_name": "terraform-aws-openvpn",
+            "tag_name": "0.5.0",
+            "tarball_url": "https://api.github.com/repos/DNXLabs/terraform-aws-openvpn/tarball/0.5.0",
+            "zipball_url": "https://api.github.com/repos/DNXLabs/terraform-aws-openvpn/zipball/0.5.0"
+        },
+        {
+            "description": null,
+            "html_url": "https://github.com/DNXLabs/terraform-aws-ecr/releases/tag/0.3.1",
+            "id": 23795022,
+            "name": "terraform-aws-ecr",
+            "short_name": "terraform-aws-ecr",
+            "tag_name": "0.3.1",
+            "tarball_url": "https://api.github.com/repos/DNXLabs/terraform-aws-ecr/tarball/0.3.1",
+            "zipball_url": "https://api.github.com/repos/DNXLabs/terraform-aws-ecr/zipball/0.3.1"
+        },
+        {
+            "description": null,
+            "html_url": "https://github.com/DNXLabs/terraform-google-stackdriver-uptime/releases/tag/0.0.4",
+            "id": 24409726,
+            "name": "terraform-google-stackdriver-uptime",
+            "short_name": "terraform-google-stackdriver-uptime",
+            "tag_name": "0.0.4",
+            "tarball_url": "https://api.github.com/repos/DNXLabs/terraform-google-stackdriver-uptime/tarball/0.0.4",
+            "zipball_url": "https://api.github.com/repos/DNXLabs/terraform-google-stackdriver-uptime/zipball/0.0.4"
+        },
+        {
+            "description": null,
+            "html_url": "https://github.com/DNXLabs/terraform-aws-backend/releases/tag/1.1.0",
+            "id": 24157036,
+            "name": "terraform-aws-backend",
+            "short_name": "terraform-aws-backend",
+            "tag_name": "1.1.0",
+            "tarball_url": "https://api.github.com/repos/DNXLabs/terraform-aws-backend/tarball/1.1.0",
+            "zipball_url": "https://api.github.com/repos/DNXLabs/terraform-aws-backend/zipball/1.1.0"
+        },
+        {
+            "description": null,
+            "html_url": "https://github.com/DNXLabs/terraform-aws-static-app/releases/tag/1.3.3",
+            "id": 27018329,
+            "name": "terraform-aws-static-app",
+            "short_name": "terraform-aws-static-app",
+            "tag_name": "1.3.3",
+            "tarball_url": "https://api.github.com/repos/DNXLabs/terraform-aws-static-app/tarball/1.3.3",
+            "zipball_url": "https://api.github.com/repos/DNXLabs/terraform-aws-static-app/zipball/1.3.3"
+        },
+        {
+            "description": null,
+            "html_url": "https://github.com/DNXLabs/terraform-aws-vpc-peering/releases/tag/0.3.1",
+            "id": 24237141,
+            "name": "terraform-aws-vpc-peering",
+            "short_name": "terraform-aws-vpc-peering",
+            "tag_name": "0.3.1",
+            "tarball_url": "https://api.github.com/repos/DNXLabs/terraform-aws-vpc-peering/tarball/0.3.1",
+            "zipball_url": "https://api.github.com/repos/DNXLabs/terraform-aws-vpc-peering/zipball/0.3.1"
+        },
+        {
+            "description": null,
+            "html_url": "https://github.com/DNXLabs/terraform-aws-billing-role/releases/tag/1.2.0",
+            "id": 24059466,
+            "name": "terraform-aws-billing-role",
+            "short_name": "terraform-aws-billing-role",
+            "tag_name": "1.2.0",
+            "tarball_url": "https://api.github.com/repos/DNXLabs/terraform-aws-billing-role/tarball/1.2.0",
+            "zipball_url": "https://api.github.com/repos/DNXLabs/terraform-aws-billing-role/zipball/1.2.0"
+        },
+        {
+            "description": "Terraform module to create a AWS Organization.",
+            "html_url": "https://github.com/DNXLabs/terraform-aws-organization/releases/tag/1.1.0",
+            "id": 24489778,
+            "name": "terraform-aws-organization",
+            "short_name": "terraform-aws-organization",
+            "tag_name": "1.1.0",
+            "tarball_url": "https://api.github.com/repos/DNXLabs/terraform-aws-organization/tarball/1.1.0",
+            "zipball_url": "https://api.github.com/repos/DNXLabs/terraform-aws-organization/zipball/1.1.0"
+        },
+        {
+            "description": null,
+            "html_url": "https://github.com/DNXLabs/terraform-aws-db-monitoring/releases/tag/1.1.1",
+            "id": 25027321,
+            "name": "terraform-aws-db-monitoring",
+            "short_name": "terraform-aws-db-monitoring",
+            "tag_name": "1.1.1",
+            "tarball_url": "https://api.github.com/repos/DNXLabs/terraform-aws-db-monitoring/tarball/1.1.1",
+            "zipball_url": "https://api.github.com/repos/DNXLabs/terraform-aws-db-monitoring/zipball/1.1.1"
+        },
+        {
+            "description": "Terraform module for setting up IDP authentication with GSuite SAML.",
+            "html_url": "https://github.com/DNXLabs/terraform-aws-idp-gsuite/releases/tag/1.3.0",
+            "id": 26113930,
+            "name": "terraform-aws-idp-gsuite",
+            "short_name": "terraform-aws-idp-gsuite",
+            "tag_name": "1.3.0",
+            "tarball_url": "https://api.github.com/repos/DNXLabs/terraform-aws-idp-gsuite/tarball/1.3.0",
+            "zipball_url": "https://api.github.com/repos/DNXLabs/terraform-aws-idp-gsuite/zipball/1.3.0"
+        },
+        {
+            "description": null,
+            "html_url": "https://github.com/DNXLabs/terraform-aws-sns/releases/tag/0.1.4",
+            "id": 24839139,
+            "name": "terraform-aws-sns",
+            "short_name": "terraform-aws-sns",
+            "tag_name": "0.1.4",
+            "tarball_url": "https://api.github.com/repos/DNXLabs/terraform-aws-sns/tarball/0.1.4",
+            "zipball_url": "https://api.github.com/repos/DNXLabs/terraform-aws-sns/zipball/0.1.4"
+        },
+        {
+            "description": "A terraform module to create hosted zones in AWS",
+            "html_url": "https://github.com/DNXLabs/terraform-aws-hostedzone/releases/tag/0.2.0",
+            "id": 23829516,
+            "name": "terraform-aws-hostedzone",
+            "short_name": "terraform-aws-hostedzone",
+            "tag_name": "0.2.0",
+            "tarball_url": "https://api.github.com/repos/DNXLabs/terraform-aws-hostedzone/tarball/0.2.0",
+            "zipball_url": "https://api.github.com/repos/DNXLabs/terraform-aws-hostedzone/zipball/0.2.0"
+        },
+        {
+            "description": "Terraform module for creating basic IAM roles for federated users",
+            "html_url": "https://github.com/DNXLabs/terraform-aws-account-security/releases/tag/1.3.0",
+            "id": 26363763,
+            "name": "terraform-aws-account-security",
+            "short_name": "terraform-aws-account-security",
+            "tag_name": "1.3.0",
+            "tarball_url": "https://api.github.com/repos/DNXLabs/terraform-aws-account-security/tarball/1.3.0",
+            "zipball_url": "https://api.github.com/repos/DNXLabs/terraform-aws-account-security/zipball/1.3.0"
+        },
+        {
+            "description": null,
+            "html_url": "https://github.com/DNXLabs/terraform-aws-lite-account-security/releases/tag/0.0.3",
+            "id": 19643099,
+            "name": "terraform-aws-lite-account-security",
+            "short_name": "terraform-aws-lite-account-security",
+            "tag_name": "0.0.3",
+            "tarball_url": "https://api.github.com/repos/DNXLabs/terraform-aws-lite-account-security/tarball/0.0.3",
+            "zipball_url": "https://api.github.com/repos/DNXLabs/terraform-aws-lite-account-security/zipball/0.0.3"
+        },
+        {
+            "description": null,
+            "html_url": "https://github.com/DNXLabs/terraform-aws-route53healthcheck/releases/tag/0.1.0",
+            "id": 19155981,
+            "name": "terraform-aws-route53healthcheck",
+            "short_name": "terraform-aws-route53healthcheck",
+            "tag_name": "0.1.0",
+            "tarball_url": "https://api.github.com/repos/DNXLabs/terraform-aws-route53healthcheck/tarball/0.1.0",
+            "zipball_url": "https://api.github.com/repos/DNXLabs/terraform-aws-route53healthcheck/zipball/0.1.0"
+        },
+        {
+            "description": null,
+            "html_url": "https://github.com/DNXLabs/terraform-aws-ecs-app-front/releases/tag/1.9.0",
+            "id": 27286081,
+            "name": "terraform-aws-ecs-app-front",
+            "short_name": "terraform-aws-ecs-app-front",
+            "tag_name": "1.9.0",
+            "tarball_url": "https://api.github.com/repos/DNXLabs/terraform-aws-ecs-app-front/tarball/1.9.0",
+            "zipball_url": "https://api.github.com/repos/DNXLabs/terraform-aws-ecs-app-front/zipball/1.9.0"
+        },
+        {
+            "description": null,
+            "html_url": "https://github.com/DNXLabs/terraform-aws-ecs-app-worker/releases/tag/1.2.0",
+            "id": 27095960,
+            "name": "terraform-aws-ecs-app-worker",
+            "short_name": "terraform-aws-ecs-app-worker",
+            "tag_name": "1.2.0",
+            "tarball_url": "https://api.github.com/repos/DNXLabs/terraform-aws-ecs-app-worker/tarball/1.2.0",
+            "zipball_url": "https://api.github.com/repos/DNXLabs/terraform-aws-ecs-app-worker/zipball/1.2.0"
+        },
+        {
+            "description": null,
+            "html_url": "https://github.com/DNXLabs/terraform-aws-audit/releases/tag/1.3.1",
+            "id": 25387248,
+            "name": "terraform-aws-audit",
+            "short_name": "terraform-aws-audit",
+            "tag_name": "1.3.1",
+            "tarball_url": "https://api.github.com/repos/DNXLabs/terraform-aws-audit/tarball/1.3.1",
+            "zipball_url": "https://api.github.com/repos/DNXLabs/terraform-aws-audit/zipball/1.3.1"
+        },
+        {
+            "description": null,
+            "html_url": "https://github.com/DNXLabs/terraform-aws-audit-root/releases/tag/1.0.3",
+            "id": 24555824,
+            "name": "terraform-aws-audit-root",
+            "short_name": "terraform-aws-audit-root",
+            "tag_name": "1.0.3",
+            "tarball_url": "https://api.github.com/repos/DNXLabs/terraform-aws-audit-root/tarball/1.0.3",
+            "zipball_url": "https://api.github.com/repos/DNXLabs/terraform-aws-audit-root/zipball/1.0.3"
+        },
+        {
+            "description": null,
+            "html_url": "https://github.com/DNXLabs/terraform-aws-audit-member/releases/tag/1.0.4",
+            "id": 26166960,
+            "name": "terraform-aws-audit-member",
+            "short_name": "terraform-aws-audit-member",
+            "tag_name": "1.0.4",
+            "tarball_url": "https://api.github.com/repos/DNXLabs/terraform-aws-audit-member/tarball/1.0.4",
+            "zipball_url": "https://api.github.com/repos/DNXLabs/terraform-aws-audit-member/zipball/1.0.4"
+        },
+        {
+            "description": null,
+            "html_url": "https://github.com/DNXLabs/terraform-aws-audit-buckets/releases/tag/1.1.0",
+            "id": 26256647,
+            "name": "terraform-aws-audit-buckets",
+            "short_name": "terraform-aws-audit-buckets",
+            "tag_name": "1.1.0",
+            "tarball_url": "https://api.github.com/repos/DNXLabs/terraform-aws-audit-buckets/tarball/1.1.0",
+            "zipball_url": "https://api.github.com/repos/DNXLabs/terraform-aws-audit-buckets/zipball/1.1.0"
+        },
+        {
+            "description": null,
+            "html_url": "https://github.com/DNXLabs/terraform-aws-log-exporter/releases/tag/1.0.1",
+            "id": 26166972,
+            "name": "terraform-aws-log-exporter",
+            "short_name": "terraform-aws-log-exporter",
+            "tag_name": "1.0.1",
+            "tarball_url": "https://api.github.com/repos/DNXLabs/terraform-aws-log-exporter/tarball/1.0.1",
+            "zipball_url": "https://api.github.com/repos/DNXLabs/terraform-aws-log-exporter/zipball/1.0.1"
+        },
+        {
+            "description": null,
+            "html_url": "https://github.com/DNXLabs/terraform-aws-rds-scheduler/releases/tag/1.0.2",
+            "id": 27357479,
+            "name": "terraform-aws-rds-scheduler",
+            "short_name": "terraform-aws-rds-scheduler",
+            "tag_name": "1.0.2",
+            "tarball_url": "https://api.github.com/repos/DNXLabs/terraform-aws-rds-scheduler/tarball/1.0.2",
+            "zipball_url": "https://api.github.com/repos/DNXLabs/terraform-aws-rds-scheduler/zipball/1.0.2"
+        },
+        {
+            "description": "Terraform module to set up AWS account with the secure baseline configuration based on CIS Amazon Web Services Foundations.",
+            "html_url": "https://github.com/DNXLabs/terraform-aws-security-baseline/releases/tag/1.1.0",
+            "id": 27051762,
+            "name": "terraform-aws-security-baseline",
+            "short_name": "terraform-aws-security-baseline",
+            "tag_name": "1.1.0",
+            "tarball_url": "https://api.github.com/repos/DNXLabs/terraform-aws-security-baseline/tarball/1.1.0",
+            "zipball_url": "https://api.github.com/repos/DNXLabs/terraform-aws-security-baseline/zipball/1.1.0"
+        }
+    ],
+    "tools": [
+        {
+            "description": "Docker image containing Terraform, AWS CLI and AWS Shell, to deploy infrastructure as code on AWS.",
+            "html_url": "https://github.com/DNXLabs/docker-terraform/releases/tag/0.13.0-beta1-dnx1",
+            "id": 27208715,
+            "name": "docker-terraform",
+            "short_name": "docker-terraform",
+            "tag_name": "0.13.0-beta1-dnx1",
+            "tarball_url": "https://api.github.com/repos/DNXLabs/docker-terraform/tarball/0.13.0-beta1-dnx1",
+            "zipball_url": "https://api.github.com/repos/DNXLabs/docker-terraform/zipball/0.13.0-beta1-dnx1"
+        },
+        {
+            "description": "Docker image containing AWS CLI, AWS Shell, and some scripts to ease AWS deployments.",
+            "html_url": "https://github.com/DNXLabs/docker-aws/releases/tag/2.0.22-dnx1",
+            "id": 27538416,
+            "name": "docker-aws",
+            "short_name": "docker-aws",
+            "tag_name": "2.0.22-dnx1",
+            "tarball_url": "https://api.github.com/repos/DNXLabs/docker-aws/tarball/2.0.22-dnx1",
+            "zipball_url": "https://api.github.com/repos/DNXLabs/docker-aws/zipball/2.0.22-dnx1"
+        },
+        {
+            "description": "Docker image containing Kubernetes CLI tool (Kubectl), AWS CLI and AWS Shell, to control any k8s cluster.",
+            "html_url": "https://github.com/DNXLabs/docker-kubectl/releases/tag/1.18.0-dnx1",
+            "id": 27538236,
+            "name": "docker-kubectl",
+            "short_name": "docker-kubectl",
+            "tag_name": "1.18.0-dnx1",
+            "tarball_url": "https://api.github.com/repos/DNXLabs/docker-kubectl/tarball/1.18.0-dnx1",
+            "zipball_url": "https://api.github.com/repos/DNXLabs/docker-kubectl/zipball/1.18.0-dnx1"
+        },
+        {
+            "description": "This container is used to perform AWS SSO using Azure AD.",
+            "html_url": "https://github.com/DNXLabs/docker-aws-azure-ad/releases/tag/1.0.0",
+            "id": 25526617,
+            "name": "docker-aws-azure-ad",
+            "short_name": "docker-aws-azure-ad",
+            "tag_name": "1.0.0",
+            "tarball_url": "https://api.github.com/repos/DNXLabs/docker-aws-azure-ad/tarball/1.0.0",
+            "zipball_url": "https://api.github.com/repos/DNXLabs/docker-aws-azure-ad/zipball/1.0.0"
+        },
+        {
+            "description": "Docker image of Python 3 containing NodeJS, NPM and Serverless Framework.",
+            "html_url": "https://github.com/DNXLabs/docker-serverless-python/releases/tag/dnx2",
+            "id": 27577627,
+            "name": "docker-serverless-python",
+            "short_name": "docker-serverless-python",
+            "tag_name": "dnx2",
+            "tarball_url": "https://api.github.com/repos/DNXLabs/docker-serverless-python/tarball/dnx2",
+            "zipball_url": "https://api.github.com/repos/DNXLabs/docker-serverless-python/zipball/dnx2"
+        },
+        {
+            "description": "Provides AWS STS credentials based on Google Apps SAML SSO auth (what a jumble!)",
+            "html_url": "https://github.com/DNXLabs/aws-google-auth/releases/tag/0.0.34-dnx2",
+            "id": 25909057,
+            "name": "aws-google-auth",
+            "short_name": "aws-google-auth",
+            "tag_name": "0.0.34-dnx2",
+            "tarball_url": "https://api.github.com/repos/DNXLabs/aws-google-auth/tarball/0.0.34-dnx2",
+            "zipball_url": "https://api.github.com/repos/DNXLabs/aws-google-auth/zipball/0.0.34-dnx2"
+        }
+    ]
+}
