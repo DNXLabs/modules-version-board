@@ -8,7 +8,13 @@
         <div class="col-md-6 mb-4" style="min-height: 285px">
             <div class="card box-shadow shadow-sm h-100">
                 <div class="card-body d-flex flex-column">
-                    <h5 class="card-title">{{ cli.name }}</h5>
+                    <div class="card-title d-flex justify-content-between">
+                        <h5 style="margin-bottom: 0rem">{{ cli.name }}</h5>
+                        <div>
+                            <button class="btn btn-link" style="padding: 0;" data-toggle="modal" data-docs-url="https://dnxlabs.github.io/{{ cli.name }}" data-target=".docs-modal"><i class="fa fa-file-text-o"></i></button>
+                            <a class="btn btn-link" style="padding: 0; margin-left: 5px;" href="https://github.com/DNXLabs/{{ cli.name }}"><i class="fa fa-external-link"></i></a>
+                        </div>
+                    </div>
                     <p>
                         <a href="https://github.com/DNXLabs/{{ cli.name }}/actions">
                             <img src="https://github.com/DNXLabs/{{ cli.name }}/workflows/Build/badge.svg" alt="Build">
@@ -41,7 +47,13 @@
         <div class="col-md-6 mb-4" style="min-height: 285px">
             <div class="card box-shadow shadow-sm h-100">
                 <div class="card-body d-flex flex-column">
-                    <h5 class="card-title">{{ tool.name }}</h5>
+                    <div class="card-title d-flex justify-content-between">
+                        <h5 style="margin-bottom: 0rem">{{ tool.name }}</h5>
+                        <div>
+                            <button class="btn btn-link" style="padding: 0;" data-toggle="modal" data-docs-url="https://dnxlabs.github.io/{{ tool.name }}" data-target=".docs-modal"><i class="fa fa-file-text-o"></i></button>
+                            <a class="btn btn-link" style="padding: 0; margin-left: 5px;" href="https://github.com/DNXLabs/{{ tool.name }}"><i class="fa fa-external-link"></i></a>
+                        </div>
+                    </div>
                     <p>
                         <a href="https://github.com/DNXLabs/{{ tool.name }}/actions">
                             <img src="https://github.com/DNXLabs/{{ tool.name }}/workflows/Security/badge.svg" alt="Security Status">
@@ -75,12 +87,15 @@
     <div class="dropdown-divider pb-3"></div>
     <div class="row">
         {% for module in modules %}
-        <div class="col-md-4 mb-4" style="min-height: 285px">
+        <div class="col-md-6 mb-4" style="min-height: 285px">
             <div class="card box-shadow shadow-sm h-100">
                 <div class="card-body d-flex flex-column">
                     <div class="card-title d-flex justify-content-between">
                         <h5 style="margin-bottom: 0rem">{{ module.name }}</h5>
-                        <button class="btn btn-link" style="padding: 0;" data-toggle="modal" data-docs-url="https://dnxlabs.github.io/{{ module.name }}" data-target=".docs-modal"><i class="fa fa-file-text-o"></i></button>
+                        <div>
+                            <button class="btn btn-link" style="padding: 0;" data-toggle="modal" data-docs-url="https://dnxlabs.github.io/{{ module.name }}" data-target=".docs-modal"><i class="fa fa-file-text-o"></i></button>
+                            <a class="btn btn-link" style="padding: 0; margin-left: 5px;" href="https://github.com/DNXLabs/{{ module.name }}"><i class="fa fa-external-link"></i></a>
+                        </div>
                     </div>
                     <p>
                         <a href="https://github.com/DNXLabs/{{ module.name }}/actions">
