@@ -34,13 +34,13 @@
         },
         {
             "description": "AWS ECS Application Module.",
-            "html_url": "https://github.com/DNXLabs/terraform-aws-ecs-app/releases/tag/4.4.0",
-            "id": 27286069,
+            "html_url": "https://github.com/DNXLabs/terraform-aws-ecs-app/releases/tag/4.4.1",
+            "id": 27622356,
             "name": "terraform-aws-ecs-app",
             "short_name": "terraform-aws-ecs-app",
-            "tag_name": "4.4.0",
-            "tarball_url": "https://api.github.com/repos/DNXLabs/terraform-aws-ecs-app/tarball/4.4.0",
-            "zipball_url": "https://api.github.com/repos/DNXLabs/terraform-aws-ecs-app/zipball/4.4.0"
+            "tag_name": "4.4.1",
+            "tarball_url": "https://api.github.com/repos/DNXLabs/terraform-aws-ecs-app/tarball/4.4.1",
+            "zipball_url": "https://api.github.com/repos/DNXLabs/terraform-aws-ecs-app/zipball/4.4.1"
         },
         {
             "description": "Terraform module for creating basic network resources: VPC, subnets and NAT.",
