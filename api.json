@@ -54,13 +54,13 @@
         },
         {
             "description": "Terraform module for AWS GitLab Runners on Spot Instances.",
-            "html_url": "https://github.com/DNXLabs/terraform-aws-gitlab-runner/releases/tag/3.4.0-dnx2",
-            "id": 23795479,
+            "html_url": "https://github.com/DNXLabs/terraform-aws-gitlab-runner/releases/tag/4.18.0-dnx1",
+            "id": 27665433,
             "name": "terraform-aws-gitlab-runner",
             "short_name": "terraform-aws-gitlab-runner",
-            "tag_name": "3.4.0-dnx2",
-            "tarball_url": "https://api.github.com/repos/DNXLabs/terraform-aws-gitlab-runner/tarball/3.4.0-dnx2",
-            "zipball_url": "https://api.github.com/repos/DNXLabs/terraform-aws-gitlab-runner/zipball/3.4.0-dnx2"
+            "tag_name": "4.18.0-dnx1",
+            "tarball_url": "https://api.github.com/repos/DNXLabs/terraform-aws-gitlab-runner/tarball/4.18.0-dnx1",
+            "zipball_url": "https://api.github.com/repos/DNXLabs/terraform-aws-gitlab-runner/zipball/4.18.0-dnx1"
         },
         {
             "description": null,
