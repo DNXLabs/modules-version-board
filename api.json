@@ -12,13 +12,13 @@
         },
         {
             "description": "CLI to manage all stacks from DNX.",
-            "html_url": "https://github.com/DNXLabs/one-cli/releases/tag/0.4.4",
-            "id": 27798984,
+            "html_url": "https://github.com/DNXLabs/one-cli/releases/tag/0.4.5",
+            "id": 27850318,
             "name": "one-cli",
             "short_name": "one-cli",
-            "tag_name": "0.4.4",
-            "tarball_url": "https://api.github.com/repos/DNXLabs/one-cli/tarball/0.4.4",
-            "zipball_url": "https://api.github.com/repos/DNXLabs/one-cli/zipball/0.4.4"
+            "tag_name": "0.4.5",
+            "tarball_url": "https://api.github.com/repos/DNXLabs/one-cli/tarball/0.4.5",
+            "zipball_url": "https://api.github.com/repos/DNXLabs/one-cli/zipball/0.4.5"
         }
     ],
     "modules": [
