@@ -366,13 +366,13 @@
         },
         {
             "description": "Docker image of Python 3 containing NodeJS, NPM and Serverless Framework.",
-            "html_url": "https://github.com/DNXLabs/docker-serverless-python/releases/tag/dnx2.1",
-            "id": 27721889,
+            "html_url": "https://github.com/DNXLabs/docker-serverless-python/releases/tag/dnx2.2",
+            "id": 27907418,
             "name": "docker-serverless-python",
             "short_name": "docker-serverless-python",
-            "tag_name": "dnx2.1",
-            "tarball_url": "https://api.github.com/repos/DNXLabs/docker-serverless-python/tarball/dnx2.1",
-            "zipball_url": "https://api.github.com/repos/DNXLabs/docker-serverless-python/zipball/dnx2.1"
+            "tag_name": "dnx2.2",
+            "tarball_url": "https://api.github.com/repos/DNXLabs/docker-serverless-python/tarball/dnx2.2",
+            "zipball_url": "https://api.github.com/repos/DNXLabs/docker-serverless-python/zipball/dnx2.2"
         },
         {
             "description": "Provides AWS STS credentials based on Google Apps SAML SSO auth (what a jumble!)",
