@@ -204,13 +204,13 @@
         },
         {
             "description": "Terraform module for creating basic IAM roles for federated users",
-            "html_url": "https://github.com/DNXLabs/terraform-aws-account-security/releases/tag/1.3.0",
-            "id": 26363763,
+            "html_url": "https://github.com/DNXLabs/terraform-aws-account-security/releases/tag/1.4.0",
+            "id": 27980225,
             "name": "terraform-aws-account-security",
             "short_name": "terraform-aws-account-security",
-            "tag_name": "1.3.0",
-            "tarball_url": "https://api.github.com/repos/DNXLabs/terraform-aws-account-security/tarball/1.3.0",
-            "zipball_url": "https://api.github.com/repos/DNXLabs/terraform-aws-account-security/zipball/1.3.0"
+            "tag_name": "1.4.0",
+            "tarball_url": "https://api.github.com/repos/DNXLabs/terraform-aws-account-security/tarball/1.4.0",
+            "zipball_url": "https://api.github.com/repos/DNXLabs/terraform-aws-account-security/zipball/1.4.0"
         },
         {
             "description": null,
