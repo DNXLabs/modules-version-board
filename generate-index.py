@@ -65,8 +65,18 @@ with open(filename, 'w') as fh:
 
 api_filename = 'api.json'
 api_data = {}
-api_data['clis'] = clis
-api_data['tools'] = tools
-api_data['modules'] = modules
+api_data['clis'] = {}
+api_data['tools'] = {}
+api_data['modules'] = {}
+
+for cli in clis:
+    api_data['clis'][cli['name']] = cli
+
+for tool in tools:
+    api_data['tools'][tool['name']] = tool
+
+for module in modules:
+    api_data['modules'][module['name']] = module
+
 with open(api_filename, 'w') as outfile:
     outfile.write(json.dumps(api_data, sort_keys=True, indent=4))
