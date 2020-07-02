@@ -314,25 +314,25 @@
         },
         {
             "description": "Terraform module to set up AWS account with the secure baseline configuration based on CIS Amazon Web Services Foundations.",
-            "html_url": "https://github.com/DNXLabs/terraform-aws-security-baseline/releases/tag/1.1.0",
-            "id": 27051762,
+            "html_url": "https://github.com/DNXLabs/terraform-aws-security-baseline/releases/tag/1.1.1",
+            "id": 28133928,
             "name": "terraform-aws-security-baseline",
             "short_name": "terraform-aws-security-baseline",
-            "tag_name": "1.1.0",
-            "tarball_url": "https://api.github.com/repos/DNXLabs/terraform-aws-security-baseline/tarball/1.1.0",
-            "zipball_url": "https://api.github.com/repos/DNXLabs/terraform-aws-security-baseline/zipball/1.1.0"
+            "tag_name": "1.1.1",
+            "tarball_url": "https://api.github.com/repos/DNXLabs/terraform-aws-security-baseline/tarball/1.1.1",
+            "zipball_url": "https://api.github.com/repos/DNXLabs/terraform-aws-security-baseline/zipball/1.1.1"
         }
     ],
     "tools": [
         {
             "description": "Docker image containing Terraform, AWS CLI and AWS Shell, to deploy infrastructure as code on AWS.",
-            "html_url": "https://github.com/DNXLabs/docker-terraform/releases/tag/0.13.0-beta2-dnx1",
-            "id": 27770550,
+            "html_url": "https://github.com/DNXLabs/docker-terraform/releases/tag/0.12.24-dnx1",
+            "id": 24871846,
             "name": "docker-terraform",
             "short_name": "docker-terraform",
-            "tag_name": "0.13.0-beta2-dnx1",
-            "tarball_url": "https://api.github.com/repos/DNXLabs/docker-terraform/tarball/0.13.0-beta2-dnx1",
-            "zipball_url": "https://api.github.com/repos/DNXLabs/docker-terraform/zipball/0.13.0-beta2-dnx1"
+            "tag_name": "0.12.24-dnx1",
+            "tarball_url": "https://api.github.com/repos/DNXLabs/docker-terraform/tarball/0.12.24-dnx1",
+            "zipball_url": "https://api.github.com/repos/DNXLabs/docker-terraform/zipball/0.12.24-dnx1"
         },
         {
             "description": "Docker image containing AWS CLI, AWS Shell, and some scripts to ease AWS deployments.",
