@@ -44,6 +44,7 @@
         "terraform-aws-audit-buckets",
         "terraform-aws-log-exporter",
         "terraform-aws-rds-scheduler",
-        "terraform-aws-security-baseline"
+        "terraform-aws-security-baseline",
+        "terraform-aws-kinesis-stream-es"
     ]
 }
