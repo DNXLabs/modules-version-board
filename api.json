@@ -134,23 +134,23 @@
         },
         "terraform-aws-ecs": {
             "description": "This module creates an ECS cluster.",
-            "html_url": "https://github.com/DNXLabs/terraform-aws-ecs/releases/tag/4.3.2",
-            "id": 28187235,
+            "html_url": "https://github.com/DNXLabs/terraform-aws-ecs/releases/tag/4.4.0",
+            "id": 28899879,
             "name": "terraform-aws-ecs",
             "short_name": "terraform-aws-ecs",
-            "tag_name": "4.3.2",
-            "tarball_url": "https://api.github.com/repos/DNXLabs/terraform-aws-ecs/tarball/4.3.2",
-            "zipball_url": "https://api.github.com/repos/DNXLabs/terraform-aws-ecs/zipball/4.3.2"
+            "tag_name": "4.4.0",
+            "tarball_url": "https://api.github.com/repos/DNXLabs/terraform-aws-ecs/tarball/4.4.0",
+            "zipball_url": "https://api.github.com/repos/DNXLabs/terraform-aws-ecs/zipball/4.4.0"
         },
         "terraform-aws-ecs-app": {
             "description": "AWS ECS Application Module.",
-            "html_url": "https://github.com/DNXLabs/terraform-aws-ecs-app/releases/tag/4.7.0",
-            "id": 28806428,
+            "html_url": "https://github.com/DNXLabs/terraform-aws-ecs-app/releases/tag/4.8.0",
+            "id": 28896222,
             "name": "terraform-aws-ecs-app",
             "short_name": "terraform-aws-ecs-app",
-            "tag_name": "4.7.0",
-            "tarball_url": "https://api.github.com/repos/DNXLabs/terraform-aws-ecs-app/tarball/4.7.0",
-            "zipball_url": "https://api.github.com/repos/DNXLabs/terraform-aws-ecs-app/zipball/4.7.0"
+            "tag_name": "4.8.0",
+            "tarball_url": "https://api.github.com/repos/DNXLabs/terraform-aws-ecs-app/tarball/4.8.0",
+            "zipball_url": "https://api.github.com/repos/DNXLabs/terraform-aws-ecs-app/zipball/4.8.0"
         },
         "terraform-aws-ecs-app-front": {
             "description": null,
@@ -204,13 +204,13 @@
         },
         "terraform-aws-kinesis-stream-es": {
             "description": null,
-            "html_url": "https://github.com/DNXLabs/terraform-aws-kinesis-stream-es/releases/tag/0.2.0",
-            "id": 28809667,
+            "html_url": "https://github.com/DNXLabs/terraform-aws-kinesis-stream-es/releases/tag/0.3.1",
+            "id": 28896610,
             "name": "terraform-aws-kinesis-stream-es",
             "short_name": "terraform-aws-kinesis-stream-es",
-            "tag_name": "0.2.0",
-            "tarball_url": "https://api.github.com/repos/DNXLabs/terraform-aws-kinesis-stream-es/tarball/0.2.0",
-            "zipball_url": "https://api.github.com/repos/DNXLabs/terraform-aws-kinesis-stream-es/zipball/0.2.0"
+            "tag_name": "0.3.1",
+            "tarball_url": "https://api.github.com/repos/DNXLabs/terraform-aws-kinesis-stream-es/tarball/0.3.1",
+            "zipball_url": "https://api.github.com/repos/DNXLabs/terraform-aws-kinesis-stream-es/zipball/0.3.1"
         },
         "terraform-aws-lite-account-security": {
             "description": null,
