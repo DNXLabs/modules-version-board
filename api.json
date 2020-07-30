@@ -144,13 +144,13 @@
         },
         "terraform-aws-ecs-app": {
             "description": "AWS ECS Application Module.",
-            "html_url": "https://github.com/DNXLabs/terraform-aws-ecs-app/releases/tag/4.8.0",
-            "id": 28896222,
+            "html_url": "https://github.com/DNXLabs/terraform-aws-ecs-app/releases/tag/4.8.2",
+            "id": 29068018,
             "name": "terraform-aws-ecs-app",
             "short_name": "terraform-aws-ecs-app",
-            "tag_name": "4.8.0",
-            "tarball_url": "https://api.github.com/repos/DNXLabs/terraform-aws-ecs-app/tarball/4.8.0",
-            "zipball_url": "https://api.github.com/repos/DNXLabs/terraform-aws-ecs-app/zipball/4.8.0"
+            "tag_name": "4.8.2",
+            "tarball_url": "https://api.github.com/repos/DNXLabs/terraform-aws-ecs-app/tarball/4.8.2",
+            "zipball_url": "https://api.github.com/repos/DNXLabs/terraform-aws-ecs-app/zipball/4.8.2"
         },
         "terraform-aws-ecs-app-front": {
             "description": null,
@@ -204,13 +204,13 @@
         },
         "terraform-aws-kinesis-stream-es": {
             "description": null,
-            "html_url": "https://github.com/DNXLabs/terraform-aws-kinesis-stream-es/releases/tag/0.3.2",
-            "id": 29013317,
+            "html_url": "https://github.com/DNXLabs/terraform-aws-kinesis-stream-es/releases/tag/0.4.0",
+            "id": 29095013,
             "name": "terraform-aws-kinesis-stream-es",
             "short_name": "terraform-aws-kinesis-stream-es",
-            "tag_name": "0.3.2",
-            "tarball_url": "https://api.github.com/repos/DNXLabs/terraform-aws-kinesis-stream-es/tarball/0.3.2",
-            "zipball_url": "https://api.github.com/repos/DNXLabs/terraform-aws-kinesis-stream-es/zipball/0.3.2"
+            "tag_name": "0.4.0",
+            "tarball_url": "https://api.github.com/repos/DNXLabs/terraform-aws-kinesis-stream-es/tarball/0.4.0",
+            "zipball_url": "https://api.github.com/repos/DNXLabs/terraform-aws-kinesis-stream-es/zipball/0.4.0"
         },
         "terraform-aws-lite-account-security": {
             "description": null,
