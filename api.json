@@ -84,13 +84,13 @@
         },
         "terraform-aws-backend": {
             "description": null,
-            "html_url": "https://github.com/DNXLabs/terraform-aws-backend/releases/tag/1.1.0",
-            "id": 24157036,
+            "html_url": "https://github.com/DNXLabs/terraform-aws-backend/releases/tag/1.1.1",
+            "id": 29217099,
             "name": "terraform-aws-backend",
             "short_name": "terraform-aws-backend",
-            "tag_name": "1.1.0",
-            "tarball_url": "https://api.github.com/repos/DNXLabs/terraform-aws-backend/tarball/1.1.0",
-            "zipball_url": "https://api.github.com/repos/DNXLabs/terraform-aws-backend/zipball/1.1.0"
+            "tag_name": "1.1.1",
+            "tarball_url": "https://api.github.com/repos/DNXLabs/terraform-aws-backend/tarball/1.1.1",
+            "zipball_url": "https://api.github.com/repos/DNXLabs/terraform-aws-backend/zipball/1.1.1"
         },
         "terraform-aws-billing-role": {
             "description": null,
