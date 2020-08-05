@@ -144,13 +144,13 @@
         },
         "terraform-aws-ecs-app": {
             "description": "AWS ECS Application Module.",
-            "html_url": "https://github.com/DNXLabs/terraform-aws-ecs-app/releases/tag/4.8.3",
-            "id": 29097601,
+            "html_url": "https://github.com/DNXLabs/terraform-aws-ecs-app/releases/tag/4.9.0",
+            "id": 29262789,
             "name": "terraform-aws-ecs-app",
             "short_name": "terraform-aws-ecs-app",
-            "tag_name": "4.8.3",
-            "tarball_url": "https://api.github.com/repos/DNXLabs/terraform-aws-ecs-app/tarball/4.8.3",
-            "zipball_url": "https://api.github.com/repos/DNXLabs/terraform-aws-ecs-app/zipball/4.8.3"
+            "tag_name": "4.9.0",
+            "tarball_url": "https://api.github.com/repos/DNXLabs/terraform-aws-ecs-app/tarball/4.9.0",
+            "zipball_url": "https://api.github.com/repos/DNXLabs/terraform-aws-ecs-app/zipball/4.9.0"
         },
         "terraform-aws-ecs-app-front": {
             "description": null,
