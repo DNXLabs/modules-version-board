@@ -346,13 +346,13 @@
         },
         "docker-aws": {
             "description": "Docker image containing AWS CLI, AWS Shell, and some scripts to ease AWS deployments.",
-            "html_url": "https://github.com/DNXLabs/docker-aws/releases/tag/2.0.22-dnx1",
-            "id": 27538416,
+            "html_url": "https://github.com/DNXLabs/docker-aws/releases/tag/2.0.37-dnx1",
+            "id": 29390863,
             "name": "docker-aws",
             "short_name": "docker-aws",
-            "tag_name": "2.0.22-dnx1",
-            "tarball_url": "https://api.github.com/repos/DNXLabs/docker-aws/tarball/2.0.22-dnx1",
-            "zipball_url": "https://api.github.com/repos/DNXLabs/docker-aws/zipball/2.0.22-dnx1"
+            "tag_name": "2.0.37-dnx1",
+            "tarball_url": "https://api.github.com/repos/DNXLabs/docker-aws/tarball/2.0.37-dnx1",
+            "zipball_url": "https://api.github.com/repos/DNXLabs/docker-aws/zipball/2.0.37-dnx1"
         },
         "docker-aws-azure-ad": {
             "description": "This container is used to perform AWS SSO using Azure AD.",
