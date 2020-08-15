@@ -1,7 +1,8 @@
 {
     "clis": [
         "izi",
-        "one-cli"
+        "one-cli",
+        "ssm-loader"
     ],
     "tools": [
         "docker-terraform",
@@ -14,6 +15,10 @@
     "modules": [
         "terraform-aws-ecs",
         "terraform-aws-ecs-app",
+        "terraform-aws-ecs-app-front",
+        "terraform-aws-ecs-app-nlb",
+        "terraform-aws-ecs-app-worker",
+        "terraform-aws-ecs-app-scheduler",
         "terraform-aws-network",
         "terraform-aws-gitlab-runner",
         "terraform-aws-client-vpn",
@@ -35,9 +40,6 @@
         "terraform-aws-account-security",
         "terraform-aws-lite-account-security",
         "terraform-aws-route53healthcheck",
-        "terraform-aws-ecs-app-front",
-        "terraform-aws-ecs-app-nlb",
-        "terraform-aws-ecs-app-worker",
         "terraform-aws-audit",
         "terraform-aws-audit-root",
         "terraform-aws-audit-member",
@@ -45,6 +47,11 @@
         "terraform-aws-log-exporter",
         "terraform-aws-rds-scheduler",
         "terraform-aws-security-baseline",
-        "terraform-aws-kinesis-stream-es"
+        "terraform-aws-kinesis-stream-es",
+        "terraform-aws-account-identity",
+        "terraform-aws-eb-windows",
+        "terraform-aws-eks",
+        "terraform-aws-chatbot",
+        "terraform-aws-backup"
     ]
 }
