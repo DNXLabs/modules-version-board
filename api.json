@@ -19,6 +19,16 @@
             "tag_name": "0.5.1",
             "tarball_url": "https://api.github.com/repos/DNXLabs/one-cli/tarball/0.5.1",
             "zipball_url": "https://api.github.com/repos/DNXLabs/one-cli/zipball/0.5.1"
+        },
+        "ssm-loader": {
+            "description": null,
+            "html_url": "https://github.com/DNXLabs/ssm-loader/releases/tag/0.2.3",
+            "id": 29526247,
+            "name": "ssm-loader",
+            "short_name": "ssm-loader",
+            "tag_name": "0.2.3",
+            "tarball_url": "https://api.github.com/repos/DNXLabs/ssm-loader/tarball/0.2.3",
+            "zipball_url": "https://api.github.com/repos/DNXLabs/ssm-loader/zipball/0.2.3"
         }
     },
     "modules": {
@@ -33,7 +43,7 @@
             "zipball_url": "https://api.github.com/repos/DNXLabs/terraform-aws-account/zipball/0.1.1"
         },
         "terraform-aws-account-security": {
-            "description": "Terraform module for creating basic IAM roles for federated users",
+            "description": "This terraform module creates IAM roles for federated users to assume from an IdP account.",
             "html_url": "https://github.com/DNXLabs/terraform-aws-account-security/releases/tag/1.4.0",
             "id": 27980225,
             "name": "terraform-aws-account-security",
@@ -92,6 +102,16 @@
             "tarball_url": "https://api.github.com/repos/DNXLabs/terraform-aws-backend/tarball/1.1.1",
             "zipball_url": "https://api.github.com/repos/DNXLabs/terraform-aws-backend/zipball/1.1.1"
         },
+        "terraform-aws-backup": {
+            "description": "Terraform module to automate the backup of data across AWS services using a resource tag.",
+            "html_url": "https://github.com/DNXLabs/terraform-aws-backup/releases/tag/1.0.0",
+            "id": 28186896,
+            "name": "terraform-aws-backup",
+            "short_name": "terraform-aws-backup",
+            "tag_name": "1.0.0",
+            "tarball_url": "https://api.github.com/repos/DNXLabs/terraform-aws-backup/tarball/1.0.0",
+            "zipball_url": "https://api.github.com/repos/DNXLabs/terraform-aws-backup/zipball/1.0.0"
+        },
         "terraform-aws-billing-role": {
             "description": "This terraform module creates an Identity Access Management (IAM) role that allows an Identity Providers and Federation (IDP) account to assume billing functions.",
             "html_url": "https://github.com/DNXLabs/terraform-aws-billing-role/releases/tag/1.2.0",
@@ -101,6 +121,16 @@
             "tag_name": "1.2.0",
             "tarball_url": "https://api.github.com/repos/DNXLabs/terraform-aws-billing-role/tarball/1.2.0",
             "zipball_url": "https://api.github.com/repos/DNXLabs/terraform-aws-billing-role/zipball/1.2.0"
+        },
+        "terraform-aws-chatbot": {
+            "description": "Utility Module to create AWS Chatbot and its dependencies.",
+            "html_url": "https://github.com/DNXLabs/terraform-aws-chatbot/releases/tag/0.1.1",
+            "id": 25887338,
+            "name": "terraform-aws-chatbot",
+            "short_name": "terraform-aws-chatbot",
+            "tag_name": "0.1.1",
+            "tarball_url": "https://api.github.com/repos/DNXLabs/terraform-aws-chatbot/tarball/0.1.1",
+            "zipball_url": "https://api.github.com/repos/DNXLabs/terraform-aws-chatbot/zipball/0.1.1"
         },
         "terraform-aws-client-vpn": {
             "description": "This terraform module installs a client VPN.",
@@ -122,6 +152,16 @@
             "tarball_url": "https://api.github.com/repos/DNXLabs/terraform-aws-db-monitoring/tarball/1.1.1",
             "zipball_url": "https://api.github.com/repos/DNXLabs/terraform-aws-db-monitoring/zipball/1.1.1"
         },
+        "terraform-aws-eb-windows": {
+            "description": "This terraform module provides an Windows Elastic Beanstalk Application Resource.",
+            "html_url": "https://github.com/DNXLabs/terraform-aws-eb-windows/releases/tag/0.6.0",
+            "id": 28894668,
+            "name": "terraform-aws-eb-windows",
+            "short_name": "terraform-aws-eb-windows",
+            "tag_name": "0.6.0",
+            "tarball_url": "https://api.github.com/repos/DNXLabs/terraform-aws-eb-windows/tarball/0.6.0",
+            "zipball_url": "https://api.github.com/repos/DNXLabs/terraform-aws-eb-windows/zipball/0.6.0"
+        },
         "terraform-aws-ecr": {
             "description": "This terraform module creates an Amazon Web Services (AWS) Elastic Container Registry (ECR) repository.",
             "html_url": "https://github.com/DNXLabs/terraform-aws-ecr/releases/tag/0.3.1",
@@ -133,7 +173,7 @@
             "zipball_url": "https://api.github.com/repos/DNXLabs/terraform-aws-ecr/zipball/0.3.1"
         },
         "terraform-aws-ecs": {
-            "description": "This module creates an ECS cluster.",
+            "description": "This terraform module builds an Elastic Container Service(ECS) Cluster in AWS.",
             "html_url": "https://github.com/DNXLabs/terraform-aws-ecs/releases/tag/4.4.0",
             "id": 28899879,
             "name": "terraform-aws-ecs",
@@ -143,7 +183,7 @@
             "zipball_url": "https://api.github.com/repos/DNXLabs/terraform-aws-ecs/zipball/4.4.0"
         },
         "terraform-aws-ecs-app": {
-            "description": "AWS ECS Application Module.",
+            "description": "This terraform module is an AWS ECS Application Module for Scheduler without an Application Load Balancer(ALB).",
             "html_url": "https://github.com/DNXLabs/terraform-aws-ecs-app/releases/tag/4.9.0",
             "id": 29262789,
             "name": "terraform-aws-ecs-app",
@@ -161,6 +201,16 @@
             "tag_name": "1.9.0",
             "tarball_url": "https://api.github.com/repos/DNXLabs/terraform-aws-ecs-app-front/tarball/1.9.0",
             "zipball_url": "https://api.github.com/repos/DNXLabs/terraform-aws-ecs-app-front/zipball/1.9.0"
+        },
+        "terraform-aws-ecs-app-scheduler": {
+            "description": "This terraform module is an AWS ECS Application Module for Scheduler without an Application Load Balancer(ALB).",
+            "html_url": "https://github.com/DNXLabs/terraform-aws-ecs-app-scheduler/releases/tag/0.0.2",
+            "id": 29340654,
+            "name": "terraform-aws-ecs-app-scheduler",
+            "short_name": "terraform-aws-ecs-app-scheduler",
+            "tag_name": "0.0.2",
+            "tarball_url": "https://api.github.com/repos/DNXLabs/terraform-aws-ecs-app-scheduler/tarball/0.0.2",
+            "zipball_url": "https://api.github.com/repos/DNXLabs/terraform-aws-ecs-app-scheduler/zipball/0.0.2"
         },
         "terraform-aws-ecs-app-worker": {
             "description": "This terraform module is an AWS ECS Application Module for Workers without Application Load Balancer (ALB).",
@@ -183,7 +233,7 @@
             "zipball_url": "https://api.github.com/repos/DNXLabs/terraform-aws-gitlab-runner/zipball/4.18.0-dnx1"
         },
         "terraform-aws-hostedzone": {
-            "description": "A terraform module to create hosted zones in AWS",
+            "description": "This terraform module creates hosted zones in AWS.",
             "html_url": "https://github.com/DNXLabs/terraform-aws-hostedzone/releases/tag/0.2.0",
             "id": 23829516,
             "name": "terraform-aws-hostedzone",
@@ -203,7 +253,7 @@
             "zipball_url": "https://api.github.com/repos/DNXLabs/terraform-aws-idp-gsuite/zipball/1.3.0"
         },
         "terraform-aws-kinesis-stream-es": {
-            "description": "This terraform module can load [streaming data](https://aws.amazon.com/streaming-data/) into your Amazon Elasticsearch Service domain from Amazon Kinesis Data Firehose and Amazon CloudWatch Logs.",
+            "description": "This terraform module can load streaming data into your Amazon Elasticsearch Service domain from Amazon Kinesis Data Firehose and Amazon CloudWatch Logs.",
             "html_url": "https://github.com/DNXLabs/terraform-aws-kinesis-stream-es/releases/tag/0.4.2",
             "id": 29678695,
             "name": "terraform-aws-kinesis-stream-es",
@@ -313,7 +363,7 @@
             "zipball_url": "https://api.github.com/repos/DNXLabs/terraform-aws-static-app/zipball/1.4.0"
         },
         "terraform-aws-vpc-peering": {
-            "description": null,
+            "description": "This terraform module provide resources to manage Virtual Private Cloud (VPC) peering connections.",
             "html_url": "https://github.com/DNXLabs/terraform-aws-vpc-peering/releases/tag/0.3.1",
             "id": 24237141,
             "name": "terraform-aws-vpc-peering",
