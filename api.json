@@ -43,7 +43,7 @@
             "zipball_url": "https://api.github.com/repos/DNXLabs/terraform-aws-account-security/zipball/1.4.0"
         },
         "terraform-aws-audit": {
-            "description": null,
+            "description": "This terraform module creates buckets that save cloudtrail and guardduty logs from all accounts.",
             "html_url": "https://github.com/DNXLabs/terraform-aws-audit/releases/tag/1.3.1",
             "id": 25387248,
             "name": "terraform-aws-audit",
@@ -53,7 +53,7 @@
             "zipball_url": "https://api.github.com/repos/DNXLabs/terraform-aws-audit/zipball/1.3.1"
         },
         "terraform-aws-audit-buckets": {
-            "description": null,
+            "description": "This terraform module creates buckets to save audit logs from accounts in the organization.",
             "html_url": "https://github.com/DNXLabs/terraform-aws-audit-buckets/releases/tag/1.1.0",
             "id": 26256647,
             "name": "terraform-aws-audit-buckets",
@@ -63,7 +63,7 @@
             "zipball_url": "https://api.github.com/repos/DNXLabs/terraform-aws-audit-buckets/zipball/1.1.0"
         },
         "terraform-aws-audit-member": {
-            "description": null,
+            "description": "This terraform module enables guardduty for a member account.",
             "html_url": "https://github.com/DNXLabs/terraform-aws-audit-member/releases/tag/1.0.5",
             "id": 28186460,
             "name": "terraform-aws-audit-member",
@@ -73,7 +73,7 @@
             "zipball_url": "https://api.github.com/repos/DNXLabs/terraform-aws-audit-member/zipball/1.0.5"
         },
         "terraform-aws-audit-root": {
-            "description": null,
+            "description": "This terraform module is an audit module to apply into root account (master).",
             "html_url": "https://github.com/DNXLabs/terraform-aws-audit-root/releases/tag/1.0.3",
             "id": 24555824,
             "name": "terraform-aws-audit-root",
@@ -83,7 +83,7 @@
             "zipball_url": "https://api.github.com/repos/DNXLabs/terraform-aws-audit-root/zipball/1.0.3"
         },
         "terraform-aws-backend": {
-            "description": null,
+            "description": "This terraform module implements what is described in the Terraform S3 Backend.",
             "html_url": "https://github.com/DNXLabs/terraform-aws-backend/releases/tag/1.1.1",
             "id": 29217099,
             "name": "terraform-aws-backend",
@@ -93,7 +93,7 @@
             "zipball_url": "https://api.github.com/repos/DNXLabs/terraform-aws-backend/zipball/1.1.1"
         },
         "terraform-aws-billing-role": {
-            "description": null,
+            "description": "This terraform module creates an Identity Access Management (IAM) role that allows an Identity Providers and Federation (IDP) account to assume billing functions.",
             "html_url": "https://github.com/DNXLabs/terraform-aws-billing-role/releases/tag/1.2.0",
             "id": 24059466,
             "name": "terraform-aws-billing-role",
@@ -103,7 +103,7 @@
             "zipball_url": "https://api.github.com/repos/DNXLabs/terraform-aws-billing-role/zipball/1.2.0"
         },
         "terraform-aws-client-vpn": {
-            "description": null,
+            "description": "This terraform module installs a client VPN.",
             "html_url": "https://github.com/DNXLabs/terraform-aws-client-vpn/releases/tag/0.0.2",
             "id": 24409839,
             "name": "terraform-aws-client-vpn",
@@ -113,7 +113,7 @@
             "zipball_url": "https://api.github.com/repos/DNXLabs/terraform-aws-client-vpn/zipball/0.0.2"
         },
         "terraform-aws-db-monitoring": {
-            "description": null,
+            "description": "This terraform module is responsible for monitoring the Relational Database Service(RDS) database.",
             "html_url": "https://github.com/DNXLabs/terraform-aws-db-monitoring/releases/tag/1.1.1",
             "id": 25027321,
             "name": "terraform-aws-db-monitoring",
@@ -123,7 +123,7 @@
             "zipball_url": "https://api.github.com/repos/DNXLabs/terraform-aws-db-monitoring/zipball/1.1.1"
         },
         "terraform-aws-ecr": {
-            "description": null,
+            "description": "This terraform module creates an Amazon Web Services (AWS) Elastic Container Registry (ECR) repository.",
             "html_url": "https://github.com/DNXLabs/terraform-aws-ecr/releases/tag/0.3.1",
             "id": 23795022,
             "name": "terraform-aws-ecr",
@@ -153,7 +153,7 @@
             "zipball_url": "https://api.github.com/repos/DNXLabs/terraform-aws-ecs-app/zipball/4.9.0"
         },
         "terraform-aws-ecs-app-front": {
-            "description": null,
+            "description": "This terraform module is an AWS ECS Application Module (frontend component).",
             "html_url": "https://github.com/DNXLabs/terraform-aws-ecs-app-front/releases/tag/1.9.0",
             "id": 27286081,
             "name": "terraform-aws-ecs-app-front",
@@ -163,7 +163,7 @@
             "zipball_url": "https://api.github.com/repos/DNXLabs/terraform-aws-ecs-app-front/zipball/1.9.0"
         },
         "terraform-aws-ecs-app-worker": {
-            "description": null,
+            "description": "This terraform module is an AWS ECS Application Module for Workers without Application Load Balancer (ALB).",
             "html_url": "https://github.com/DNXLabs/terraform-aws-ecs-app-worker/releases/tag/1.2.0",
             "id": 27095960,
             "name": "terraform-aws-ecs-app-worker",
@@ -203,17 +203,17 @@
             "zipball_url": "https://api.github.com/repos/DNXLabs/terraform-aws-idp-gsuite/zipball/1.3.0"
         },
         "terraform-aws-kinesis-stream-es": {
-            "description": null,
-            "html_url": "https://github.com/DNXLabs/terraform-aws-kinesis-stream-es/releases/tag/0.4.1",
-            "id": 29096124,
+            "description": "This terraform module can load [streaming data](https://aws.amazon.com/streaming-data/) into your Amazon Elasticsearch Service domain from Amazon Kinesis Data Firehose and Amazon CloudWatch Logs.",
+            "html_url": "https://github.com/DNXLabs/terraform-aws-kinesis-stream-es/releases/tag/0.4.2",
+            "id": 29678695,
             "name": "terraform-aws-kinesis-stream-es",
             "short_name": "terraform-aws-kinesis-stream-es",
-            "tag_name": "0.4.1",
-            "tarball_url": "https://api.github.com/repos/DNXLabs/terraform-aws-kinesis-stream-es/tarball/0.4.1",
-            "zipball_url": "https://api.github.com/repos/DNXLabs/terraform-aws-kinesis-stream-es/zipball/0.4.1"
+            "tag_name": "0.4.2",
+            "tarball_url": "https://api.github.com/repos/DNXLabs/terraform-aws-kinesis-stream-es/tarball/0.4.2",
+            "zipball_url": "https://api.github.com/repos/DNXLabs/terraform-aws-kinesis-stream-es/zipball/0.4.2"
         },
         "terraform-aws-lite-account-security": {
-            "description": null,
+            "description": "This terraform module creates IAM roles for federated users to assume from an IdP account.",
             "html_url": "https://github.com/DNXLabs/terraform-aws-lite-account-security/releases/tag/0.0.3",
             "id": 19643099,
             "name": "terraform-aws-lite-account-security",
@@ -223,7 +223,7 @@
             "zipball_url": "https://api.github.com/repos/DNXLabs/terraform-aws-lite-account-security/zipball/0.0.3"
         },
         "terraform-aws-log-exporter": {
-            "description": null,
+            "description": "This module creates a lambda function that exports log groups on the AWS account and region deployed.",
             "html_url": "https://github.com/DNXLabs/terraform-aws-log-exporter/releases/tag/1.0.1",
             "id": 26166972,
             "name": "terraform-aws-log-exporter",
@@ -243,7 +243,7 @@
             "zipball_url": "https://api.github.com/repos/DNXLabs/terraform-aws-network/zipball/1.2.0"
         },
         "terraform-aws-openvpn": {
-            "description": null,
+            "description": "This module setup an OpenVPN installation and requires an existing VPC.",
             "html_url": "https://github.com/DNXLabs/terraform-aws-openvpn/releases/tag/0.5.1",
             "id": 28250544,
             "name": "terraform-aws-openvpn",
@@ -263,7 +263,7 @@
             "zipball_url": "https://api.github.com/repos/DNXLabs/terraform-aws-organization/zipball/1.1.0"
         },
         "terraform-aws-rds-scheduler": {
-            "description": null,
+            "description": "This is a module to create a schedule to shut down or start a Relational database service(RDS).",
             "html_url": "https://github.com/DNXLabs/terraform-aws-rds-scheduler/releases/tag/1.0.2",
             "id": 27357479,
             "name": "terraform-aws-rds-scheduler",
@@ -273,7 +273,7 @@
             "zipball_url": "https://api.github.com/repos/DNXLabs/terraform-aws-rds-scheduler/zipball/1.0.2"
         },
         "terraform-aws-route53healthcheck": {
-            "description": null,
+            "description": "This is a module to configure health check and related AWS CloudWatch metric alarms.",
             "html_url": "https://github.com/DNXLabs/terraform-aws-route53healthcheck/releases/tag/0.1.0",
             "id": 19155981,
             "name": "terraform-aws-route53healthcheck",
@@ -293,7 +293,7 @@
             "zipball_url": "https://api.github.com/repos/DNXLabs/terraform-aws-security-baseline/zipball/1.1.3"
         },
         "terraform-aws-sns": {
-            "description": null,
+            "description": "This is a module that creates an AWS SNS Application Module and it was designed to be used with DNXLabs/terraform-aws-monitoring.",
             "html_url": "https://github.com/DNXLabs/terraform-aws-sns/releases/tag/0.1.5",
             "id": 28186281,
             "name": "terraform-aws-sns",
@@ -303,7 +303,7 @@
             "zipball_url": "https://api.github.com/repos/DNXLabs/terraform-aws-sns/zipball/0.1.5"
         },
         "terraform-aws-static-app": {
-            "description": null,
+            "description": "This is a module that creates a static application with a OAI Cloudfront.",
             "html_url": "https://github.com/DNXLabs/terraform-aws-static-app/releases/tag/1.4.0",
             "id": 29101953,
             "name": "terraform-aws-static-app",
