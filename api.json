@@ -385,7 +385,7 @@
     },
     "tools": {
         "aws-google-auth": {
-            "description": "Provides AWS STS credentials based on Google Apps SAML SSO auth (what a jumble!)",
+            "description": "Provides AWS STS credentials based on Google Apps SAML SSO auth.",
             "html_url": "https://github.com/DNXLabs/aws-google-auth/releases/tag/0.0.34-dnx2",
             "id": 25909057,
             "name": "aws-google-auth",
