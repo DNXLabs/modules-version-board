@@ -30,6 +30,7 @@
         "terraform-aws-backend",
         "terraform-aws-static-app",
         "terraform-aws-vpc-peering",
+        "terraform-aws-billing",
         "terraform-aws-billing-role",
         "terraform-aws-organization",
         "terraform-aws-guardduty",
@@ -52,6 +53,7 @@
         "terraform-aws-eb-windows",
         "terraform-aws-eks",
         "terraform-aws-chatbot",
-        "terraform-aws-backup"
+        "terraform-aws-backup",
+        "terraform-aws-jenkins"
     ]
 }
