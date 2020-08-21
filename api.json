@@ -204,13 +204,13 @@
         },
         "terraform-aws-ecs-app": {
             "description": "This terraform module is an AWS ECS Application Module for Scheduler without an Application Load Balancer(ALB).",
-            "html_url": "https://github.com/DNXLabs/terraform-aws-ecs-app/releases/tag/4.9.0",
-            "id": 29262789,
+            "html_url": "https://github.com/DNXLabs/terraform-aws-ecs-app/releases/tag/4.10.0",
+            "id": 29894330,
             "name": "terraform-aws-ecs-app",
             "short_name": "terraform-aws-ecs-app",
-            "tag_name": "4.9.0",
-            "tarball_url": "https://api.github.com/repos/DNXLabs/terraform-aws-ecs-app/tarball/4.9.0",
-            "zipball_url": "https://api.github.com/repos/DNXLabs/terraform-aws-ecs-app/zipball/4.9.0"
+            "tag_name": "4.10.0",
+            "tarball_url": "https://api.github.com/repos/DNXLabs/terraform-aws-ecs-app/tarball/4.10.0",
+            "zipball_url": "https://api.github.com/repos/DNXLabs/terraform-aws-ecs-app/zipball/4.10.0"
         },
         "terraform-aws-ecs-app-front": {
             "description": "This terraform module is an AWS ECS Application Module (frontend component).",
