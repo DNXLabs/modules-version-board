@@ -314,13 +314,13 @@
         },
         "terraform-aws-kinesis-stream-es": {
             "description": "This terraform module can load streaming data into your Amazon Elasticsearch Service domain from Amazon Kinesis Data Firehose and Amazon CloudWatch Logs.",
-            "html_url": "https://github.com/DNXLabs/terraform-aws-kinesis-stream-es/releases/tag/0.4.2",
-            "id": 29678695,
+            "html_url": "https://github.com/DNXLabs/terraform-aws-kinesis-stream-es/releases/tag/0.4.3",
+            "id": 30139898,
             "name": "terraform-aws-kinesis-stream-es",
             "short_name": "terraform-aws-kinesis-stream-es",
-            "tag_name": "0.4.2",
-            "tarball_url": "https://api.github.com/repos/DNXLabs/terraform-aws-kinesis-stream-es/tarball/0.4.2",
-            "zipball_url": "https://api.github.com/repos/DNXLabs/terraform-aws-kinesis-stream-es/zipball/0.4.2"
+            "tag_name": "0.4.3",
+            "tarball_url": "https://api.github.com/repos/DNXLabs/terraform-aws-kinesis-stream-es/tarball/0.4.3",
+            "zipball_url": "https://api.github.com/repos/DNXLabs/terraform-aws-kinesis-stream-es/zipball/0.4.3"
         },
         "terraform-aws-lite-account-security": {
             "description": "This terraform module creates IAM roles for federated users to assume from an IdP account.",
