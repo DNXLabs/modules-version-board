@@ -174,13 +174,13 @@
         },
         "terraform-aws-eb-windows": {
             "description": "This terraform module provides an Windows Elastic Beanstalk Application Resource.",
-            "html_url": "https://github.com/DNXLabs/terraform-aws-eb-windows/releases/tag/0.6.0",
-            "id": 28894668,
+            "html_url": "https://github.com/DNXLabs/terraform-aws-eb-windows/releases/tag/0.7.0",
+            "id": 30205314,
             "name": "terraform-aws-eb-windows",
             "short_name": "terraform-aws-eb-windows",
-            "tag_name": "0.6.0",
-            "tarball_url": "https://api.github.com/repos/DNXLabs/terraform-aws-eb-windows/tarball/0.6.0",
-            "zipball_url": "https://api.github.com/repos/DNXLabs/terraform-aws-eb-windows/zipball/0.6.0"
+            "tag_name": "0.7.0",
+            "tarball_url": "https://api.github.com/repos/DNXLabs/terraform-aws-eb-windows/tarball/0.7.0",
+            "zipball_url": "https://api.github.com/repos/DNXLabs/terraform-aws-eb-windows/zipball/0.7.0"
         },
         "terraform-aws-ecr": {
             "description": "This terraform module creates an Amazon Web Services (AWS) Elastic Container Registry (ECR) repository.",
@@ -354,13 +354,13 @@
         },
         "terraform-aws-openvpn": {
             "description": "This module setup an OpenVPN installation and requires an existing VPC.",
-            "html_url": "https://github.com/DNXLabs/terraform-aws-openvpn/releases/tag/0.5.1",
-            "id": 28250544,
+            "html_url": "https://github.com/DNXLabs/terraform-aws-openvpn/releases/tag/0.6.0",
+            "id": 30205609,
             "name": "terraform-aws-openvpn",
             "short_name": "terraform-aws-openvpn",
-            "tag_name": "0.5.1",
-            "tarball_url": "https://api.github.com/repos/DNXLabs/terraform-aws-openvpn/tarball/0.5.1",
-            "zipball_url": "https://api.github.com/repos/DNXLabs/terraform-aws-openvpn/zipball/0.5.1"
+            "tag_name": "0.6.0",
+            "tarball_url": "https://api.github.com/repos/DNXLabs/terraform-aws-openvpn/tarball/0.6.0",
+            "zipball_url": "https://api.github.com/repos/DNXLabs/terraform-aws-openvpn/zipball/0.6.0"
         },
         "terraform-aws-organization": {
             "description": "Terraform module to create a AWS Organization.",
