@@ -304,13 +304,13 @@
         },
         "terraform-aws-jenkins": {
             "description": "A Terraform module for deploying Jenkins master and build agents in AWS.",
-            "html_url": "https://github.com/DNXLabs/terraform-aws-jenkins/releases/tag/0.0.3",
-            "id": 28054652,
+            "html_url": "https://github.com/DNXLabs/terraform-aws-jenkins/releases/tag/0.0.6",
+            "id": 30706099,
             "name": "terraform-aws-jenkins",
             "short_name": "terraform-aws-jenkins",
-            "tag_name": "0.0.3",
-            "tarball_url": "https://api.github.com/repos/DNXLabs/terraform-aws-jenkins/tarball/0.0.3",
-            "zipball_url": "https://api.github.com/repos/DNXLabs/terraform-aws-jenkins/zipball/0.0.3"
+            "tag_name": "0.0.6",
+            "tarball_url": "https://api.github.com/repos/DNXLabs/terraform-aws-jenkins/tarball/0.0.6",
+            "zipball_url": "https://api.github.com/repos/DNXLabs/terraform-aws-jenkins/zipball/0.0.6"
         },
         "terraform-aws-kinesis-stream-es": {
             "description": "This terraform module can load streaming data into your Amazon Elasticsearch Service domain from Amazon Kinesis Data Firehose and Amazon CloudWatch Logs.",
