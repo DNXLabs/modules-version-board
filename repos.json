@@ -54,6 +54,7 @@
         "terraform-aws-eks",
         "terraform-aws-chatbot",
         "terraform-aws-backup",
-        "terraform-aws-jenkins"
+        "terraform-aws-jenkins",
+        "terraform-aws-budget"
     ]
 }
