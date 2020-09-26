@@ -142,6 +142,16 @@
             "tarball_url": "https://api.github.com/repos/DNXLabs/terraform-aws-billing-role/tarball/1.2.0",
             "zipball_url": "https://api.github.com/repos/DNXLabs/terraform-aws-billing-role/zipball/1.2.0"
         },
+        "terraform-aws-budget": {
+            "description": null,
+            "html_url": "https://github.com/DNXLabs/terraform-aws-budget/releases/tag/1.0.0",
+            "id": 29843021,
+            "name": "terraform-aws-budget",
+            "short_name": "terraform-aws-budget",
+            "tag_name": "1.0.0",
+            "tarball_url": "https://api.github.com/repos/DNXLabs/terraform-aws-budget/tarball/1.0.0",
+            "zipball_url": "https://api.github.com/repos/DNXLabs/terraform-aws-budget/zipball/1.0.0"
+        },
         "terraform-aws-chatbot": {
             "description": "Utility Module to create AWS Chatbot and its dependencies.",
             "html_url": "https://github.com/DNXLabs/terraform-aws-chatbot/releases/tag/1.0.0",
