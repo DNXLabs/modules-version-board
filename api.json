@@ -214,23 +214,23 @@
         },
         "terraform-aws-ecs-app": {
             "description": "This terraform module is an AWS ECS Application Module for Scheduler without an Application Load Balancer(ALB).",
-            "html_url": "https://github.com/DNXLabs/terraform-aws-ecs-app/releases/tag/4.10.0",
-            "id": 29894330,
+            "html_url": "https://github.com/DNXLabs/terraform-aws-ecs-app/releases/tag/3.7.1",
+            "id": 32079718,
             "name": "terraform-aws-ecs-app",
             "short_name": "terraform-aws-ecs-app",
-            "tag_name": "4.10.0",
-            "tarball_url": "https://api.github.com/repos/DNXLabs/terraform-aws-ecs-app/tarball/4.10.0",
-            "zipball_url": "https://api.github.com/repos/DNXLabs/terraform-aws-ecs-app/zipball/4.10.0"
+            "tag_name": "3.7.1",
+            "tarball_url": "https://api.github.com/repos/DNXLabs/terraform-aws-ecs-app/tarball/3.7.1",
+            "zipball_url": "https://api.github.com/repos/DNXLabs/terraform-aws-ecs-app/zipball/3.7.1"
         },
         "terraform-aws-ecs-app-front": {
             "description": "This terraform module is an AWS ECS Application Module (frontend component).",
-            "html_url": "https://github.com/DNXLabs/terraform-aws-ecs-app-front/releases/tag/1.9.0",
-            "id": 27286081,
+            "html_url": "https://github.com/DNXLabs/terraform-aws-ecs-app-front/releases/tag/1.9.1",
+            "id": 32077107,
             "name": "terraform-aws-ecs-app-front",
             "short_name": "terraform-aws-ecs-app-front",
-            "tag_name": "1.9.0",
-            "tarball_url": "https://api.github.com/repos/DNXLabs/terraform-aws-ecs-app-front/tarball/1.9.0",
-            "zipball_url": "https://api.github.com/repos/DNXLabs/terraform-aws-ecs-app-front/zipball/1.9.0"
+            "tag_name": "1.9.1",
+            "tarball_url": "https://api.github.com/repos/DNXLabs/terraform-aws-ecs-app-front/tarball/1.9.1",
+            "zipball_url": "https://api.github.com/repos/DNXLabs/terraform-aws-ecs-app-front/zipball/1.9.1"
         },
         "terraform-aws-ecs-app-nlb": {
             "description": "This terraform module is an AWS ECS Application Module that creates a Networking LoadBalance Application setup on ECS.",
