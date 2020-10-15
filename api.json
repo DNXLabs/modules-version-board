@@ -184,13 +184,13 @@
         },
         "terraform-aws-eb-windows": {
             "description": "This terraform module provides an Windows Elastic Beanstalk Application Resource.",
-            "html_url": "https://github.com/DNXLabs/terraform-aws-eb-windows/releases/tag/0.7.0",
-            "id": 30205314,
+            "html_url": "https://github.com/DNXLabs/terraform-aws-eb-windows/releases/tag/0.8.0",
+            "id": 32590007,
             "name": "terraform-aws-eb-windows",
             "short_name": "terraform-aws-eb-windows",
-            "tag_name": "0.7.0",
-            "tarball_url": "https://api.github.com/repos/DNXLabs/terraform-aws-eb-windows/tarball/0.7.0",
-            "zipball_url": "https://api.github.com/repos/DNXLabs/terraform-aws-eb-windows/zipball/0.7.0"
+            "tag_name": "0.8.0",
+            "tarball_url": "https://api.github.com/repos/DNXLabs/terraform-aws-eb-windows/tarball/0.8.0",
+            "zipball_url": "https://api.github.com/repos/DNXLabs/terraform-aws-eb-windows/zipball/0.8.0"
         },
         "terraform-aws-ecr": {
             "description": "This terraform module creates an Amazon Web Services (AWS) Elastic Container Registry (ECR) repository.",
