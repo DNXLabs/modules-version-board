@@ -12,13 +12,13 @@
         },
         "one-cli": {
             "description": "CLI to manage all stacks from DNX.",
-            "html_url": "https://github.com/DNXLabs/one-cli/releases/tag/0.6.4",
-            "id": 32480727,
+            "html_url": "https://github.com/DNXLabs/one-cli/releases/tag/0.6.5",
+            "id": 32634906,
             "name": "one-cli",
             "short_name": "one-cli",
-            "tag_name": "0.6.4",
-            "tarball_url": "https://api.github.com/repos/DNXLabs/one-cli/tarball/0.6.4",
-            "zipball_url": "https://api.github.com/repos/DNXLabs/one-cli/zipball/0.6.4"
+            "tag_name": "0.6.5",
+            "tarball_url": "https://api.github.com/repos/DNXLabs/one-cli/tarball/0.6.5",
+            "zipball_url": "https://api.github.com/repos/DNXLabs/one-cli/zipball/0.6.5"
         },
         "ssm-loader": {
             "description": null,
@@ -184,13 +184,13 @@
         },
         "terraform-aws-eb-windows": {
             "description": "This terraform module provides an Windows Elastic Beanstalk Application Resource.",
-            "html_url": "https://github.com/DNXLabs/terraform-aws-eb-windows/releases/tag/0.8.0",
-            "id": 32590007,
+            "html_url": "https://github.com/DNXLabs/terraform-aws-eb-windows/releases/tag/0.8.1",
+            "id": 32592363,
             "name": "terraform-aws-eb-windows",
             "short_name": "terraform-aws-eb-windows",
-            "tag_name": "0.8.0",
-            "tarball_url": "https://api.github.com/repos/DNXLabs/terraform-aws-eb-windows/tarball/0.8.0",
-            "zipball_url": "https://api.github.com/repos/DNXLabs/terraform-aws-eb-windows/zipball/0.8.0"
+            "tag_name": "0.8.1",
+            "tarball_url": "https://api.github.com/repos/DNXLabs/terraform-aws-eb-windows/tarball/0.8.1",
+            "zipball_url": "https://api.github.com/repos/DNXLabs/terraform-aws-eb-windows/zipball/0.8.1"
         },
         "terraform-aws-ecr": {
             "description": "This terraform module creates an Amazon Web Services (AWS) Elastic Container Registry (ECR) repository.",
