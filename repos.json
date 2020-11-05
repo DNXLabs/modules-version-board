@@ -55,6 +55,9 @@
         "terraform-aws-chatbot",
         "terraform-aws-backup",
         "terraform-aws-jenkins",
-        "terraform-aws-budget"
+        "terraform-aws-budget",
+        "terraform-aws-eks-node-termination-handler",
+        "terraform-aws-eks-lb-controller",
+        "terraform-aws-eks-external-dns"
     ]
 }
