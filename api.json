@@ -272,6 +272,36 @@
             "tarball_url": "https://api.github.com/repos/DNXLabs/terraform-aws-eks/tarball/0.0.1",
             "zipball_url": "https://api.github.com/repos/DNXLabs/terraform-aws-eks/zipball/0.0.1"
         },
+        "terraform-aws-eks-external-dns": {
+            "description": null,
+            "html_url": "https://github.com/DNXLabs/terraform-aws-eks-external-dns/releases/tag/0.1.0",
+            "id": 33483383,
+            "name": "terraform-aws-eks-external-dns",
+            "short_name": "terraform-aws-eks-external-dns",
+            "tag_name": "0.1.0",
+            "tarball_url": "https://api.github.com/repos/DNXLabs/terraform-aws-eks-external-dns/tarball/0.1.0",
+            "zipball_url": "https://api.github.com/repos/DNXLabs/terraform-aws-eks-external-dns/zipball/0.1.0"
+        },
+        "terraform-aws-eks-lb-controller": {
+            "description": null,
+            "html_url": "https://github.com/DNXLabs/terraform-aws-eks-lb-controller/releases/tag/0.1.0",
+            "id": 33483389,
+            "name": "terraform-aws-eks-lb-controller",
+            "short_name": "terraform-aws-eks-lb-controller",
+            "tag_name": "0.1.0",
+            "tarball_url": "https://api.github.com/repos/DNXLabs/terraform-aws-eks-lb-controller/tarball/0.1.0",
+            "zipball_url": "https://api.github.com/repos/DNXLabs/terraform-aws-eks-lb-controller/zipball/0.1.0"
+        },
+        "terraform-aws-eks-node-termination-handler": {
+            "description": null,
+            "html_url": "https://github.com/DNXLabs/terraform-aws-eks-node-termination-handler/releases/tag/0.1.0",
+            "id": 33483379,
+            "name": "terraform-aws-eks-node-termination-handler",
+            "short_name": "terraform-aws-eks-node-termination-handler",
+            "tag_name": "0.1.0",
+            "tarball_url": "https://api.github.com/repos/DNXLabs/terraform-aws-eks-node-termination-handler/tarball/0.1.0",
+            "zipball_url": "https://api.github.com/repos/DNXLabs/terraform-aws-eks-node-termination-handler/zipball/0.1.0"
+        },
         "terraform-aws-gitlab-runner": {
             "description": "Terraform module for AWS GitLab Runners on Spot Instances.",
             "html_url": "https://github.com/DNXLabs/terraform-aws-gitlab-runner/releases/tag/4.18.0-dnx1",
