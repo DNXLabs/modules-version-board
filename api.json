@@ -21,7 +21,7 @@
             "zipball_url": "https://api.github.com/repos/DNXLabs/one-cli/zipball/0.6.6"
         },
         "ssm-loader": {
-            "description": null,
+            "description": "This project aims to help dump and load AWS SSM parameters.",
             "html_url": "https://github.com/DNXLabs/ssm-loader/releases/tag/0.2.4",
             "id": 32025352,
             "name": "ssm-loader",
@@ -273,7 +273,7 @@
             "zipball_url": "https://api.github.com/repos/DNXLabs/terraform-aws-eks/zipball/0.0.1"
         },
         "terraform-aws-eks-external-dns": {
-            "description": null,
+            "description": "Terraform module for deploying External DNS inside a pre-existing EKS cluster.",
             "html_url": "https://github.com/DNXLabs/terraform-aws-eks-external-dns/releases/tag/0.1.0",
             "id": 33483383,
             "name": "terraform-aws-eks-external-dns",
@@ -283,7 +283,7 @@
             "zipball_url": "https://api.github.com/repos/DNXLabs/terraform-aws-eks-external-dns/zipball/0.1.0"
         },
         "terraform-aws-eks-lb-controller": {
-            "description": null,
+            "description": "Terraform module for deploying AWS Load Balancer Controller inside a pre-existing EKS cluster.",
             "html_url": "https://github.com/DNXLabs/terraform-aws-eks-lb-controller/releases/tag/0.1.0",
             "id": 33483389,
             "name": "terraform-aws-eks-lb-controller",
@@ -293,7 +293,7 @@
             "zipball_url": "https://api.github.com/repos/DNXLabs/terraform-aws-eks-lb-controller/zipball/0.1.0"
         },
         "terraform-aws-eks-node-termination-handler": {
-            "description": null,
+            "description": "Terraform module for deploying node termination handler inside a pre-existing EKS cluster.",
             "html_url": "https://github.com/DNXLabs/terraform-aws-eks-node-termination-handler/releases/tag/0.1.0",
             "id": 33483379,
             "name": "terraform-aws-eks-node-termination-handler",
