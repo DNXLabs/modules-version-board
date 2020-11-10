@@ -514,15 +514,15 @@
             "tarball_url": "https://api.github.com/repos/DNXLabs/docker-aws-azure-ad/tarball/1.0.0",
             "zipball_url": "https://api.github.com/repos/DNXLabs/docker-aws-azure-ad/zipball/1.0.0"
         },
-        "docker-kubectl": {
+        "docker-kube-tools": {
             "description": "Docker image containing Kubernetes CLI tool (Kubectl), AWS CLI and AWS Shell, to control any k8s cluster.",
-            "html_url": "https://github.com/DNXLabs/docker-kubectl/releases/tag/1.18.0-dnx1",
+            "html_url": "https://github.com/DNXLabs/docker-kube-tools/releases/tag/1.18.0-dnx1",
             "id": 27538236,
-            "name": "docker-kubectl",
-            "short_name": "docker-kubectl",
+            "name": "docker-kube-tools",
+            "short_name": "docker-kube-tools",
             "tag_name": "1.18.0-dnx1",
-            "tarball_url": "https://api.github.com/repos/DNXLabs/docker-kubectl/tarball/1.18.0-dnx1",
-            "zipball_url": "https://api.github.com/repos/DNXLabs/docker-kubectl/zipball/1.18.0-dnx1"
+            "tarball_url": "https://api.github.com/repos/DNXLabs/docker-kube-tools/tarball/1.18.0-dnx1",
+            "zipball_url": "https://api.github.com/repos/DNXLabs/docker-kube-tools/zipball/1.18.0-dnx1"
         },
         "docker-serverless-python": {
             "description": "Docker image of Python 3 containing NodeJS, NPM and Serverless Framework.",
