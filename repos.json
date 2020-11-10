@@ -58,6 +58,7 @@
         "terraform-aws-budget",
         "terraform-aws-eks-node-termination-handler",
         "terraform-aws-eks-lb-controller",
-        "terraform-aws-eks-external-dns"
+        "terraform-aws-eks-external-dns",
+        "terraform-aws-eks-cloudwatch-metrics"
     ]
 }
