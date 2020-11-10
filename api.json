@@ -12,13 +12,13 @@
         },
         "one-cli": {
             "description": "CLI to manage all stacks from DNX.",
-            "html_url": "https://github.com/DNXLabs/one-cli/releases/tag/0.6.7",
-            "id": 33669022,
+            "html_url": "https://github.com/DNXLabs/one-cli/releases/tag/0.6.8",
+            "id": 33755425,
             "name": "one-cli",
             "short_name": "one-cli",
-            "tag_name": "0.6.7",
-            "tarball_url": "https://api.github.com/repos/DNXLabs/one-cli/tarball/0.6.7",
-            "zipball_url": "https://api.github.com/repos/DNXLabs/one-cli/zipball/0.6.7"
+            "tag_name": "0.6.8",
+            "tarball_url": "https://api.github.com/repos/DNXLabs/one-cli/tarball/0.6.8",
+            "zipball_url": "https://api.github.com/repos/DNXLabs/one-cli/zipball/0.6.8"
         },
         "ssm-loader": {
             "description": "This project aims to help dump and load AWS SSM parameters.",
@@ -272,6 +272,16 @@
             "tarball_url": "https://api.github.com/repos/DNXLabs/terraform-aws-eks/tarball/0.0.1",
             "zipball_url": "https://api.github.com/repos/DNXLabs/terraform-aws-eks/zipball/0.0.1"
         },
+        "terraform-aws-eks-cloudwatch-metrics": {
+            "description": "Terraform module for deploying AWS CloudWatch Agent inside a pre-existing EKS cluster.",
+            "html_url": "https://github.com/DNXLabs/terraform-aws-eks-cloudwatch-metrics/releases/tag/0.1.0",
+            "id": 33755702,
+            "name": "terraform-aws-eks-cloudwatch-metrics",
+            "short_name": "terraform-aws-eks-cloudwatch-metrics",
+            "tag_name": "0.1.0",
+            "tarball_url": "https://api.github.com/repos/DNXLabs/terraform-aws-eks-cloudwatch-metrics/tarball/0.1.0",
+            "zipball_url": "https://api.github.com/repos/DNXLabs/terraform-aws-eks-cloudwatch-metrics/zipball/0.1.0"
+        },
         "terraform-aws-eks-external-dns": {
             "description": "Terraform module for deploying External DNS inside a pre-existing EKS cluster.",
             "html_url": "https://github.com/DNXLabs/terraform-aws-eks-external-dns/releases/tag/0.1.0",
@@ -516,13 +526,13 @@
         },
         "docker-kube-tools": {
             "description": "Docker image containing Kubernetes CLI tool (Kubectl), AWS CLI and AWS Shell, to control any k8s cluster.",
-            "html_url": "https://github.com/DNXLabs/docker-kube-tools/releases/tag/1.18.0-dnx1",
-            "id": 27538236,
+            "html_url": "https://github.com/DNXLabs/docker-kube-tools/releases/tag/0.1.0",
+            "id": 33716415,
             "name": "docker-kube-tools",
             "short_name": "docker-kube-tools",
-            "tag_name": "1.18.0-dnx1",
-            "tarball_url": "https://api.github.com/repos/DNXLabs/docker-kube-tools/tarball/1.18.0-dnx1",
-            "zipball_url": "https://api.github.com/repos/DNXLabs/docker-kube-tools/zipball/1.18.0-dnx1"
+            "tag_name": "0.1.0",
+            "tarball_url": "https://api.github.com/repos/DNXLabs/docker-kube-tools/tarball/0.1.0",
+            "zipball_url": "https://api.github.com/repos/DNXLabs/docker-kube-tools/zipball/0.1.0"
         },
         "docker-serverless-python": {
             "description": "Docker image of Python 3 containing NodeJS, NPM and Serverless Framework.",
