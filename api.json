@@ -184,13 +184,13 @@
         },
         "terraform-aws-eb-windows": {
             "description": "This terraform module provides an Windows Elastic Beanstalk Application Resource.",
-            "html_url": "https://github.com/DNXLabs/terraform-aws-eb-windows/releases/tag/0.8.1",
-            "id": 32592363,
+            "html_url": "https://github.com/DNXLabs/terraform-aws-eb-windows/releases/tag/0.8.2",
+            "id": 33765846,
             "name": "terraform-aws-eb-windows",
             "short_name": "terraform-aws-eb-windows",
-            "tag_name": "0.8.1",
-            "tarball_url": "https://api.github.com/repos/DNXLabs/terraform-aws-eb-windows/tarball/0.8.1",
-            "zipball_url": "https://api.github.com/repos/DNXLabs/terraform-aws-eb-windows/zipball/0.8.1"
+            "tag_name": "0.8.2",
+            "tarball_url": "https://api.github.com/repos/DNXLabs/terraform-aws-eb-windows/tarball/0.8.2",
+            "zipball_url": "https://api.github.com/repos/DNXLabs/terraform-aws-eb-windows/zipball/0.8.2"
         },
         "terraform-aws-ecr": {
             "description": "This terraform module creates an Amazon Web Services (AWS) Elastic Container Registry (ECR) repository.",
@@ -284,33 +284,33 @@
         },
         "terraform-aws-eks-external-dns": {
             "description": "Terraform module for deploying External DNS inside a pre-existing EKS cluster.",
-            "html_url": "https://github.com/DNXLabs/terraform-aws-eks-external-dns/releases/tag/0.1.0",
-            "id": 33483383,
+            "html_url": "https://github.com/DNXLabs/terraform-aws-eks-external-dns/releases/tag/0.1.2",
+            "id": 33766822,
             "name": "terraform-aws-eks-external-dns",
             "short_name": "terraform-aws-eks-external-dns",
-            "tag_name": "0.1.0",
-            "tarball_url": "https://api.github.com/repos/DNXLabs/terraform-aws-eks-external-dns/tarball/0.1.0",
-            "zipball_url": "https://api.github.com/repos/DNXLabs/terraform-aws-eks-external-dns/zipball/0.1.0"
+            "tag_name": "0.1.2",
+            "tarball_url": "https://api.github.com/repos/DNXLabs/terraform-aws-eks-external-dns/tarball/0.1.2",
+            "zipball_url": "https://api.github.com/repos/DNXLabs/terraform-aws-eks-external-dns/zipball/0.1.2"
         },
         "terraform-aws-eks-lb-controller": {
             "description": "Terraform module for deploying AWS Load Balancer Controller inside a pre-existing EKS cluster.",
-            "html_url": "https://github.com/DNXLabs/terraform-aws-eks-lb-controller/releases/tag/0.1.0",
-            "id": 33483389,
+            "html_url": "https://github.com/DNXLabs/terraform-aws-eks-lb-controller/releases/tag/0.1.2",
+            "id": 33766681,
             "name": "terraform-aws-eks-lb-controller",
             "short_name": "terraform-aws-eks-lb-controller",
-            "tag_name": "0.1.0",
-            "tarball_url": "https://api.github.com/repos/DNXLabs/terraform-aws-eks-lb-controller/tarball/0.1.0",
-            "zipball_url": "https://api.github.com/repos/DNXLabs/terraform-aws-eks-lb-controller/zipball/0.1.0"
+            "tag_name": "0.1.2",
+            "tarball_url": "https://api.github.com/repos/DNXLabs/terraform-aws-eks-lb-controller/tarball/0.1.2",
+            "zipball_url": "https://api.github.com/repos/DNXLabs/terraform-aws-eks-lb-controller/zipball/0.1.2"
         },
         "terraform-aws-eks-node-termination-handler": {
             "description": "Terraform module for deploying node termination handler inside a pre-existing EKS cluster.",
-            "html_url": "https://github.com/DNXLabs/terraform-aws-eks-node-termination-handler/releases/tag/0.1.0",
-            "id": 33483379,
+            "html_url": "https://github.com/DNXLabs/terraform-aws-eks-node-termination-handler/releases/tag/0.1.1",
+            "id": 33766979,
             "name": "terraform-aws-eks-node-termination-handler",
             "short_name": "terraform-aws-eks-node-termination-handler",
-            "tag_name": "0.1.0",
-            "tarball_url": "https://api.github.com/repos/DNXLabs/terraform-aws-eks-node-termination-handler/tarball/0.1.0",
-            "zipball_url": "https://api.github.com/repos/DNXLabs/terraform-aws-eks-node-termination-handler/zipball/0.1.0"
+            "tag_name": "0.1.1",
+            "tarball_url": "https://api.github.com/repos/DNXLabs/terraform-aws-eks-node-termination-handler/tarball/0.1.1",
+            "zipball_url": "https://api.github.com/repos/DNXLabs/terraform-aws-eks-node-termination-handler/zipball/0.1.1"
         },
         "terraform-aws-gitlab-runner": {
             "description": "Terraform module for AWS GitLab Runners on Spot Instances.",
