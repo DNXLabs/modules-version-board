@@ -12,13 +12,13 @@
         },
         "one-cli": {
             "description": "CLI to manage all stacks from DNX.",
-            "html_url": "https://github.com/DNXLabs/one-cli/releases/tag/0.6.8",
-            "id": 34018293,
+            "html_url": "https://github.com/DNXLabs/one-cli/releases/tag/0.6.10",
+            "id": 34324895,
             "name": "one-cli",
             "short_name": "one-cli",
-            "tag_name": "0.6.8",
-            "tarball_url": "https://api.github.com/repos/DNXLabs/one-cli/tarball/0.6.8",
-            "zipball_url": "https://api.github.com/repos/DNXLabs/one-cli/zipball/0.6.8"
+            "tag_name": "0.6.10",
+            "tarball_url": "https://api.github.com/repos/DNXLabs/one-cli/tarball/0.6.10",
+            "zipball_url": "https://api.github.com/repos/DNXLabs/one-cli/zipball/0.6.10"
         },
         "ssm-loader": {
             "description": "This project aims to help dump and load AWS SSM parameters.",
