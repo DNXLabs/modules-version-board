@@ -204,13 +204,13 @@
         },
         "terraform-aws-ecs": {
             "description": "This terraform module builds an Elastic Container Service(ECS) Cluster in AWS.",
-            "html_url": "https://github.com/DNXLabs/terraform-aws-ecs/releases/tag/4.6.0",
-            "id": 33628366,
+            "html_url": "https://github.com/DNXLabs/terraform-aws-ecs/releases/tag/4.6.1",
+            "id": 34666571,
             "name": "terraform-aws-ecs",
             "short_name": "terraform-aws-ecs",
-            "tag_name": "4.6.0",
-            "tarball_url": "https://api.github.com/repos/DNXLabs/terraform-aws-ecs/tarball/4.6.0",
-            "zipball_url": "https://api.github.com/repos/DNXLabs/terraform-aws-ecs/zipball/4.6.0"
+            "tag_name": "4.6.1",
+            "tarball_url": "https://api.github.com/repos/DNXLabs/terraform-aws-ecs/tarball/4.6.1",
+            "zipball_url": "https://api.github.com/repos/DNXLabs/terraform-aws-ecs/zipball/4.6.1"
         },
         "terraform-aws-ecs-app": {
             "description": "This terraform module is an AWS ECS Application Module for Scheduler without an Application Load Balancer(ALB).",
@@ -506,13 +506,13 @@
         },
         "docker-aws": {
             "description": "Docker image containing AWS CLI, AWS Shell, and some scripts to ease AWS deployments.",
-            "html_url": "https://github.com/DNXLabs/docker-aws/releases/tag/2.0.37-dnx3",
-            "id": 30878936,
+            "html_url": "https://github.com/DNXLabs/docker-aws/releases/tag/2.1.6-dnx1",
+            "id": 34669538,
             "name": "docker-aws",
             "short_name": "docker-aws",
-            "tag_name": "2.0.37-dnx3",
-            "tarball_url": "https://api.github.com/repos/DNXLabs/docker-aws/tarball/2.0.37-dnx3",
-            "zipball_url": "https://api.github.com/repos/DNXLabs/docker-aws/zipball/2.0.37-dnx3"
+            "tag_name": "2.1.6-dnx1",
+            "tarball_url": "https://api.github.com/repos/DNXLabs/docker-aws/tarball/2.1.6-dnx1",
+            "zipball_url": "https://api.github.com/repos/DNXLabs/docker-aws/zipball/2.1.6-dnx1"
         },
         "docker-aws-azure-ad": {
             "description": "This container is used to perform AWS SSO using Azure AD.",
