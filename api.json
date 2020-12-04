@@ -204,13 +204,13 @@
         },
         "terraform-aws-ecs": {
             "description": "This terraform module builds an Elastic Container Service(ECS) Cluster in AWS.",
-            "html_url": "https://github.com/DNXLabs/terraform-aws-ecs/releases/tag/4.6.1",
-            "id": 34666571,
+            "html_url": "https://github.com/DNXLabs/terraform-aws-ecs/releases/tag/4.7.0",
+            "id": 34731442,
             "name": "terraform-aws-ecs",
             "short_name": "terraform-aws-ecs",
-            "tag_name": "4.6.1",
-            "tarball_url": "https://api.github.com/repos/DNXLabs/terraform-aws-ecs/tarball/4.6.1",
-            "zipball_url": "https://api.github.com/repos/DNXLabs/terraform-aws-ecs/zipball/4.6.1"
+            "tag_name": "4.7.0",
+            "tarball_url": "https://api.github.com/repos/DNXLabs/terraform-aws-ecs/tarball/4.7.0",
+            "zipball_url": "https://api.github.com/repos/DNXLabs/terraform-aws-ecs/zipball/4.7.0"
         },
         "terraform-aws-ecs-app": {
             "description": "This terraform module is an AWS ECS Application Module for Scheduler without an Application Load Balancer(ALB).",
@@ -546,13 +546,13 @@
         },
         "docker-terraform": {
             "description": "Docker image containing Terraform, AWS CLI and AWS Shell, to deploy infrastructure as code on AWS.",
-            "html_url": "https://github.com/DNXLabs/docker-terraform/releases/tag/0.13.5-dnx1",
-            "id": 33086419,
+            "html_url": "https://github.com/DNXLabs/docker-terraform/releases/tag/0.14.0-dnx1",
+            "id": 34731600,
             "name": "docker-terraform",
             "short_name": "docker-terraform",
-            "tag_name": "0.13.5-dnx1",
-            "tarball_url": "https://api.github.com/repos/DNXLabs/docker-terraform/tarball/0.13.5-dnx1",
-            "zipball_url": "https://api.github.com/repos/DNXLabs/docker-terraform/zipball/0.13.5-dnx1"
+            "tag_name": "0.14.0-dnx1",
+            "tarball_url": "https://api.github.com/repos/DNXLabs/docker-terraform/tarball/0.14.0-dnx1",
+            "zipball_url": "https://api.github.com/repos/DNXLabs/docker-terraform/zipball/0.14.0-dnx1"
         }
     }
 }
