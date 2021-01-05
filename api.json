@@ -74,13 +74,13 @@
         },
         "terraform-aws-audit-buckets": {
             "description": "This terraform module creates buckets to save audit logs from accounts in the organization.",
-            "html_url": "https://github.com/DNXLabs/terraform-aws-audit-buckets/releases/tag/1.1.0",
-            "id": 26256647,
+            "html_url": "https://github.com/DNXLabs/terraform-aws-audit-buckets/releases/tag/1.1.1",
+            "id": 35933625,
             "name": "terraform-aws-audit-buckets",
             "short_name": "terraform-aws-audit-buckets",
-            "tag_name": "1.1.0",
-            "tarball_url": "https://api.github.com/repos/DNXLabs/terraform-aws-audit-buckets/tarball/1.1.0",
-            "zipball_url": "https://api.github.com/repos/DNXLabs/terraform-aws-audit-buckets/zipball/1.1.0"
+            "tag_name": "1.1.1",
+            "tarball_url": "https://api.github.com/repos/DNXLabs/terraform-aws-audit-buckets/tarball/1.1.1",
+            "zipball_url": "https://api.github.com/repos/DNXLabs/terraform-aws-audit-buckets/zipball/1.1.1"
         },
         "terraform-aws-audit-member": {
             "description": "This terraform module enables guardduty for a member account.",
@@ -124,13 +124,13 @@
         },
         "terraform-aws-billing": {
             "description": "AWS Billing Module ",
-            "html_url": "https://github.com/DNXLabs/terraform-aws-billing/releases/tag/0.1.0",
-            "id": 25435637,
+            "html_url": "https://github.com/DNXLabs/terraform-aws-billing/releases/tag/0.1.1",
+            "id": 35936715,
             "name": "terraform-aws-billing",
             "short_name": "terraform-aws-billing",
-            "tag_name": "0.1.0",
-            "tarball_url": "https://api.github.com/repos/DNXLabs/terraform-aws-billing/tarball/0.1.0",
-            "zipball_url": "https://api.github.com/repos/DNXLabs/terraform-aws-billing/zipball/0.1.0"
+            "tag_name": "0.1.1",
+            "tarball_url": "https://api.github.com/repos/DNXLabs/terraform-aws-billing/tarball/0.1.1",
+            "zipball_url": "https://api.github.com/repos/DNXLabs/terraform-aws-billing/zipball/0.1.1"
         },
         "terraform-aws-billing-role": {
             "description": "This terraform module creates an Identity Access Management (IAM) role that allows an Identity Providers and Federation (IDP) account to assume billing functions.",
@@ -294,13 +294,13 @@
         },
         "terraform-aws-eks-lb-controller": {
             "description": "Terraform module for deploying AWS Load Balancer Controller inside a pre-existing EKS cluster.",
-            "html_url": "https://github.com/DNXLabs/terraform-aws-eks-lb-controller/releases/tag/0.1.2",
-            "id": 33766681,
+            "html_url": "https://github.com/DNXLabs/terraform-aws-eks-lb-controller/releases/tag/0.2.0",
+            "id": 35933457,
             "name": "terraform-aws-eks-lb-controller",
             "short_name": "terraform-aws-eks-lb-controller",
-            "tag_name": "0.1.2",
-            "tarball_url": "https://api.github.com/repos/DNXLabs/terraform-aws-eks-lb-controller/tarball/0.1.2",
-            "zipball_url": "https://api.github.com/repos/DNXLabs/terraform-aws-eks-lb-controller/zipball/0.1.2"
+            "tag_name": "0.2.0",
+            "tarball_url": "https://api.github.com/repos/DNXLabs/terraform-aws-eks-lb-controller/tarball/0.2.0",
+            "zipball_url": "https://api.github.com/repos/DNXLabs/terraform-aws-eks-lb-controller/zipball/0.2.0"
         },
         "terraform-aws-eks-node-termination-handler": {
             "description": "Terraform module for deploying node termination handler inside a pre-existing EKS cluster.",
@@ -444,13 +444,13 @@
         },
         "terraform-aws-security-baseline": {
             "description": "Terraform module to set up AWS account with the secure baseline configuration based on CIS Amazon Web Services Foundations.",
-            "html_url": "https://github.com/DNXLabs/terraform-aws-security-baseline/releases/tag/2.0.0",
-            "id": 35931102,
+            "html_url": "https://github.com/DNXLabs/terraform-aws-security-baseline/releases/tag/2.0.1",
+            "id": 35933609,
             "name": "terraform-aws-security-baseline",
             "short_name": "terraform-aws-security-baseline",
-            "tag_name": "2.0.0",
-            "tarball_url": "https://api.github.com/repos/DNXLabs/terraform-aws-security-baseline/tarball/2.0.0",
-            "zipball_url": "https://api.github.com/repos/DNXLabs/terraform-aws-security-baseline/zipball/2.0.0"
+            "tag_name": "2.0.1",
+            "tarball_url": "https://api.github.com/repos/DNXLabs/terraform-aws-security-baseline/tarball/2.0.1",
+            "zipball_url": "https://api.github.com/repos/DNXLabs/terraform-aws-security-baseline/zipball/2.0.1"
         },
         "terraform-aws-sns": {
             "description": "This is a module that creates an AWS SNS Application Module and it was designed to be used with DNXLabs/terraform-aws-monitoring.",
