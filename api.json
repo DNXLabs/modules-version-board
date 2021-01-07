@@ -282,6 +282,16 @@
             "tarball_url": "https://api.github.com/repos/DNXLabs/terraform-aws-eks-cloudwatch-metrics/tarball/0.1.0",
             "zipball_url": "https://api.github.com/repos/DNXLabs/terraform-aws-eks-cloudwatch-metrics/zipball/0.1.0"
         },
+        "terraform-aws-eks-dashboard": {
+            "description": "Terraform module for deploying kubernetes-dashboard inside a pre-existing EKS cluster.",
+            "html_url": "https://github.com/DNXLabs/terraform-aws-eks-dashboard/releases/tag/0.1.0",
+            "id": 36117490,
+            "name": "terraform-aws-eks-dashboard",
+            "short_name": "terraform-aws-eks-dashboard",
+            "tag_name": "0.1.0",
+            "tarball_url": "https://api.github.com/repos/DNXLabs/terraform-aws-eks-dashboard/tarball/0.1.0",
+            "zipball_url": "https://api.github.com/repos/DNXLabs/terraform-aws-eks-dashboard/zipball/0.1.0"
+        },
         "terraform-aws-eks-external-dns": {
             "description": "Terraform module for deploying External DNS inside a pre-existing EKS cluster.",
             "html_url": "https://github.com/DNXLabs/terraform-aws-eks-external-dns/releases/tag/0.1.2",
