@@ -292,6 +292,16 @@
             "tarball_url": "https://api.github.com/repos/DNXLabs/terraform-aws-eks-external-dns/tarball/0.1.2",
             "zipball_url": "https://api.github.com/repos/DNXLabs/terraform-aws-eks-external-dns/zipball/0.1.2"
         },
+        "terraform-aws-eks-external-secrets": {
+            "description": "Terraform module for deploying kubernetes-external-secrets, this enables to use AWS Secrets Manager and SSM Parameters inside a pre-existing EKS cluster.",
+            "html_url": "https://github.com/DNXLabs/terraform-aws-eks-external-secrets/releases/tag/0.1.1",
+            "id": 36078149,
+            "name": "terraform-aws-eks-external-secrets",
+            "short_name": "terraform-aws-eks-external-secrets",
+            "tag_name": "0.1.1",
+            "tarball_url": "https://api.github.com/repos/DNXLabs/terraform-aws-eks-external-secrets/tarball/0.1.1",
+            "zipball_url": "https://api.github.com/repos/DNXLabs/terraform-aws-eks-external-secrets/zipball/0.1.1"
+        },
         "terraform-aws-eks-lb-controller": {
             "description": "Terraform module for deploying AWS Load Balancer Controller inside a pre-existing EKS cluster.",
             "html_url": "https://github.com/DNXLabs/terraform-aws-eks-lb-controller/releases/tag/0.2.0",
