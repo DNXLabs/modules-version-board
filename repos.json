@@ -61,6 +61,7 @@
         "terraform-aws-eks-external-dns",
         "terraform-aws-eks-cloudwatch-metrics",
         "terraform-aws-eks-external-secrets",
-        "terraform-aws-eks-cloudwatch-logs"
+        "terraform-aws-eks-cloudwatch-logs",
+        "terraform-aws-eks-dashboard"
     ]
 }
