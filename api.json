@@ -474,13 +474,13 @@
         },
         "terraform-aws-sns": {
             "description": "This is a module that creates an AWS SNS Application Module and it was designed to be used with DNXLabs/terraform-aws-monitoring.",
-            "html_url": "https://github.com/DNXLabs/terraform-aws-sns/releases/tag/0.1.6",
-            "id": 29804120,
+            "html_url": "https://github.com/DNXLabs/terraform-aws-sns/releases/tag/0.1.7",
+            "id": 36203964,
             "name": "terraform-aws-sns",
             "short_name": "terraform-aws-sns",
-            "tag_name": "0.1.6",
-            "tarball_url": "https://api.github.com/repos/DNXLabs/terraform-aws-sns/tarball/0.1.6",
-            "zipball_url": "https://api.github.com/repos/DNXLabs/terraform-aws-sns/zipball/0.1.6"
+            "tag_name": "0.1.7",
+            "tarball_url": "https://api.github.com/repos/DNXLabs/terraform-aws-sns/tarball/0.1.7",
+            "zipball_url": "https://api.github.com/repos/DNXLabs/terraform-aws-sns/zipball/0.1.7"
         },
         "terraform-aws-static-app": {
             "description": "This is a module that creates a static application with a OAI Cloudfront.",
