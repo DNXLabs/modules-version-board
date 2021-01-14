@@ -62,6 +62,8 @@
         "terraform-aws-eks-cloudwatch-metrics",
         "terraform-aws-eks-external-secrets",
         "terraform-aws-eks-cloudwatch-logs",
-        "terraform-aws-eks-dashboard"
+        "terraform-aws-eks-dashboard",
+        "terraform-aws-eks-metrics-server",
+        "terraform-aws-eks-cert-manager"
     ]
 }
