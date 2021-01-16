@@ -64,6 +64,9 @@
         "terraform-aws-eks-cloudwatch-logs",
         "terraform-aws-eks-dashboard",
         "terraform-aws-eks-metrics-server",
-        "terraform-aws-eks-cert-manager"
+        "terraform-aws-eks-cert-manager",
+        "terraform-aws-eks-grafana-prometheus",
+        "terraform-aws-eks-cluster-autoscaler",
+        "terraform-aws-eks-velero"
     ]
 }
