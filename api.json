@@ -262,16 +262,6 @@
             "tarball_url": "https://api.github.com/repos/DNXLabs/terraform-aws-ecs-app-worker/tarball/1.4.0",
             "zipball_url": "https://api.github.com/repos/DNXLabs/terraform-aws-ecs-app-worker/zipball/1.4.0"
         },
-        "terraform-aws-eks": {
-            "description": "This terraform modules creates an Elastic Kubernetes Service(EKS) cluster with self-managed nodes.",
-            "html_url": "https://github.com/DNXLabs/terraform-aws-eks/releases/tag/0.0.1",
-            "id": 29797601,
-            "name": "terraform-aws-eks",
-            "short_name": "terraform-aws-eks",
-            "tag_name": "0.0.1",
-            "tarball_url": "https://api.github.com/repos/DNXLabs/terraform-aws-eks/tarball/0.0.1",
-            "zipball_url": "https://api.github.com/repos/DNXLabs/terraform-aws-eks/zipball/0.0.1"
-        },
         "terraform-aws-eks-cert-manager": {
             "description": "Terraform module for deploying Kubernetes cert-manager, cert-manager is a native Kubernetes certificate management controller.",
             "html_url": "https://github.com/DNXLabs/terraform-aws-eks-cert-manager/releases/tag/0.1.0",
@@ -576,13 +566,13 @@
         },
         "docker-kube-tools": {
             "description": "Docker image containing Kubernetes CLI tool (Kubectl), AWS CLI and AWS Shell, to control any k8s cluster.",
-            "html_url": "https://github.com/DNXLabs/docker-kube-tools/releases/tag/0.1.0",
-            "id": 33716415,
+            "html_url": "https://github.com/DNXLabs/docker-kube-tools/releases/tag/0.2.0",
+            "id": 36479011,
             "name": "docker-kube-tools",
             "short_name": "docker-kube-tools",
-            "tag_name": "0.1.0",
-            "tarball_url": "https://api.github.com/repos/DNXLabs/docker-kube-tools/tarball/0.1.0",
-            "zipball_url": "https://api.github.com/repos/DNXLabs/docker-kube-tools/zipball/0.1.0"
+            "tag_name": "0.2.0",
+            "tarball_url": "https://api.github.com/repos/DNXLabs/docker-kube-tools/tarball/0.2.0",
+            "zipball_url": "https://api.github.com/repos/DNXLabs/docker-kube-tools/zipball/0.2.0"
         },
         "docker-serverless-python": {
             "description": "Docker image of Python 3 containing NodeJS, NPM and Serverless Framework.",
