@@ -292,6 +292,16 @@
             "tarball_url": "https://api.github.com/repos/DNXLabs/terraform-aws-eks-cloudwatch-metrics/tarball/0.1.0",
             "zipball_url": "https://api.github.com/repos/DNXLabs/terraform-aws-eks-cloudwatch-metrics/zipball/0.1.0"
         },
+        "terraform-aws-eks-cluster-autoscaler": {
+            "description": "Terraform module for deploying Kubernetes Cluster Autoscaler inside a pre-existing EKS cluster. Cluster Autoscaler is a tool that automatically adjusts the size of the Kubernetes cluster.",
+            "html_url": "https://github.com/DNXLabs/terraform-aws-eks-cluster-autoscaler/releases/tag/0.1.0",
+            "id": 36479377,
+            "name": "terraform-aws-eks-cluster-autoscaler",
+            "short_name": "terraform-aws-eks-cluster-autoscaler",
+            "tag_name": "0.1.0",
+            "tarball_url": "https://api.github.com/repos/DNXLabs/terraform-aws-eks-cluster-autoscaler/tarball/0.1.0",
+            "zipball_url": "https://api.github.com/repos/DNXLabs/terraform-aws-eks-cluster-autoscaler/zipball/0.1.0"
+        },
         "terraform-aws-eks-dashboard": {
             "description": "Terraform module for deploying kubernetes-dashboard inside a pre-existing EKS cluster.",
             "html_url": "https://github.com/DNXLabs/terraform-aws-eks-dashboard/releases/tag/0.1.1",
@@ -322,6 +332,16 @@
             "tarball_url": "https://api.github.com/repos/DNXLabs/terraform-aws-eks-external-secrets/tarball/0.1.1",
             "zipball_url": "https://api.github.com/repos/DNXLabs/terraform-aws-eks-external-secrets/zipball/0.1.1"
         },
+        "terraform-aws-eks-grafana-prometheus": {
+            "description": "Terraform module for deploying Kubernetes Prometheus and Grafana inside a pre-existing EKS cluster.",
+            "html_url": "https://github.com/DNXLabs/terraform-aws-eks-grafana-prometheus/releases/tag/0.1.0",
+            "id": 36408932,
+            "name": "terraform-aws-eks-grafana-prometheus",
+            "short_name": "terraform-aws-eks-grafana-prometheus",
+            "tag_name": "0.1.0",
+            "tarball_url": "https://api.github.com/repos/DNXLabs/terraform-aws-eks-grafana-prometheus/tarball/0.1.0",
+            "zipball_url": "https://api.github.com/repos/DNXLabs/terraform-aws-eks-grafana-prometheus/zipball/0.1.0"
+        },
         "terraform-aws-eks-lb-controller": {
             "description": "Terraform module for deploying AWS Load Balancer Controller inside a pre-existing EKS cluster.",
             "html_url": "https://github.com/DNXLabs/terraform-aws-eks-lb-controller/releases/tag/0.2.0",
@@ -351,6 +371,16 @@
             "tag_name": "0.1.1",
             "tarball_url": "https://api.github.com/repos/DNXLabs/terraform-aws-eks-node-termination-handler/tarball/0.1.1",
             "zipball_url": "https://api.github.com/repos/DNXLabs/terraform-aws-eks-node-termination-handler/zipball/0.1.1"
+        },
+        "terraform-aws-eks-velero": {
+            "description": "Terraform module for deploying Kubernetes Velero inside a pre-existing EKS cluster. Velero (formerly Heptio Ark) is an open source tool to safely backup and restore, perform disaster recovery, and migrate Kubernetes cluster resources and persistent volumes.",
+            "html_url": "https://github.com/DNXLabs/terraform-aws-eks-velero/releases/tag/0.1.0",
+            "id": 36479560,
+            "name": "terraform-aws-eks-velero",
+            "short_name": "terraform-aws-eks-velero",
+            "tag_name": "0.1.0",
+            "tarball_url": "https://api.github.com/repos/DNXLabs/terraform-aws-eks-velero/tarball/0.1.0",
+            "zipball_url": "https://api.github.com/repos/DNXLabs/terraform-aws-eks-velero/zipball/0.1.0"
         },
         "terraform-aws-gitlab-runner": {
             "description": "Terraform module for AWS GitLab Runners on Spot Instances.",
