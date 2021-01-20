@@ -264,13 +264,13 @@
         },
         "terraform-aws-eks-cert-manager": {
             "description": "Terraform module for deploying Kubernetes cert-manager, cert-manager is a native Kubernetes certificate management controller.",
-            "html_url": "https://github.com/DNXLabs/terraform-aws-eks-cert-manager/releases/tag/0.1.0",
-            "id": 36402267,
+            "html_url": "https://github.com/DNXLabs/terraform-aws-eks-cert-manager/releases/tag/0.2.0",
+            "id": 36626419,
             "name": "terraform-aws-eks-cert-manager",
             "short_name": "terraform-aws-eks-cert-manager",
-            "tag_name": "0.1.0",
-            "tarball_url": "https://api.github.com/repos/DNXLabs/terraform-aws-eks-cert-manager/tarball/0.1.0",
-            "zipball_url": "https://api.github.com/repos/DNXLabs/terraform-aws-eks-cert-manager/zipball/0.1.0"
+            "tag_name": "0.2.0",
+            "tarball_url": "https://api.github.com/repos/DNXLabs/terraform-aws-eks-cert-manager/tarball/0.2.0",
+            "zipball_url": "https://api.github.com/repos/DNXLabs/terraform-aws-eks-cert-manager/zipball/0.2.0"
         },
         "terraform-aws-eks-cloudwatch-logs": {
             "description": "Terraform module for deploying AWS Fluent Bit as a daemonSet to send logs to CloudWatch Logs aws-for-fluent-bit inside a pre-existing EKS cluster.",
@@ -514,13 +514,13 @@
         },
         "terraform-aws-security-baseline": {
             "description": "Terraform module to set up AWS account with the secure baseline configuration based on CIS Amazon Web Services Foundations.",
-            "html_url": "https://github.com/DNXLabs/terraform-aws-security-baseline/releases/tag/3.0.0",
-            "id": 36382492,
+            "html_url": "https://github.com/DNXLabs/terraform-aws-security-baseline/releases/tag/3.0.1",
+            "id": 36581690,
             "name": "terraform-aws-security-baseline",
             "short_name": "terraform-aws-security-baseline",
-            "tag_name": "3.0.0",
-            "tarball_url": "https://api.github.com/repos/DNXLabs/terraform-aws-security-baseline/tarball/3.0.0",
-            "zipball_url": "https://api.github.com/repos/DNXLabs/terraform-aws-security-baseline/zipball/3.0.0"
+            "tag_name": "3.0.1",
+            "tarball_url": "https://api.github.com/repos/DNXLabs/terraform-aws-security-baseline/tarball/3.0.1",
+            "zipball_url": "https://api.github.com/repos/DNXLabs/terraform-aws-security-baseline/zipball/3.0.1"
         },
         "terraform-aws-sns": {
             "description": "This is a module that creates an AWS SNS Application Module and it was designed to be used with DNXLabs/terraform-aws-monitoring.",
