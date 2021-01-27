@@ -596,13 +596,13 @@
         },
         "docker-kube-tools": {
             "description": "Docker image containing Kubernetes CLI tool (Kubectl), AWS CLI and AWS Shell, to control any k8s cluster.",
-            "html_url": "https://github.com/DNXLabs/docker-kube-tools/releases/tag/0.3.0",
-            "id": 36731089,
+            "html_url": "https://github.com/DNXLabs/docker-kube-tools/releases/tag/0.3.2",
+            "id": 36892641,
             "name": "docker-kube-tools",
             "short_name": "docker-kube-tools",
-            "tag_name": "0.3.0",
-            "tarball_url": "https://api.github.com/repos/DNXLabs/docker-kube-tools/tarball/0.3.0",
-            "zipball_url": "https://api.github.com/repos/DNXLabs/docker-kube-tools/zipball/0.3.0"
+            "tag_name": "0.3.2",
+            "tarball_url": "https://api.github.com/repos/DNXLabs/docker-kube-tools/tarball/0.3.2",
+            "zipball_url": "https://api.github.com/repos/DNXLabs/docker-kube-tools/zipball/0.3.2"
         },
         "docker-serverless-python": {
             "description": "Docker image of Python 3 containing NodeJS, NPM and Serverless Framework.",
