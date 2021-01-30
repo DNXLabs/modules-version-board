@@ -67,6 +67,8 @@
         "terraform-aws-eks-cert-manager",
         "terraform-aws-eks-grafana-prometheus",
         "terraform-aws-eks-cluster-autoscaler",
-        "terraform-aws-eks-velero"
+        "terraform-aws-eks-velero",
+        "terraform-aws-eks-argocd",
+        "terraform-aws-eks-ack"
     ]
 }
