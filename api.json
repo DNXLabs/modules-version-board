@@ -264,13 +264,13 @@
         },
         "terraform-aws-eks-ack": {
             "description": "Terraform module for deploying Kubernetes AWS Controllers for Kubernetes (ACK), lets you define and use AWS service resources directly from Kubernetes.",
-            "html_url": "https://github.com/DNXLabs/terraform-aws-eks-ack/releases/tag/0.1.1",
-            "id": 37131051,
+            "html_url": "https://github.com/DNXLabs/terraform-aws-eks-ack/releases/tag/0.1.2",
+            "id": 37207162,
             "name": "terraform-aws-eks-ack",
             "short_name": "terraform-aws-eks-ack",
-            "tag_name": "0.1.1",
-            "tarball_url": "https://api.github.com/repos/DNXLabs/terraform-aws-eks-ack/tarball/0.1.1",
-            "zipball_url": "https://api.github.com/repos/DNXLabs/terraform-aws-eks-ack/zipball/0.1.1"
+            "tag_name": "0.1.2",
+            "tarball_url": "https://api.github.com/repos/DNXLabs/terraform-aws-eks-ack/tarball/0.1.2",
+            "zipball_url": "https://api.github.com/repos/DNXLabs/terraform-aws-eks-ack/zipball/0.1.2"
         },
         "terraform-aws-eks-argocd": {
             "description": "Terraform module for deploying Kubernetes Argo CD and Argo Rollouts inside a pre-existing EKS cluster.",
