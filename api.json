@@ -342,6 +342,16 @@
             "tarball_url": "https://api.github.com/repos/DNXLabs/terraform-aws-eks-dashboard/tarball/0.1.1",
             "zipball_url": "https://api.github.com/repos/DNXLabs/terraform-aws-eks-dashboard/zipball/0.1.1"
         },
+        "terraform-aws-eks-efs-csi-driver": {
+            "description": "Terraform module for deploying aws-efs-csi-driver inside a pre-existing EKS cluster.",
+            "html_url": "https://github.com/DNXLabs/terraform-aws-eks-efs-csi-driver/releases/tag/0.1.0",
+            "id": 37770153,
+            "name": "terraform-aws-eks-efs-csi-driver",
+            "short_name": "terraform-aws-eks-efs-csi-driver",
+            "tag_name": "0.1.0",
+            "tarball_url": "https://api.github.com/repos/DNXLabs/terraform-aws-eks-efs-csi-driver/tarball/0.1.0",
+            "zipball_url": "https://api.github.com/repos/DNXLabs/terraform-aws-eks-efs-csi-driver/zipball/0.1.0"
+        },
         "terraform-aws-eks-external-dns": {
             "description": "Terraform module for deploying External DNS inside a pre-existing EKS cluster.",
             "html_url": "https://github.com/DNXLabs/terraform-aws-eks-external-dns/releases/tag/0.1.2",
