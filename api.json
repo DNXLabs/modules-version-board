@@ -552,6 +552,16 @@
             "tarball_url": "https://api.github.com/repos/DNXLabs/terraform-aws-route53healthcheck/tarball/0.1.0",
             "zipball_url": "https://api.github.com/repos/DNXLabs/terraform-aws-route53healthcheck/zipball/0.1.0"
         },
+        "terraform-aws-security-alarms": {
+            "description": null,
+            "html_url": "https://github.com/DNXLabs/terraform-aws-security-alarms/releases/tag/1.0.1",
+            "id": 36631520,
+            "name": "terraform-aws-security-alarms",
+            "short_name": "terraform-aws-security-alarms",
+            "tag_name": "1.0.1",
+            "tarball_url": "https://api.github.com/repos/DNXLabs/terraform-aws-security-alarms/tarball/1.0.1",
+            "zipball_url": "https://api.github.com/repos/DNXLabs/terraform-aws-security-alarms/zipball/1.0.1"
+        },
         "terraform-aws-security-baseline": {
             "description": "Terraform module to set up AWS account with the secure baseline configuration based on CIS Amazon Web Services Foundations.",
             "html_url": "https://github.com/DNXLabs/terraform-aws-security-baseline/releases/tag/3.0.1",
