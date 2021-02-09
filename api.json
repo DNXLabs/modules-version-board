@@ -114,13 +114,13 @@
         },
         "terraform-aws-backend": {
             "description": "This terraform module implements what is described in the Terraform S3 Backend.",
-            "html_url": "https://github.com/DNXLabs/terraform-aws-backend/releases/tag/1.1.1",
-            "id": 29217099,
+            "html_url": "https://github.com/DNXLabs/terraform-aws-backend/releases/tag/1.2.0",
+            "id": 37827515,
             "name": "terraform-aws-backend",
             "short_name": "terraform-aws-backend",
-            "tag_name": "1.1.1",
-            "tarball_url": "https://api.github.com/repos/DNXLabs/terraform-aws-backend/tarball/1.1.1",
-            "zipball_url": "https://api.github.com/repos/DNXLabs/terraform-aws-backend/zipball/1.1.1"
+            "tag_name": "1.2.0",
+            "tarball_url": "https://api.github.com/repos/DNXLabs/terraform-aws-backend/tarball/1.2.0",
+            "zipball_url": "https://api.github.com/repos/DNXLabs/terraform-aws-backend/zipball/1.2.0"
         },
         "terraform-aws-backup": {
             "description": "Terraform module to automate the backup of data across AWS services using a resource tag.",
