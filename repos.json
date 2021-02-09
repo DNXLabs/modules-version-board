@@ -49,7 +49,7 @@
         "terraform-aws-log-exporter",
         "terraform-aws-rds-scheduler",
         "terraform-aws-security-baseline",
-        "terraform-aws-security-alarm",
+        "terraform-aws-security-alarms",
         "terraform-aws-kinesis-stream-es",
         "terraform-aws-account-identity",
         "terraform-aws-eb-windows",
