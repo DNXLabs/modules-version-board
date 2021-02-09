@@ -71,6 +71,7 @@
         "terraform-aws-eks-cluster-autoscaler",
         "terraform-aws-eks-velero",
         "terraform-aws-eks-argocd",
-        "terraform-aws-eks-ack"
+        "terraform-aws-eks-ack",
+        "terraform-aws-eks-efs-csi-driver"
     ]
 }
