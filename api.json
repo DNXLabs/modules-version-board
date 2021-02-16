@@ -504,13 +504,13 @@
         },
         "terraform-aws-network": {
             "description": "Terraform module for creating basic network resources: VPC, subnets and NAT.",
-            "html_url": "https://github.com/DNXLabs/terraform-aws-network/releases/tag/1.4.0",
-            "id": 36644162,
+            "html_url": "https://github.com/DNXLabs/terraform-aws-network/releases/tag/1.4.1",
+            "id": 38045600,
             "name": "terraform-aws-network",
             "short_name": "terraform-aws-network",
-            "tag_name": "1.4.0",
-            "tarball_url": "https://api.github.com/repos/DNXLabs/terraform-aws-network/tarball/1.4.0",
-            "zipball_url": "https://api.github.com/repos/DNXLabs/terraform-aws-network/zipball/1.4.0"
+            "tag_name": "1.4.1",
+            "tarball_url": "https://api.github.com/repos/DNXLabs/terraform-aws-network/tarball/1.4.1",
+            "zipball_url": "https://api.github.com/repos/DNXLabs/terraform-aws-network/zipball/1.4.1"
         },
         "terraform-aws-openvpn": {
             "description": "This module setup an OpenVPN installation and requires an existing VPC.",
