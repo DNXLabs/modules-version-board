@@ -153,7 +153,7 @@
             "zipball_url": "https://api.github.com/repos/DNXLabs/terraform-aws-billing-role/zipball/1.2.0"
         },
         "terraform-aws-budget": {
-            "description": null,
+            "description": "Terraform module to add billing-related AWS resources like AWS Budget, SNS Budget Alarm, AWS Chatbot integration to send notifications to Slack channel.",
             "html_url": "https://github.com/DNXLabs/terraform-aws-budget/releases/tag/1.0.0",
             "id": 29843021,
             "name": "terraform-aws-budget",
@@ -504,13 +504,13 @@
         },
         "terraform-aws-network": {
             "description": "Terraform module for creating basic network resources: VPC, subnets and NAT.",
-            "html_url": "https://github.com/DNXLabs/terraform-aws-network/releases/tag/1.4.1",
-            "id": 38045600,
+            "html_url": "https://github.com/DNXLabs/terraform-aws-network/releases/tag/1.4.2",
+            "id": 38450980,
             "name": "terraform-aws-network",
             "short_name": "terraform-aws-network",
-            "tag_name": "1.4.1",
-            "tarball_url": "https://api.github.com/repos/DNXLabs/terraform-aws-network/tarball/1.4.1",
-            "zipball_url": "https://api.github.com/repos/DNXLabs/terraform-aws-network/zipball/1.4.1"
+            "tag_name": "1.4.2",
+            "tarball_url": "https://api.github.com/repos/DNXLabs/terraform-aws-network/tarball/1.4.2",
+            "zipball_url": "https://api.github.com/repos/DNXLabs/terraform-aws-network/zipball/1.4.2"
         },
         "terraform-aws-openvpn": {
             "description": "This module setup an OpenVPN installation and requires an existing VPC.",
