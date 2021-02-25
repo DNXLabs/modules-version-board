@@ -294,13 +294,13 @@
         },
         "terraform-aws-eks-cert-manager": {
             "description": "Terraform module for deploying Kubernetes cert-manager, cert-manager is a native Kubernetes certificate management controller.",
-            "html_url": "https://github.com/DNXLabs/terraform-aws-eks-cert-manager/releases/tag/0.3.0",
-            "id": 36632851,
+            "html_url": "https://github.com/DNXLabs/terraform-aws-eks-cert-manager/releases/tag/0.3.1",
+            "id": 38679629,
             "name": "terraform-aws-eks-cert-manager",
             "short_name": "terraform-aws-eks-cert-manager",
-            "tag_name": "0.3.0",
-            "tarball_url": "https://api.github.com/repos/DNXLabs/terraform-aws-eks-cert-manager/tarball/0.3.0",
-            "zipball_url": "https://api.github.com/repos/DNXLabs/terraform-aws-eks-cert-manager/zipball/0.3.0"
+            "tag_name": "0.3.1",
+            "tarball_url": "https://api.github.com/repos/DNXLabs/terraform-aws-eks-cert-manager/tarball/0.3.1",
+            "zipball_url": "https://api.github.com/repos/DNXLabs/terraform-aws-eks-cert-manager/zipball/0.3.1"
         },
         "terraform-aws-eks-cloudwatch-logs": {
             "description": "Terraform module for deploying AWS Fluent Bit as a daemonSet to send logs to CloudWatch Logs aws-for-fluent-bit inside a pre-existing EKS cluster.",
