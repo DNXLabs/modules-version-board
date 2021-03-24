@@ -58,6 +58,7 @@
         "terraform-aws-backup",
         "terraform-aws-jenkins",
         "terraform-aws-budget",
+        "terraform-aws-maskopy",
         "terraform-aws-eks-node-termination-handler",
         "terraform-aws-eks-lb-controller",
         "terraform-aws-eks-external-dns",
