@@ -504,13 +504,13 @@
         },
         "terraform-aws-maskopy": {
             "description": "Maskopy solution is to Copy and Obfuscate Production Data to Target Environments in AWS. It uses AWS Serverless services, Step functions, Lambda and Fargate.",
-            "html_url": "https://github.com/DNXLabs/terraform-aws-maskopy/releases/tag/0.1.1",
-            "id": 40381590,
+            "html_url": "https://github.com/DNXLabs/terraform-aws-maskopy/releases/tag/0.1.2",
+            "id": 40383926,
             "name": "terraform-aws-maskopy",
             "short_name": "terraform-aws-maskopy",
-            "tag_name": "0.1.1",
-            "tarball_url": "https://api.github.com/repos/DNXLabs/terraform-aws-maskopy/tarball/0.1.1",
-            "zipball_url": "https://api.github.com/repos/DNXLabs/terraform-aws-maskopy/zipball/0.1.1"
+            "tag_name": "0.1.2",
+            "tarball_url": "https://api.github.com/repos/DNXLabs/terraform-aws-maskopy/tarball/0.1.2",
+            "zipball_url": "https://api.github.com/repos/DNXLabs/terraform-aws-maskopy/zipball/0.1.2"
         },
         "terraform-aws-network": {
             "description": "Terraform module for creating basic network resources: VPC, subnets and NAT.",
