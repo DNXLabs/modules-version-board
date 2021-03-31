@@ -214,13 +214,13 @@
         },
         "terraform-aws-ecs": {
             "description": "This terraform module builds an Elastic Container Service(ECS) Cluster in AWS.",
-            "html_url": "https://github.com/DNXLabs/terraform-aws-ecs/releases/tag/4.8.1",
-            "id": 40615395,
+            "html_url": "https://github.com/DNXLabs/terraform-aws-ecs/releases/tag/4.8.2",
+            "id": 40670467,
             "name": "terraform-aws-ecs",
             "short_name": "terraform-aws-ecs",
-            "tag_name": "4.8.1",
-            "tarball_url": "https://api.github.com/repos/DNXLabs/terraform-aws-ecs/tarball/4.8.1",
-            "zipball_url": "https://api.github.com/repos/DNXLabs/terraform-aws-ecs/zipball/4.8.1"
+            "tag_name": "4.8.2",
+            "tarball_url": "https://api.github.com/repos/DNXLabs/terraform-aws-ecs/tarball/4.8.2",
+            "zipball_url": "https://api.github.com/repos/DNXLabs/terraform-aws-ecs/zipball/4.8.2"
         },
         "terraform-aws-ecs-app": {
             "description": "This terraform module is an AWS ECS Application Module for Scheduler without an Application Load Balancer(ALB).",
