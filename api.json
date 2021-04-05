@@ -626,13 +626,13 @@
     "tools": {
         "aws-google-auth": {
             "description": "Provides AWS STS credentials based on Google Apps SAML SSO auth.",
-            "html_url": "https://github.com/DNXLabs/aws-google-auth/releases/tag/0.0.37-dnx2",
-            "id": 37152157,
+            "html_url": "https://github.com/DNXLabs/aws-google-auth/releases/tag/0.0.38-dnx1",
+            "id": 40923919,
             "name": "aws-google-auth",
             "short_name": "aws-google-auth",
-            "tag_name": "0.0.37-dnx2",
-            "tarball_url": "https://api.github.com/repos/DNXLabs/aws-google-auth/tarball/0.0.37-dnx2",
-            "zipball_url": "https://api.github.com/repos/DNXLabs/aws-google-auth/zipball/0.0.37-dnx2"
+            "tag_name": "0.0.38-dnx1",
+            "tarball_url": "https://api.github.com/repos/DNXLabs/aws-google-auth/tarball/0.0.38-dnx1",
+            "zipball_url": "https://api.github.com/repos/DNXLabs/aws-google-auth/zipball/0.0.38-dnx1"
         },
         "docker-aws": {
             "description": "Docker image containing AWS CLI, AWS Shell, and some scripts to ease AWS deployments.",
