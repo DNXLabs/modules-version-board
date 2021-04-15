@@ -264,13 +264,13 @@
         },
         "terraform-aws-ecs-app-worker": {
             "description": "This terraform module is an AWS ECS Application Module for Workers without Application Load Balancer (ALB).",
-            "html_url": "https://github.com/DNXLabs/terraform-aws-ecs-app-worker/releases/tag/1.4.0",
-            "id": 31851881,
+            "html_url": "https://github.com/DNXLabs/terraform-aws-ecs-app-worker/releases/tag/1.5.0",
+            "id": 41388929,
             "name": "terraform-aws-ecs-app-worker",
             "short_name": "terraform-aws-ecs-app-worker",
-            "tag_name": "1.4.0",
-            "tarball_url": "https://api.github.com/repos/DNXLabs/terraform-aws-ecs-app-worker/tarball/1.4.0",
-            "zipball_url": "https://api.github.com/repos/DNXLabs/terraform-aws-ecs-app-worker/zipball/1.4.0"
+            "tag_name": "1.5.0",
+            "tarball_url": "https://api.github.com/repos/DNXLabs/terraform-aws-ecs-app-worker/tarball/1.5.0",
+            "zipball_url": "https://api.github.com/repos/DNXLabs/terraform-aws-ecs-app-worker/zipball/1.5.0"
         },
         "terraform-aws-eks-ack": {
             "description": "Terraform module for deploying Kubernetes AWS Controllers for Kubernetes (ACK), lets you define and use AWS service resources directly from Kubernetes.",
