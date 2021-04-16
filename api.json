@@ -164,13 +164,13 @@
         },
         "terraform-aws-chatbot": {
             "description": "Utility Module to create AWS Chatbot and its dependencies.",
-            "html_url": "https://github.com/DNXLabs/terraform-aws-chatbot/releases/tag/1.0.0",
-            "id": 29797878,
+            "html_url": "https://github.com/DNXLabs/terraform-aws-chatbot/releases/tag/2.0.0",
+            "id": 41514549,
             "name": "terraform-aws-chatbot",
             "short_name": "terraform-aws-chatbot",
-            "tag_name": "1.0.0",
-            "tarball_url": "https://api.github.com/repos/DNXLabs/terraform-aws-chatbot/tarball/1.0.0",
-            "zipball_url": "https://api.github.com/repos/DNXLabs/terraform-aws-chatbot/zipball/1.0.0"
+            "tag_name": "2.0.0",
+            "tarball_url": "https://api.github.com/repos/DNXLabs/terraform-aws-chatbot/tarball/2.0.0",
+            "zipball_url": "https://api.github.com/repos/DNXLabs/terraform-aws-chatbot/zipball/2.0.0"
         },
         "terraform-aws-client-vpn": {
             "description": "This terraform module installs a client VPN.",
