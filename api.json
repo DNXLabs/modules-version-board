@@ -676,13 +676,13 @@
         },
         "docker-terraform": {
             "description": "Docker image containing Terraform, AWS CLI and AWS Shell, to deploy infrastructure as code on AWS.",
-            "html_url": "https://github.com/DNXLabs/docker-terraform/releases/tag/0.14.5-dnx1",
-            "id": 36686317,
+            "html_url": "https://github.com/DNXLabs/docker-terraform/releases/tag/0.14.8-dnx1",
+            "id": 41522203,
             "name": "docker-terraform",
             "short_name": "docker-terraform",
-            "tag_name": "0.14.5-dnx1",
-            "tarball_url": "https://api.github.com/repos/DNXLabs/docker-terraform/tarball/0.14.5-dnx1",
-            "zipball_url": "https://api.github.com/repos/DNXLabs/docker-terraform/zipball/0.14.5-dnx1"
+            "tag_name": "0.14.8-dnx1",
+            "tarball_url": "https://api.github.com/repos/DNXLabs/docker-terraform/tarball/0.14.8-dnx1",
+            "zipball_url": "https://api.github.com/repos/DNXLabs/docker-terraform/zipball/0.14.8-dnx1"
         }
     }
 }
