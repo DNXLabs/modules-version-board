@@ -44,13 +44,13 @@
         },
         "terraform-aws-account-identity": {
             "description": "This terraform module\u00a0creates identity roles in AWS.",
-            "html_url": "https://github.com/DNXLabs/terraform-aws-account-identity/releases/tag/0.1.0",
-            "id": 29797504,
+            "html_url": "https://github.com/DNXLabs/terraform-aws-account-identity/releases/tag/0.1.1",
+            "id": 41983328,
             "name": "terraform-aws-account-identity",
             "short_name": "terraform-aws-account-identity",
-            "tag_name": "0.1.0",
-            "tarball_url": "https://api.github.com/repos/DNXLabs/terraform-aws-account-identity/tarball/0.1.0",
-            "zipball_url": "https://api.github.com/repos/DNXLabs/terraform-aws-account-identity/zipball/0.1.0"
+            "tag_name": "0.1.1",
+            "tarball_url": "https://api.github.com/repos/DNXLabs/terraform-aws-account-identity/tarball/0.1.1",
+            "zipball_url": "https://api.github.com/repos/DNXLabs/terraform-aws-account-identity/zipball/0.1.1"
         },
         "terraform-aws-account-security": {
             "description": "This terraform module creates IAM roles for federated users to assume from an IdP account.",
@@ -104,13 +104,13 @@
         },
         "terraform-aws-audit-root": {
             "description": "This terraform module is an audit module to apply into root account (master).",
-            "html_url": "https://github.com/DNXLabs/terraform-aws-audit-root/releases/tag/2.0.0",
-            "id": 36382646,
+            "html_url": "https://github.com/DNXLabs/terraform-aws-audit-root/releases/tag/2.0.1",
+            "id": 41983816,
             "name": "terraform-aws-audit-root",
             "short_name": "terraform-aws-audit-root",
-            "tag_name": "2.0.0",
-            "tarball_url": "https://api.github.com/repos/DNXLabs/terraform-aws-audit-root/tarball/2.0.0",
-            "zipball_url": "https://api.github.com/repos/DNXLabs/terraform-aws-audit-root/zipball/2.0.0"
+            "tag_name": "2.0.1",
+            "tarball_url": "https://api.github.com/repos/DNXLabs/terraform-aws-audit-root/tarball/2.0.1",
+            "zipball_url": "https://api.github.com/repos/DNXLabs/terraform-aws-audit-root/zipball/2.0.1"
         },
         "terraform-aws-backend": {
             "description": "This terraform module implements what is described in the Terraform S3 Backend.",
@@ -504,13 +504,13 @@
         },
         "terraform-aws-maskopy": {
             "description": "Maskopy solution is to Copy and Obfuscate Production Data to Target Environments in AWS. It uses AWS Serverless services, Step functions, Lambda and Fargate.",
-            "html_url": "https://github.com/DNXLabs/terraform-aws-maskopy/releases/tag/0.1.4",
-            "id": 41737916,
+            "html_url": "https://github.com/DNXLabs/terraform-aws-maskopy/releases/tag/0.1.5",
+            "id": 42039120,
             "name": "terraform-aws-maskopy",
             "short_name": "terraform-aws-maskopy",
-            "tag_name": "0.1.4",
-            "tarball_url": "https://api.github.com/repos/DNXLabs/terraform-aws-maskopy/tarball/0.1.4",
-            "zipball_url": "https://api.github.com/repos/DNXLabs/terraform-aws-maskopy/zipball/0.1.4"
+            "tag_name": "0.1.5",
+            "tarball_url": "https://api.github.com/repos/DNXLabs/terraform-aws-maskopy/tarball/0.1.5",
+            "zipball_url": "https://api.github.com/repos/DNXLabs/terraform-aws-maskopy/zipball/0.1.5"
         },
         "terraform-aws-network": {
             "description": "Terraform module for creating basic network resources: VPC, subnets and NAT.",
