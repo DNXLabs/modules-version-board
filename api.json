@@ -45,7 +45,7 @@
         "terraform-aws-account-identity": {
             "description": "This terraform module\u00a0creates identity roles in AWS.",
             "html_url": "https://github.com/DNXLabs/terraform-aws-account-identity/releases/tag/0.1.1",
-            "id": 41983328,
+            "id": 42113228,
             "name": "terraform-aws-account-identity",
             "short_name": "terraform-aws-account-identity",
             "tag_name": "0.1.1",
