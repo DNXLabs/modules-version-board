@@ -44,13 +44,13 @@
         },
         "terraform-aws-account-identity": {
             "description": "This terraform module\u00a0creates identity roles in AWS.",
-            "html_url": "https://github.com/DNXLabs/terraform-aws-account-identity/releases/tag/0.1.1",
-            "id": 42113228,
+            "html_url": "https://github.com/DNXLabs/terraform-aws-account-identity/releases/tag/0.2.0",
+            "id": 42389897,
             "name": "terraform-aws-account-identity",
             "short_name": "terraform-aws-account-identity",
-            "tag_name": "0.1.1",
-            "tarball_url": "https://api.github.com/repos/DNXLabs/terraform-aws-account-identity/tarball/0.1.1",
-            "zipball_url": "https://api.github.com/repos/DNXLabs/terraform-aws-account-identity/zipball/0.1.1"
+            "tag_name": "0.2.0",
+            "tarball_url": "https://api.github.com/repos/DNXLabs/terraform-aws-account-identity/tarball/0.2.0",
+            "zipball_url": "https://api.github.com/repos/DNXLabs/terraform-aws-account-identity/zipball/0.2.0"
         },
         "terraform-aws-account-security": {
             "description": "This terraform module creates IAM roles for federated users to assume from an IdP account.",
@@ -514,13 +514,13 @@
         },
         "terraform-aws-network": {
             "description": "Terraform module for creating basic network resources: VPC, subnets and NAT.",
-            "html_url": "https://github.com/DNXLabs/terraform-aws-network/releases/tag/1.4.2",
-            "id": 38450980,
+            "html_url": "https://github.com/DNXLabs/terraform-aws-network/releases/tag/1.4.3",
+            "id": 42411953,
             "name": "terraform-aws-network",
             "short_name": "terraform-aws-network",
-            "tag_name": "1.4.2",
-            "tarball_url": "https://api.github.com/repos/DNXLabs/terraform-aws-network/tarball/1.4.2",
-            "zipball_url": "https://api.github.com/repos/DNXLabs/terraform-aws-network/zipball/1.4.2"
+            "tag_name": "1.4.3",
+            "tarball_url": "https://api.github.com/repos/DNXLabs/terraform-aws-network/tarball/1.4.3",
+            "zipball_url": "https://api.github.com/repos/DNXLabs/terraform-aws-network/zipball/1.4.3"
         },
         "terraform-aws-openvpn": {
             "description": "This module setup an OpenVPN installation and requires an existing VPC.",
