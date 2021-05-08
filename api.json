@@ -304,13 +304,13 @@
         },
         "terraform-aws-eks-cloudwatch-logs": {
             "description": "Terraform module for deploying AWS Fluent Bit as a daemonSet to send logs to CloudWatch Logs aws-for-fluent-bit inside a pre-existing EKS cluster.",
-            "html_url": "https://github.com/DNXLabs/terraform-aws-eks-cloudwatch-logs/releases/tag/0.1.0",
-            "id": 36250943,
+            "html_url": "https://github.com/DNXLabs/terraform-aws-eks-cloudwatch-logs/releases/tag/0.1.1",
+            "id": 42581244,
             "name": "terraform-aws-eks-cloudwatch-logs",
             "short_name": "terraform-aws-eks-cloudwatch-logs",
-            "tag_name": "0.1.0",
-            "tarball_url": "https://api.github.com/repos/DNXLabs/terraform-aws-eks-cloudwatch-logs/tarball/0.1.0",
-            "zipball_url": "https://api.github.com/repos/DNXLabs/terraform-aws-eks-cloudwatch-logs/zipball/0.1.0"
+            "tag_name": "0.1.1",
+            "tarball_url": "https://api.github.com/repos/DNXLabs/terraform-aws-eks-cloudwatch-logs/tarball/0.1.1",
+            "zipball_url": "https://api.github.com/repos/DNXLabs/terraform-aws-eks-cloudwatch-logs/zipball/0.1.1"
         },
         "terraform-aws-eks-cloudwatch-metrics": {
             "description": "Terraform module for deploying AWS CloudWatch Agent inside a pre-existing EKS cluster.",
