@@ -284,23 +284,23 @@
         },
         "terraform-aws-eks-argocd": {
             "description": "Terraform module for deploying Kubernetes Argo CD and Argo Rollouts inside a pre-existing EKS cluster.",
-            "html_url": "https://github.com/DNXLabs/terraform-aws-eks-argocd/releases/tag/0.2.0",
-            "id": 43080109,
+            "html_url": "https://github.com/DNXLabs/terraform-aws-eks-argocd/releases/tag/0.3.1",
+            "id": 43215451,
             "name": "terraform-aws-eks-argocd",
             "short_name": "terraform-aws-eks-argocd",
-            "tag_name": "0.2.0",
-            "tarball_url": "https://api.github.com/repos/DNXLabs/terraform-aws-eks-argocd/tarball/0.2.0",
-            "zipball_url": "https://api.github.com/repos/DNXLabs/terraform-aws-eks-argocd/zipball/0.2.0"
+            "tag_name": "0.3.1",
+            "tarball_url": "https://api.github.com/repos/DNXLabs/terraform-aws-eks-argocd/tarball/0.3.1",
+            "zipball_url": "https://api.github.com/repos/DNXLabs/terraform-aws-eks-argocd/zipball/0.3.1"
         },
         "terraform-aws-eks-cert-manager": {
             "description": "Terraform module for deploying Kubernetes cert-manager, cert-manager is a native Kubernetes certificate management controller.",
-            "html_url": "https://github.com/DNXLabs/terraform-aws-eks-cert-manager/releases/tag/0.3.2",
-            "id": 43080602,
+            "html_url": "https://github.com/DNXLabs/terraform-aws-eks-cert-manager/releases/tag/0.3.3",
+            "id": 43186497,
             "name": "terraform-aws-eks-cert-manager",
             "short_name": "terraform-aws-eks-cert-manager",
-            "tag_name": "0.3.2",
-            "tarball_url": "https://api.github.com/repos/DNXLabs/terraform-aws-eks-cert-manager/tarball/0.3.2",
-            "zipball_url": "https://api.github.com/repos/DNXLabs/terraform-aws-eks-cert-manager/zipball/0.3.2"
+            "tag_name": "0.3.3",
+            "tarball_url": "https://api.github.com/repos/DNXLabs/terraform-aws-eks-cert-manager/tarball/0.3.3",
+            "zipball_url": "https://api.github.com/repos/DNXLabs/terraform-aws-eks-cert-manager/zipball/0.3.3"
         },
         "terraform-aws-eks-cloudwatch-logs": {
             "description": "Terraform module for deploying AWS Fluent Bit as a daemonSet to send logs to CloudWatch Logs aws-for-fluent-bit inside a pre-existing EKS cluster.",
@@ -344,13 +344,13 @@
         },
         "terraform-aws-eks-efs-csi-driver": {
             "description": "Terraform module for deploying aws-efs-csi-driver inside a pre-existing EKS cluster.",
-            "html_url": "https://github.com/DNXLabs/terraform-aws-eks-efs-csi-driver/releases/tag/0.1.1",
-            "id": 43083486,
+            "html_url": "https://github.com/DNXLabs/terraform-aws-eks-efs-csi-driver/releases/tag/0.1.2",
+            "id": 43186571,
             "name": "terraform-aws-eks-efs-csi-driver",
             "short_name": "terraform-aws-eks-efs-csi-driver",
-            "tag_name": "0.1.1",
-            "tarball_url": "https://api.github.com/repos/DNXLabs/terraform-aws-eks-efs-csi-driver/tarball/0.1.1",
-            "zipball_url": "https://api.github.com/repos/DNXLabs/terraform-aws-eks-efs-csi-driver/zipball/0.1.1"
+            "tag_name": "0.1.2",
+            "tarball_url": "https://api.github.com/repos/DNXLabs/terraform-aws-eks-efs-csi-driver/tarball/0.1.2",
+            "zipball_url": "https://api.github.com/repos/DNXLabs/terraform-aws-eks-efs-csi-driver/zipball/0.1.2"
         },
         "terraform-aws-eks-external-dns": {
             "description": "Terraform module for deploying External DNS inside a pre-existing EKS cluster.",
@@ -384,13 +384,13 @@
         },
         "terraform-aws-eks-lb-controller": {
             "description": "Terraform module for deploying AWS Load Balancer Controller inside a pre-existing EKS cluster.",
-            "html_url": "https://github.com/DNXLabs/terraform-aws-eks-lb-controller/releases/tag/0.3.0",
-            "id": 43084768,
+            "html_url": "https://github.com/DNXLabs/terraform-aws-eks-lb-controller/releases/tag/0.3.1",
+            "id": 43186422,
             "name": "terraform-aws-eks-lb-controller",
             "short_name": "terraform-aws-eks-lb-controller",
-            "tag_name": "0.3.0",
-            "tarball_url": "https://api.github.com/repos/DNXLabs/terraform-aws-eks-lb-controller/tarball/0.3.0",
-            "zipball_url": "https://api.github.com/repos/DNXLabs/terraform-aws-eks-lb-controller/zipball/0.3.0"
+            "tag_name": "0.3.1",
+            "tarball_url": "https://api.github.com/repos/DNXLabs/terraform-aws-eks-lb-controller/tarball/0.3.1",
+            "zipball_url": "https://api.github.com/repos/DNXLabs/terraform-aws-eks-lb-controller/zipball/0.3.1"
         },
         "terraform-aws-eks-metrics-server": {
             "description": "Terraform module for deploying Kubernetes Metrics Server, Metrics Server collects resource metrics from Kubelets and exposes them in Kubernetes apiserver through Metrics API for use by Horizontal Pod Autoscaler and Vertical Pod Autoscaler.",
