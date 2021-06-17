@@ -7,8 +7,10 @@
     "tools": [
         "docker-terraform",
         "docker-aws",
+        "docker-aws-v2",
         "docker-kube-tools",
         "docker-aws-azure-ad",
+        "docker-okta-aws",
         "docker-serverless-python",
         "aws-google-auth"
     ],
