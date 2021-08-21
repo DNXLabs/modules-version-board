@@ -594,13 +594,13 @@
         },
         "terraform-aws-static-app": {
             "description": "This is a module that creates a static application with a OAI Cloudfront.",
-            "html_url": "https://github.com/DNXLabs/terraform-aws-static-app/releases/tag/2.1.1",
-            "id": 46888396,
+            "html_url": "https://github.com/DNXLabs/terraform-aws-static-app/releases/tag/2.2.0",
+            "id": 48168952,
             "name": "terraform-aws-static-app",
             "short_name": "terraform-aws-static-app",
-            "tag_name": "2.1.1",
-            "tarball_url": "https://api.github.com/repos/DNXLabs/terraform-aws-static-app/tarball/2.1.1",
-            "zipball_url": "https://api.github.com/repos/DNXLabs/terraform-aws-static-app/zipball/2.1.1"
+            "tag_name": "2.2.0",
+            "tarball_url": "https://api.github.com/repos/DNXLabs/terraform-aws-static-app/tarball/2.2.0",
+            "zipball_url": "https://api.github.com/repos/DNXLabs/terraform-aws-static-app/zipball/2.2.0"
         },
         "terraform-aws-vpc-peering": {
             "description": "This terraform module provide resources to manage Virtual Private Cloud (VPC) peering connections.",
@@ -656,23 +656,23 @@
         },
         "docker-aws-v2": {
             "description": "Docker image containing AWS CLI V2, AWS Shell, and some scripts to ease AWS deployments.",
-            "html_url": "https://github.com/DNXLabs/docker-aws-v2/releases/tag/2.2.30-dnx1",
-            "id": 48012779,
+            "html_url": "https://github.com/DNXLabs/docker-aws-v2/releases/tag/2.2.31-dnx1",
+            "id": 48151637,
             "name": "docker-aws-v2",
             "short_name": "docker-aws-v2",
-            "tag_name": "2.2.30-dnx1",
-            "tarball_url": "https://api.github.com/repos/DNXLabs/docker-aws-v2/tarball/2.2.30-dnx1",
-            "zipball_url": "https://api.github.com/repos/DNXLabs/docker-aws-v2/zipball/2.2.30-dnx1"
+            "tag_name": "2.2.31-dnx1",
+            "tarball_url": "https://api.github.com/repos/DNXLabs/docker-aws-v2/tarball/2.2.31-dnx1",
+            "zipball_url": "https://api.github.com/repos/DNXLabs/docker-aws-v2/zipball/2.2.31-dnx1"
         },
         "docker-kube-tools": {
             "description": "Docker image containing Kubernetes CLI tool (Kubectl), AWS CLI and AWS Shell, to control any k8s cluster.",
-            "html_url": "https://github.com/DNXLabs/docker-kube-tools/releases/tag/0.4.19",
-            "id": 48029420,
+            "html_url": "https://github.com/DNXLabs/docker-kube-tools/releases/tag/0.4.20",
+            "id": 48151278,
             "name": "docker-kube-tools",
             "short_name": "docker-kube-tools",
-            "tag_name": "0.4.19",
-            "tarball_url": "https://api.github.com/repos/DNXLabs/docker-kube-tools/tarball/0.4.19",
-            "zipball_url": "https://api.github.com/repos/DNXLabs/docker-kube-tools/zipball/0.4.19"
+            "tag_name": "0.4.20",
+            "tarball_url": "https://api.github.com/repos/DNXLabs/docker-kube-tools/tarball/0.4.20",
+            "zipball_url": "https://api.github.com/repos/DNXLabs/docker-kube-tools/zipball/0.4.20"
         },
         "docker-okta-aws": {
             "description": "This image is used to perform Okta SSO with AWS STS.",
