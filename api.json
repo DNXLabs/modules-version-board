@@ -384,13 +384,13 @@
         },
         "terraform-aws-eks-lb-controller": {
             "description": "Terraform module for deploying AWS Load Balancer Controller inside a pre-existing EKS cluster.",
-            "html_url": "https://github.com/DNXLabs/terraform-aws-eks-lb-controller/releases/tag/0.4.0",
-            "id": 44890658,
+            "html_url": "https://github.com/DNXLabs/terraform-aws-eks-lb-controller/releases/tag/0.4.1",
+            "id": 48297485,
             "name": "terraform-aws-eks-lb-controller",
             "short_name": "terraform-aws-eks-lb-controller",
-            "tag_name": "0.4.0",
-            "tarball_url": "https://api.github.com/repos/DNXLabs/terraform-aws-eks-lb-controller/tarball/0.4.0",
-            "zipball_url": "https://api.github.com/repos/DNXLabs/terraform-aws-eks-lb-controller/zipball/0.4.0"
+            "tag_name": "0.4.1",
+            "tarball_url": "https://api.github.com/repos/DNXLabs/terraform-aws-eks-lb-controller/tarball/0.4.1",
+            "zipball_url": "https://api.github.com/repos/DNXLabs/terraform-aws-eks-lb-controller/zipball/0.4.1"
         },
         "terraform-aws-eks-metrics-server": {
             "description": "Terraform module for deploying Kubernetes Metrics Server, Metrics Server collects resource metrics from Kubelets and exposes them in Kubernetes apiserver through Metrics API for use by Horizontal Pod Autoscaler and Vertical Pod Autoscaler.",
