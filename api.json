@@ -214,13 +214,13 @@
         },
         "terraform-aws-ecs": {
             "description": "This terraform module builds an Elastic Container Service(ECS) Cluster in AWS.",
-            "html_url": "https://github.com/DNXLabs/terraform-aws-ecs/releases/tag/5.5.1",
-            "id": 48335078,
+            "html_url": "https://github.com/DNXLabs/terraform-aws-ecs/releases/tag/5.5.2",
+            "id": 48469046,
             "name": "terraform-aws-ecs",
             "short_name": "terraform-aws-ecs",
-            "tag_name": "5.5.1",
-            "tarball_url": "https://api.github.com/repos/DNXLabs/terraform-aws-ecs/tarball/5.5.1",
-            "zipball_url": "https://api.github.com/repos/DNXLabs/terraform-aws-ecs/zipball/5.5.1"
+            "tag_name": "5.5.2",
+            "tarball_url": "https://api.github.com/repos/DNXLabs/terraform-aws-ecs/tarball/5.5.2",
+            "zipball_url": "https://api.github.com/repos/DNXLabs/terraform-aws-ecs/zipball/5.5.2"
         },
         "terraform-aws-ecs-app": {
             "description": "This terraform module is an AWS ECS Application Module for Scheduler without an Application Load Balancer(ALB).",
@@ -666,13 +666,13 @@
         },
         "docker-kube-tools": {
             "description": "Docker image containing Kubernetes CLI tool (Kubectl), AWS CLI and AWS Shell, to control any k8s cluster.",
-            "html_url": "https://github.com/DNXLabs/docker-kube-tools/releases/tag/0.4.21",
-            "id": 48211062,
+            "html_url": "https://github.com/DNXLabs/docker-kube-tools/releases/tag/0.4.22",
+            "id": 48466959,
             "name": "docker-kube-tools",
             "short_name": "docker-kube-tools",
-            "tag_name": "0.4.21",
-            "tarball_url": "https://api.github.com/repos/DNXLabs/docker-kube-tools/tarball/0.4.21",
-            "zipball_url": "https://api.github.com/repos/DNXLabs/docker-kube-tools/zipball/0.4.21"
+            "tag_name": "0.4.22",
+            "tarball_url": "https://api.github.com/repos/DNXLabs/docker-kube-tools/tarball/0.4.22",
+            "zipball_url": "https://api.github.com/repos/DNXLabs/docker-kube-tools/zipball/0.4.22"
         },
         "docker-okta-aws": {
             "description": "This image is used to perform Okta SSO with AWS STS.",
