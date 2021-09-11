@@ -524,13 +524,13 @@
         },
         "terraform-aws-openvpn": {
             "description": "This module setup an OpenVPN installation and requires an existing VPC.",
-            "html_url": "https://github.com/DNXLabs/terraform-aws-openvpn/releases/tag/1.2.2",
-            "id": 44385298,
+            "html_url": "https://github.com/DNXLabs/terraform-aws-openvpn/releases/tag/1.2.3",
+            "id": 49370533,
             "name": "terraform-aws-openvpn",
             "short_name": "terraform-aws-openvpn",
-            "tag_name": "1.2.2",
-            "tarball_url": "https://api.github.com/repos/DNXLabs/terraform-aws-openvpn/tarball/1.2.2",
-            "zipball_url": "https://api.github.com/repos/DNXLabs/terraform-aws-openvpn/zipball/1.2.2"
+            "tag_name": "1.2.3",
+            "tarball_url": "https://api.github.com/repos/DNXLabs/terraform-aws-openvpn/tarball/1.2.3",
+            "zipball_url": "https://api.github.com/repos/DNXLabs/terraform-aws-openvpn/zipball/1.2.3"
         },
         "terraform-aws-organization": {
             "description": "Terraform module to create a AWS Organization.",
@@ -656,23 +656,23 @@
         },
         "docker-aws-v2": {
             "description": "Docker image containing AWS CLI V2, AWS Shell, and some scripts to ease AWS deployments.",
-            "html_url": "https://github.com/DNXLabs/docker-aws-v2/releases/tag/2.2.36-dnx1",
-            "id": 49165064,
+            "html_url": "https://github.com/DNXLabs/docker-aws-v2/releases/tag/2.2.37-dnx1",
+            "id": 49318463,
             "name": "docker-aws-v2",
             "short_name": "docker-aws-v2",
-            "tag_name": "2.2.36-dnx1",
-            "tarball_url": "https://api.github.com/repos/DNXLabs/docker-aws-v2/tarball/2.2.36-dnx1",
-            "zipball_url": "https://api.github.com/repos/DNXLabs/docker-aws-v2/zipball/2.2.36-dnx1"
+            "tag_name": "2.2.37-dnx1",
+            "tarball_url": "https://api.github.com/repos/DNXLabs/docker-aws-v2/tarball/2.2.37-dnx1",
+            "zipball_url": "https://api.github.com/repos/DNXLabs/docker-aws-v2/zipball/2.2.37-dnx1"
         },
         "docker-kube-tools": {
             "description": "Docker image containing Kubernetes CLI tool (Kubectl), AWS CLI and AWS Shell, to control any k8s cluster.",
-            "html_url": "https://github.com/DNXLabs/docker-kube-tools/releases/tag/0.4.23",
-            "id": 48932082,
+            "html_url": "https://github.com/DNXLabs/docker-kube-tools/releases/tag/0.4.24",
+            "id": 49318002,
             "name": "docker-kube-tools",
             "short_name": "docker-kube-tools",
-            "tag_name": "0.4.23",
-            "tarball_url": "https://api.github.com/repos/DNXLabs/docker-kube-tools/tarball/0.4.23",
-            "zipball_url": "https://api.github.com/repos/DNXLabs/docker-kube-tools/zipball/0.4.23"
+            "tag_name": "0.4.24",
+            "tarball_url": "https://api.github.com/repos/DNXLabs/docker-kube-tools/tarball/0.4.24",
+            "zipball_url": "https://api.github.com/repos/DNXLabs/docker-kube-tools/zipball/0.4.24"
         },
         "docker-okta-aws": {
             "description": "This image is used to perform Okta SSO with AWS STS.",
