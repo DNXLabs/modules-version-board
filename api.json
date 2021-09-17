@@ -214,23 +214,23 @@
         },
         "terraform-aws-ecs": {
             "description": "This terraform module builds an Elastic Container Service(ECS) Cluster in AWS.",
-            "html_url": "https://github.com/DNXLabs/terraform-aws-ecs/releases/tag/5.5.3",
-            "id": 48855716,
+            "html_url": "https://github.com/DNXLabs/terraform-aws-ecs/releases/tag/5.6.0",
+            "id": 49643625,
             "name": "terraform-aws-ecs",
             "short_name": "terraform-aws-ecs",
-            "tag_name": "5.5.3",
-            "tarball_url": "https://api.github.com/repos/DNXLabs/terraform-aws-ecs/tarball/5.5.3",
-            "zipball_url": "https://api.github.com/repos/DNXLabs/terraform-aws-ecs/zipball/5.5.3"
+            "tag_name": "5.6.0",
+            "tarball_url": "https://api.github.com/repos/DNXLabs/terraform-aws-ecs/tarball/5.6.0",
+            "zipball_url": "https://api.github.com/repos/DNXLabs/terraform-aws-ecs/zipball/5.6.0"
         },
         "terraform-aws-ecs-app": {
             "description": "This terraform module is an AWS ECS Application Module for Scheduler without an Application Load Balancer(ALB).",
-            "html_url": "https://github.com/DNXLabs/terraform-aws-ecs-app/releases/tag/5.2.1",
-            "id": 48855915,
+            "html_url": "https://github.com/DNXLabs/terraform-aws-ecs-app/releases/tag/5.3.0",
+            "id": 49643710,
             "name": "terraform-aws-ecs-app",
             "short_name": "terraform-aws-ecs-app",
-            "tag_name": "5.2.1",
-            "tarball_url": "https://api.github.com/repos/DNXLabs/terraform-aws-ecs-app/tarball/5.2.1",
-            "zipball_url": "https://api.github.com/repos/DNXLabs/terraform-aws-ecs-app/zipball/5.2.1"
+            "tag_name": "5.3.0",
+            "tarball_url": "https://api.github.com/repos/DNXLabs/terraform-aws-ecs-app/tarball/5.3.0",
+            "zipball_url": "https://api.github.com/repos/DNXLabs/terraform-aws-ecs-app/zipball/5.3.0"
         },
         "terraform-aws-ecs-app-front": {
             "description": "This terraform module is an AWS ECS Application Module (frontend component).",
@@ -656,23 +656,23 @@
         },
         "docker-aws-v2": {
             "description": "Docker image containing AWS CLI V2, AWS Shell, and some scripts to ease AWS deployments.",
-            "html_url": "https://github.com/DNXLabs/docker-aws-v2/releases/tag/2.2.37-dnx1",
-            "id": 49318463,
+            "html_url": "https://github.com/DNXLabs/docker-aws-v2/releases/tag/2.2.38-dnx1",
+            "id": 49641357,
             "name": "docker-aws-v2",
             "short_name": "docker-aws-v2",
-            "tag_name": "2.2.37-dnx1",
-            "tarball_url": "https://api.github.com/repos/DNXLabs/docker-aws-v2/tarball/2.2.37-dnx1",
-            "zipball_url": "https://api.github.com/repos/DNXLabs/docker-aws-v2/zipball/2.2.37-dnx1"
+            "tag_name": "2.2.38-dnx1",
+            "tarball_url": "https://api.github.com/repos/DNXLabs/docker-aws-v2/tarball/2.2.38-dnx1",
+            "zipball_url": "https://api.github.com/repos/DNXLabs/docker-aws-v2/zipball/2.2.38-dnx1"
         },
         "docker-kube-tools": {
             "description": "Docker image containing Kubernetes CLI tool (Kubectl), AWS CLI and AWS Shell, to control any k8s cluster.",
-            "html_url": "https://github.com/DNXLabs/docker-kube-tools/releases/tag/0.4.24",
-            "id": 49318002,
+            "html_url": "https://github.com/DNXLabs/docker-kube-tools/releases/tag/0.4.25",
+            "id": 49640808,
             "name": "docker-kube-tools",
             "short_name": "docker-kube-tools",
-            "tag_name": "0.4.24",
-            "tarball_url": "https://api.github.com/repos/DNXLabs/docker-kube-tools/tarball/0.4.24",
-            "zipball_url": "https://api.github.com/repos/DNXLabs/docker-kube-tools/zipball/0.4.24"
+            "tag_name": "0.4.25",
+            "tarball_url": "https://api.github.com/repos/DNXLabs/docker-kube-tools/tarball/0.4.25",
+            "zipball_url": "https://api.github.com/repos/DNXLabs/docker-kube-tools/zipball/0.4.25"
         },
         "docker-okta-aws": {
             "description": "This image is used to perform Okta SSO with AWS STS.",
@@ -696,13 +696,13 @@
         },
         "docker-terraform": {
             "description": "Docker image containing Terraform, AWS CLI and AWS Shell, to deploy infrastructure as code on AWS.",
-            "html_url": "https://github.com/DNXLabs/docker-terraform/releases/tag/1.0.6-dnx1",
-            "id": 48999310,
+            "html_url": "https://github.com/DNXLabs/docker-terraform/releases/tag/1.0.7-dnx1",
+            "id": 49640299,
             "name": "docker-terraform",
             "short_name": "docker-terraform",
-            "tag_name": "1.0.6-dnx1",
-            "tarball_url": "https://api.github.com/repos/DNXLabs/docker-terraform/tarball/1.0.6-dnx1",
-            "zipball_url": "https://api.github.com/repos/DNXLabs/docker-terraform/zipball/1.0.6-dnx1"
+            "tag_name": "1.0.7-dnx1",
+            "tarball_url": "https://api.github.com/repos/DNXLabs/docker-terraform/tarball/1.0.7-dnx1",
+            "zipball_url": "https://api.github.com/repos/DNXLabs/docker-terraform/zipball/1.0.7-dnx1"
         }
     }
 }
