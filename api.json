@@ -656,23 +656,23 @@
         },
         "docker-aws-v2": {
             "description": "Docker image containing AWS CLI V2, AWS Shell, and some scripts to ease AWS deployments.",
-            "html_url": "https://github.com/DNXLabs/docker-aws-v2/releases/tag/2.2.42-dnx1",
-            "id": 50436849,
+            "html_url": "https://github.com/DNXLabs/docker-aws-v2/releases/tag/2.2.43-dnx1",
+            "id": 50592571,
             "name": "docker-aws-v2",
             "short_name": "docker-aws-v2",
-            "tag_name": "2.2.42-dnx1",
-            "tarball_url": "https://api.github.com/repos/DNXLabs/docker-aws-v2/tarball/2.2.42-dnx1",
-            "zipball_url": "https://api.github.com/repos/DNXLabs/docker-aws-v2/zipball/2.2.42-dnx1"
+            "tag_name": "2.2.43-dnx1",
+            "tarball_url": "https://api.github.com/repos/DNXLabs/docker-aws-v2/tarball/2.2.43-dnx1",
+            "zipball_url": "https://api.github.com/repos/DNXLabs/docker-aws-v2/zipball/2.2.43-dnx1"
         },
         "docker-kube-tools": {
             "description": "Docker image containing Kubernetes CLI tool (Kubectl), AWS CLI and AWS Shell, to control any k8s cluster.",
-            "html_url": "https://github.com/DNXLabs/docker-kube-tools/releases/tag/0.4.26",
-            "id": 50514665,
+            "html_url": "https://github.com/DNXLabs/docker-kube-tools/releases/tag/0.4.27",
+            "id": 50592048,
             "name": "docker-kube-tools",
             "short_name": "docker-kube-tools",
-            "tag_name": "0.4.26",
-            "tarball_url": "https://api.github.com/repos/DNXLabs/docker-kube-tools/tarball/0.4.26",
-            "zipball_url": "https://api.github.com/repos/DNXLabs/docker-kube-tools/zipball/0.4.26"
+            "tag_name": "0.4.27",
+            "tarball_url": "https://api.github.com/repos/DNXLabs/docker-kube-tools/tarball/0.4.27",
+            "zipball_url": "https://api.github.com/repos/DNXLabs/docker-kube-tools/zipball/0.4.27"
         },
         "docker-okta-aws": {
             "description": "This image is used to perform Okta SSO with AWS STS.",
