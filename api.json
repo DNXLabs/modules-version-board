@@ -594,13 +594,13 @@
         },
         "terraform-aws-static-app": {
             "description": "This is a module that creates a static application with a OAI Cloudfront.",
-            "html_url": "https://github.com/DNXLabs/terraform-aws-static-app/releases/tag/2.2.1",
-            "id": 50711347,
+            "html_url": "https://github.com/DNXLabs/terraform-aws-static-app/releases/tag/2.3.0",
+            "id": 50932154,
             "name": "terraform-aws-static-app",
             "short_name": "terraform-aws-static-app",
-            "tag_name": "2.2.1",
-            "tarball_url": "https://api.github.com/repos/DNXLabs/terraform-aws-static-app/tarball/2.2.1",
-            "zipball_url": "https://api.github.com/repos/DNXLabs/terraform-aws-static-app/zipball/2.2.1"
+            "tag_name": "2.3.0",
+            "tarball_url": "https://api.github.com/repos/DNXLabs/terraform-aws-static-app/tarball/2.3.0",
+            "zipball_url": "https://api.github.com/repos/DNXLabs/terraform-aws-static-app/zipball/2.3.0"
         },
         "terraform-aws-vpc-peering": {
             "description": "This terraform module provide resources to manage Virtual Private Cloud (VPC) peering connections.",
