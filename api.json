@@ -656,23 +656,23 @@
         },
         "docker-aws-v2": {
             "description": "Docker image containing AWS CLI V2, AWS Shell, and some scripts to ease AWS deployments.",
-            "html_url": "https://github.com/DNXLabs/docker-aws-v2/releases/tag/2.2.43-dnx1",
-            "id": 50592571,
+            "html_url": "https://github.com/DNXLabs/docker-aws-v2/releases/tag/2.2.45-dnx1",
+            "id": 51327055,
             "name": "docker-aws-v2",
             "short_name": "docker-aws-v2",
-            "tag_name": "2.2.43-dnx1",
-            "tarball_url": "https://api.github.com/repos/DNXLabs/docker-aws-v2/tarball/2.2.43-dnx1",
-            "zipball_url": "https://api.github.com/repos/DNXLabs/docker-aws-v2/zipball/2.2.43-dnx1"
+            "tag_name": "2.2.45-dnx1",
+            "tarball_url": "https://api.github.com/repos/DNXLabs/docker-aws-v2/tarball/2.2.45-dnx1",
+            "zipball_url": "https://api.github.com/repos/DNXLabs/docker-aws-v2/zipball/2.2.45-dnx1"
         },
         "docker-kube-tools": {
             "description": "Docker image containing Kubernetes CLI tool (Kubectl), AWS CLI and AWS Shell, to control any k8s cluster.",
-            "html_url": "https://github.com/DNXLabs/docker-kube-tools/releases/tag/0.4.27",
-            "id": 50592048,
+            "html_url": "https://github.com/DNXLabs/docker-kube-tools/releases/tag/0.4.28",
+            "id": 51326490,
             "name": "docker-kube-tools",
             "short_name": "docker-kube-tools",
-            "tag_name": "0.4.27",
-            "tarball_url": "https://api.github.com/repos/DNXLabs/docker-kube-tools/tarball/0.4.27",
-            "zipball_url": "https://api.github.com/repos/DNXLabs/docker-kube-tools/zipball/0.4.27"
+            "tag_name": "0.4.28",
+            "tarball_url": "https://api.github.com/repos/DNXLabs/docker-kube-tools/tarball/0.4.28",
+            "zipball_url": "https://api.github.com/repos/DNXLabs/docker-kube-tools/zipball/0.4.28"
         },
         "docker-okta-aws": {
             "description": "This image is used to perform Okta SSO with AWS STS.",
@@ -696,13 +696,13 @@
         },
         "docker-terraform": {
             "description": "Docker image containing Terraform, AWS CLI and AWS Shell, to deploy infrastructure as code on AWS.",
-            "html_url": "https://github.com/DNXLabs/docker-terraform/releases/tag/1.0.8-dnx1",
-            "id": 50514167,
+            "html_url": "https://github.com/DNXLabs/docker-terraform/releases/tag/1.0.9-dnx1",
+            "id": 51325902,
             "name": "docker-terraform",
             "short_name": "docker-terraform",
-            "tag_name": "1.0.8-dnx1",
-            "tarball_url": "https://api.github.com/repos/DNXLabs/docker-terraform/tarball/1.0.8-dnx1",
-            "zipball_url": "https://api.github.com/repos/DNXLabs/docker-terraform/zipball/1.0.8-dnx1"
+            "tag_name": "1.0.9-dnx1",
+            "tarball_url": "https://api.github.com/repos/DNXLabs/docker-terraform/tarball/1.0.9-dnx1",
+            "zipball_url": "https://api.github.com/repos/DNXLabs/docker-terraform/zipball/1.0.9-dnx1"
         }
     }
 }
