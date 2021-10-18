@@ -174,13 +174,13 @@
         },
         "terraform-aws-client-vpn": {
             "description": "This terraform module installs a client VPN.",
-            "html_url": "https://github.com/DNXLabs/terraform-aws-client-vpn/releases/tag/0.0.5",
-            "id": 45609173,
+            "html_url": "https://github.com/DNXLabs/terraform-aws-client-vpn/releases/tag/0.1.0",
+            "id": 51484744,
             "name": "terraform-aws-client-vpn",
             "short_name": "terraform-aws-client-vpn",
-            "tag_name": "0.0.5",
-            "tarball_url": "https://api.github.com/repos/DNXLabs/terraform-aws-client-vpn/tarball/0.0.5",
-            "zipball_url": "https://api.github.com/repos/DNXLabs/terraform-aws-client-vpn/zipball/0.0.5"
+            "tag_name": "0.1.0",
+            "tarball_url": "https://api.github.com/repos/DNXLabs/terraform-aws-client-vpn/tarball/0.1.0",
+            "zipball_url": "https://api.github.com/repos/DNXLabs/terraform-aws-client-vpn/zipball/0.1.0"
         },
         "terraform-aws-db-monitoring": {
             "description": "This terraform module is responsible for monitoring the Relational Database Service(RDS) database.",
@@ -224,13 +224,13 @@
         },
         "terraform-aws-ecs-app": {
             "description": "This terraform module is an AWS ECS Application Module for Scheduler without an Application Load Balancer(ALB).",
-            "html_url": "https://github.com/DNXLabs/terraform-aws-ecs-app/releases/tag/5.4.1",
-            "id": 51133636,
+            "html_url": "https://github.com/DNXLabs/terraform-aws-ecs-app/releases/tag/5.4.2",
+            "id": 51505900,
             "name": "terraform-aws-ecs-app",
             "short_name": "terraform-aws-ecs-app",
-            "tag_name": "5.4.1",
-            "tarball_url": "https://api.github.com/repos/DNXLabs/terraform-aws-ecs-app/tarball/5.4.1",
-            "zipball_url": "https://api.github.com/repos/DNXLabs/terraform-aws-ecs-app/zipball/5.4.1"
+            "tag_name": "5.4.2",
+            "tarball_url": "https://api.github.com/repos/DNXLabs/terraform-aws-ecs-app/tarball/5.4.2",
+            "zipball_url": "https://api.github.com/repos/DNXLabs/terraform-aws-ecs-app/zipball/5.4.2"
         },
         "terraform-aws-ecs-app-front": {
             "description": "This terraform module is an AWS ECS Application Module (frontend component).",
@@ -514,13 +514,13 @@
         },
         "terraform-aws-network": {
             "description": "Terraform module for creating basic network resources: VPC, subnets and NAT.",
-            "html_url": "https://github.com/DNXLabs/terraform-aws-network/releases/tag/1.5.0",
-            "id": 46951770,
+            "html_url": "https://github.com/DNXLabs/terraform-aws-network/releases/tag/1.5.1",
+            "id": 51505473,
             "name": "terraform-aws-network",
             "short_name": "terraform-aws-network",
-            "tag_name": "1.5.0",
-            "tarball_url": "https://api.github.com/repos/DNXLabs/terraform-aws-network/tarball/1.5.0",
-            "zipball_url": "https://api.github.com/repos/DNXLabs/terraform-aws-network/zipball/1.5.0"
+            "tag_name": "1.5.1",
+            "tarball_url": "https://api.github.com/repos/DNXLabs/terraform-aws-network/tarball/1.5.1",
+            "zipball_url": "https://api.github.com/repos/DNXLabs/terraform-aws-network/zipball/1.5.1"
         },
         "terraform-aws-openvpn": {
             "description": "This module setup an OpenVPN installation and requires an existing VPC.",
