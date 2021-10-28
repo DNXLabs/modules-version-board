@@ -174,13 +174,13 @@
         },
         "terraform-aws-client-vpn": {
             "description": "This terraform module installs a client VPN.",
-            "html_url": "https://github.com/DNXLabs/terraform-aws-client-vpn/releases/tag/0.2.1",
-            "id": 51941541,
+            "html_url": "https://github.com/DNXLabs/terraform-aws-client-vpn/releases/tag/0.3.0",
+            "id": 52119665,
             "name": "terraform-aws-client-vpn",
             "short_name": "terraform-aws-client-vpn",
-            "tag_name": "0.2.1",
-            "tarball_url": "https://api.github.com/repos/DNXLabs/terraform-aws-client-vpn/tarball/0.2.1",
-            "zipball_url": "https://api.github.com/repos/DNXLabs/terraform-aws-client-vpn/zipball/0.2.1"
+            "tag_name": "0.3.0",
+            "tarball_url": "https://api.github.com/repos/DNXLabs/terraform-aws-client-vpn/tarball/0.3.0",
+            "zipball_url": "https://api.github.com/repos/DNXLabs/terraform-aws-client-vpn/zipball/0.3.0"
         },
         "terraform-aws-db-monitoring": {
             "description": "This terraform module is responsible for monitoring the Relational Database Service(RDS) database.",
@@ -244,13 +244,13 @@
         },
         "terraform-aws-ecs-app-nlb": {
             "description": "This terraform module is an AWS ECS Application Module that creates a Networking LoadBalance Application setup on ECS.",
-            "html_url": "https://github.com/DNXLabs/terraform-aws-ecs-app-nlb/releases/tag/1.0.0",
-            "id": 52015705,
+            "html_url": "https://github.com/DNXLabs/terraform-aws-ecs-app-nlb/releases/tag/1.1.0",
+            "id": 52120148,
             "name": "terraform-aws-ecs-app-nlb",
             "short_name": "terraform-aws-ecs-app-nlb",
-            "tag_name": "1.0.0",
-            "tarball_url": "https://api.github.com/repos/DNXLabs/terraform-aws-ecs-app-nlb/tarball/1.0.0",
-            "zipball_url": "https://api.github.com/repos/DNXLabs/terraform-aws-ecs-app-nlb/zipball/1.0.0"
+            "tag_name": "1.1.0",
+            "tarball_url": "https://api.github.com/repos/DNXLabs/terraform-aws-ecs-app-nlb/tarball/1.1.0",
+            "zipball_url": "https://api.github.com/repos/DNXLabs/terraform-aws-ecs-app-nlb/zipball/1.1.0"
         },
         "terraform-aws-ecs-app-scheduler": {
             "description": "This terraform module is an AWS ECS Application Module for Scheduler without an Application Load Balancer(ALB).",
@@ -494,13 +494,13 @@
         },
         "terraform-aws-log-exporter": {
             "description": "This module creates a lambda function that exports log groups on the AWS account and region deployed.",
-            "html_url": "https://github.com/DNXLabs/terraform-aws-log-exporter/releases/tag/1.0.1",
-            "id": 26166972,
+            "html_url": "https://github.com/DNXLabs/terraform-aws-log-exporter/releases/tag/1.1.0",
+            "id": 52107839,
             "name": "terraform-aws-log-exporter",
             "short_name": "terraform-aws-log-exporter",
-            "tag_name": "1.0.1",
-            "tarball_url": "https://api.github.com/repos/DNXLabs/terraform-aws-log-exporter/tarball/1.0.1",
-            "zipball_url": "https://api.github.com/repos/DNXLabs/terraform-aws-log-exporter/zipball/1.0.1"
+            "tag_name": "1.1.0",
+            "tarball_url": "https://api.github.com/repos/DNXLabs/terraform-aws-log-exporter/tarball/1.1.0",
+            "zipball_url": "https://api.github.com/repos/DNXLabs/terraform-aws-log-exporter/zipball/1.1.0"
         },
         "terraform-aws-maskopy": {
             "description": "Maskopy solution is to Copy and Obfuscate Production Data to Target Environments in AWS. It uses AWS Serverless services, Step functions, Lambda and Fargate.",
@@ -656,13 +656,13 @@
         },
         "docker-aws-v2": {
             "description": "Docker image containing AWS CLI V2, AWS Shell, and some scripts to ease AWS deployments.",
-            "html_url": "https://github.com/DNXLabs/docker-aws-v2/releases/tag/2.3.0-dnx1",
-            "id": 51831680,
+            "html_url": "https://github.com/DNXLabs/docker-aws-v2/releases/tag/2.3.1-dnx1",
+            "id": 52101064,
             "name": "docker-aws-v2",
             "short_name": "docker-aws-v2",
-            "tag_name": "2.3.0-dnx1",
-            "tarball_url": "https://api.github.com/repos/DNXLabs/docker-aws-v2/tarball/2.3.0-dnx1",
-            "zipball_url": "https://api.github.com/repos/DNXLabs/docker-aws-v2/zipball/2.3.0-dnx1"
+            "tag_name": "2.3.1-dnx1",
+            "tarball_url": "https://api.github.com/repos/DNXLabs/docker-aws-v2/tarball/2.3.1-dnx1",
+            "zipball_url": "https://api.github.com/repos/DNXLabs/docker-aws-v2/zipball/2.3.1-dnx1"
         },
         "docker-kube-tools": {
             "description": "Docker image containing Kubernetes CLI tool (Kubectl), AWS CLI and AWS Shell, to control any k8s cluster.",
