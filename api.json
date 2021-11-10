@@ -424,13 +424,13 @@
         },
         "terraform-aws-gitlab-runner": {
             "description": "Terraform module for AWS GitLab Runners on Spot Instances.",
-            "html_url": "https://github.com/DNXLabs/terraform-aws-gitlab-runner/releases/tag/4.18.0-dnx2",
-            "id": 45880002,
+            "html_url": "https://github.com/DNXLabs/terraform-aws-gitlab-runner/releases/tag/4.18.1-dnx2",
+            "id": 52973581,
             "name": "terraform-aws-gitlab-runner",
             "short_name": "terraform-aws-gitlab-runner",
-            "tag_name": "4.18.0-dnx2",
-            "tarball_url": "https://api.github.com/repos/DNXLabs/terraform-aws-gitlab-runner/tarball/4.18.0-dnx2",
-            "zipball_url": "https://api.github.com/repos/DNXLabs/terraform-aws-gitlab-runner/zipball/4.18.0-dnx2"
+            "tag_name": "4.18.1-dnx2",
+            "tarball_url": "https://api.github.com/repos/DNXLabs/terraform-aws-gitlab-runner/tarball/4.18.1-dnx2",
+            "zipball_url": "https://api.github.com/repos/DNXLabs/terraform-aws-gitlab-runner/zipball/4.18.1-dnx2"
         },
         "terraform-aws-guardduty": {
             "description": "This is a terraform modules that Applies guardduty to all regions.",
