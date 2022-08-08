@@ -75,6 +75,7 @@
         "terraform-aws-eks-velero",
         "terraform-aws-eks-argocd",
         "terraform-aws-eks-ack",
-        "terraform-aws-eks-efs-csi-driver"
+        "terraform-aws-eks-efs-csi-driver",
+        "terraform-aws-stateful"
     ]
 }
